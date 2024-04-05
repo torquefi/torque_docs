@@ -1,4 +1,4 @@
-# Assets
+# Brand Kit
 
 ## Logos
 
