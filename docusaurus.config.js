@@ -1,0 +1,209 @@
+// @ts-check
+// Note: type annotations allow type checking and IDEs autocompletion
+
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const math = require("remark-math");
+const katex = require("rehype-katex");
+
+/** @type {import('@docusaurus/types').Config} */
+const config = {
+  title: "Torque",
+  tagline: "",
+  url: "https://docs.torque.fi",
+  baseUrl: "/",
+  onBrokenLinks: "warn",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.svg",
+
+  // GitHub pages deployment config.
+  // If you aren't using GitHub pages, you don't need these.
+  // organizationName: "OlympusDAO", // Usually your GitHub org/user name.
+  // projectName: "torque-docs", // Usually your repo name.
+
+  // Even if you don't use internalization, you can use this field to set useful
+  // metadata like html lang. For example, if your site is Chinese, you may want
+  // to replace "en" with "zh-Hans".
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en"],
+  },
+
+  presets: [
+    [
+      "classic",
+      /** @type {import('@docusaurus/preset-classic').Options} */
+      ({
+        docs: {
+          routeBasePath: "/main", // defaults to docs, but `main` maintains the gitbook paths
+          sidebarPath: require.resolve("./sidebars.js"),
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
+        },
+        theme: {
+          customCss: require.resolve("./src/css/custom.css"),
+        },
+        googleTagManager: {
+          containerId: 'GTM-NJSWZX5'
+        }
+      }),
+    ],
+  ],
+  // config for KaTex plugin: https://docusaurus.io/docs/markdown-features/math-equations
+  stylesheets: [
+    {
+      href: "https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css",
+      type: "text/css",
+      integrity:
+        "sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM",
+      crossorigin: "anonymous",
+    },
+  ],
+
+  themeConfig:
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    ({
+      colorMode: {
+        defaultMode: "light",
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
+      },
+      navbar: {
+        title: "Torque | Docs",
+        logo: {
+          alt: "Torque Docs",
+          src: "img/logo.svg",
+          srcDark: "img/logo_dark.svg",
+        },
+        items: [
+          {
+            type: "doc",
+            docId: "overview/intro",
+            position: "left",
+            label: "Site",
+            href: "https://torque.fi",
+          },
+          {
+            type: "doc",
+            docId: "overview/intro",
+            position: "left",
+            label: "App",
+            href: "https://app.torque.fi",
+          },
+          {
+            type: "doc",
+            docId: "overview/intro",
+            position: "left",
+            label: "Voting",
+            href: "https://app.torque.fi/vote",
+          },
+          {
+            href: "https://arbiscan.io/address/0x177f6519A523EEbb542aed20320EFF9401bC47d0",
+            label: "Treasury",
+            position: "right",
+          },
+          {
+            href: "mailto:hello@torque.fi",
+            label: "Contact",
+            position: "right",
+          },
+        ],
+      },
+      footer: {
+        style: "light",
+        links: [
+          {
+            title: "Protocol",
+            items: [
+              {
+                label: "Home",
+                href: "https://app.torque.fi",
+              },
+              {
+                label: "Boost",
+                href: "https://app.torque.fi/boost",
+              },
+              {
+                label: "Borrow",
+                href: "https://app.torque.fi/borrow",
+              },
+              {
+                label: "Vote",
+                href: "https://app.torque.fi/vote",
+              },
+            ],
+          },
+          {
+            title: "Interfaces",
+            items: [
+              {
+                label: "Flagship",
+                href: "https://app.torque.fi",
+              },
+              {
+                label: "Torque ETH",
+                href: "https://teth.torque.fi",
+              },
+              {
+                label: "Torque USD",
+                href: "https://tusd.torque.fi",
+              },
+              {
+                label: "USD Farm",
+                href: "https://usd.farm",
+              },
+            ],
+          },
+          {
+            title: "Ecosystem",
+            items: [
+              {
+                label: "Uniswap",
+                href: "https://bit.ly/torq-uniswap",
+              },
+              {
+                label: "CoinGecko",
+                href: "https://www.coingecko.com/en/coins/torque",
+              },
+              {
+                label: "Arbiscan",
+                href: "https://arbiscan.io/token/0xb56c29413af8778977093b9b4947efeea7136c36",
+              },
+              {
+                label: "Tally",
+                href: "https://www.tally.xyz/gov/torque",
+              },
+            ],
+          },
+          {
+            title: "Community",
+            items: [
+              {
+                label: "Telegram",
+                href: "https://t.me/torquefi",
+              },
+              {
+                label: "Discord",
+                href: "https://discord.com/invite/DKnbnpnMZ5",
+              },
+              {
+                label: "YouTube",
+                href: "https://www.youtube.com/@torquefi",
+              },
+              {
+                label: "Twitter",
+                href: "https://twitter.com/torquefi",
+              },
+            ],
+          },
+        ],
+      },
+      prism: {
+        theme: lightCodeTheme,
+        darkTheme: darkCodeTheme,
+        additionalLanguages: ["solidity"],
+      },
+    }),
+};
+
+module.exports = config;

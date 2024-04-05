@@ -1,0 +1,110 @@
+backend:
+  name: github
+  branch: main
+  repo: OlympusDAO/olympus-docs
+  base_url: https://api.netlify.com
+  siteId: 6995f0b0-f754-4a9c-bbf9-56eaadc2095c
+
+# These lines should *not* be indented
+media_folder: "gitbook/assets" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/img/" # The src attribute for uploaded media will begin with /images/uploads
+
+# more info: https://www.netlifycms.org/docs/configuration-options/
+publish_mode: editorial_workflow
+
+# TODO: change this to the correct url
+site_url: https://dark-lab-0638.on.fleek.co/
+display_url: https://dark-lab-0638.on.fleek.co/
+
+collections:
+- name: what-is-olympus
+  label: "What is Olympus?"
+  extension: md
+  widget: "list"
+  create: true
+  slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+  files:
+    - label: "What is Olympus?"
+      name: what-is-olympus
+      file: "docs/basics/readme.md"
+      fields:
+        - { name: sidebar_position, label: Sidbar Position, widget: number }
+        - { name: body, label: Body, widget: markdown }
+- name: mechanics
+  label: "Mechanics"
+  folder: docs/mechanics
+  # mdx not currently supported: https://github.com/netlify/netlify-cms/issues/1776
+  extension: md
+  widget: "list"
+  create: true
+  slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+  summary: "{{sidebar_position}}. {{filename}}"
+  sortable_fields: ["sidebar_position"]
+  fields:
+    - { name: sidebar_position, label: Sidbar Position, widget: number }
+    - { name: body, label: Body, widget: markdown }
+- name: utility
+  label: "Utility"
+  folder: docs/utility
+  # mdx not currently supported: https://github.com/netlify/netlify-cms/issues/1776
+  extension: md
+  widget: "list"
+  create: true
+  slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+  summary: "{{sidebar_position}}. {{filename}}"
+  sortable_fields: ["sidebar_position"]
+  fields:
+    - { name: sidebar_position, label: Sidbar Position, widget: number }
+    - { name: body, label: Body, widget: markdown }
+- name: technical-guides
+  label: "Technical Guides - Landing Page"
+  folder: docs/technical-guides
+  # mdx not currently supported: https://github.com/netlify/netlify-cms/issues/1776
+  extension: md
+  widget: "list"
+  create: true
+  slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+  summary: "{{sidebar_position}}. {{filename}}"
+  sortable_fields: ["sidebar_position"]
+  fields:
+    - { name: sidebar_position, label: Sidbar Position, widget: number }
+    - { name: body, label: Body, widget: markdown }
+- name: contracts
+  label: "Technical Guides - Contracts"
+  folder: docs/contracts
+  # mdx not currently supported: https://github.com/netlify/netlify-cms/issues/1776
+  extension: md
+  widget: "list"
+  create: true
+  slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+  summary: "{{sidebar_position}}. {{filename}}"
+  sortable_fields: ["sidebar_position"]
+  fields:
+    - { name: sidebar_position, label: Sidbar Position, widget: number }
+    - { name: body, label: Body, widget: markdown }
+- name: using-the-website
+  label: "Technical Guides - Using The Website"
+  folder: docs/using-the-website
+  # mdx not currently supported: https://github.com/netlify/netlify-cms/issues/1776
+  extension: md
+  widget: "list"
+  create: true
+  slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+  summary: "{{sidebar_position}}. {{filename}}"
+  sortable_fields: ["sidebar_position"]
+  fields:
+    - { name: sidebar_position, label: Sidbar Position, widget: number }
+    - { name: body, label: Body, widget: markdown }
+- name: get-involved
+  label: "Get Involved"
+  folder: docs/get-involved
+  # mdx not currently supported: https://github.com/netlify/netlify-cms/issues/1776
+  extension: md
+  widget: "list"
+  create: true
+  slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+  summary: "{{sidebar_position}}. {{filename}}"
+  sortable_fields: ["sidebar_position"]
+  fields:
+    - { name: sidebar_position, label: Sidbar Position, widget: number }
+    - { name: body, label: Body, widget: markdown }
