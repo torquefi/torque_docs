@@ -4,7 +4,7 @@ sidebar_label: Intro
 ---
 # Governance
 
-The Torque protocol is governed and upgraded by tokenholders using three components:
+Torque is governed and upgraded by tokenholders using three components:
 
 1. TORQ token
 2. Governor
@@ -21,8 +21,7 @@ TORQ allows the owner to delegate voting rights to any address, including their 
 * Users can delegate to only one address at a time
 * The entire TORQ balance of the delegator is added to the delegatee’s vote count
 * Changes to the delegator's token balance automatically adjust the voting rights of the delegatee
-* Votes are delegated from the current block and onward, until the delegator delegates again or transfers all their TORQ
-* TORQ sitting in Cooler Loans qualifies for delegation
+* Votes are delegated from the current block and onward, until the delegator delegates again or transfers
 
 Delegation can be achieved by calling the `delegate()` function or via a valid off-chain signature using `delegateBySig()`. Torque provides a frontend for managing delegations [here](https://app.torque.fi/vote).
 <!--  
@@ -30,7 +29,7 @@ Delegation can be achieved by calling the `delegate()` function or via a valid o
 You must delegate your TORQ in Cooler Loans to be eligible to vote in both Snapshot and Governor Bravo. Visit [Torque Govern](https://app.Torquedao.finance/#/governance) page for more information.
 ::: -->
 
-### Parameters
+<!-- ### Parameters
 | Variable | Description | Value |
 |-|-|-|
 | proposalThreshold | % of total supply required in order for a voter to become a proposer |  0.017% of supply |
@@ -80,4 +79,4 @@ on-chain actions that are approved by the community through [Snapshot](https://d
 | emergency_shutdown | Shutdown MINTR, TRSRY | All systems | DAO MS, Emergency MS |
 | emergency_restart | Restart MINTR, TRSRY | All systems | DAO MS, Emergency MS |
 
-Per [OIP-152](https://forum.Torquedao.finance/d/4088-oip-152-on-chain-governance), additional roles will be transfered from multisig management to Governor Bravo. This phase is expected to complete by Q3 2024.
+Per [OIP-152](https://forum.Torquedao.finance/d/4088-oip-152-on-chain-governance), additional roles will be transfered from multisig management to Governor Bravo. This phase is expected to complete by Q3 2024. -->
