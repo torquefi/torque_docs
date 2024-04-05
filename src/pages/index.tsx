@@ -413,7 +413,7 @@ export default function Home() {
           </div>
         </TwoRow>
 
-        <hr />
+        {/* <hr />
 
         <Row>
           <Link
@@ -497,7 +497,7 @@ export default function Home() {
               </div>
             </CenterCard>
           </Link>
-        </Row>
+        </Row> */}
       </Container>
     </Layout>
   );
