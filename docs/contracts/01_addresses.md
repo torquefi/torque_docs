@@ -28,6 +28,7 @@ Coming soon!
 - DAO treasuries
 - Voting systems
 - Payment apps
+- Banking apps
 - Trust funds
 
 ## Templates
