@@ -9,7 +9,7 @@ const katex = require("rehype-katex");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Torque",
-  tagline: "",
+  tagline: "Torque Protocol Documentation",
   url: "https://docs.torque.fi",
   baseUrl: "/",
   onBrokenLinks: "warn",
