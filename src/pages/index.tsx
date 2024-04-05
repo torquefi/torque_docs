@@ -430,7 +430,7 @@ export default function Home() {
           </Link>
           <Link
             style={{ textDecoration: "none" }}
-            href={"https://forum.torque.fi"}
+            href={"https://t.me/torquefi"}
           >
             <CenterCard>
               <ChatBubbleLeftIcon style={{ width: "48px", height: "48px" }} />
