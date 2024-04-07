@@ -4,4 +4,4 @@ sidebar_label: Proposals
 ---
 
 # Proposals
-Lorem
+More detail coming soon!
