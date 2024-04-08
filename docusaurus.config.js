@@ -141,16 +141,16 @@ const config = {
                 href: "https://app.torque.fi",
               },
               {
+                label: "Torque BTC",
+                href: "https://app.torque.fi/boost",
+              },
+              {
                 label: "Torque ETH",
                 href: "https://teth.torque.fi",
               },
               {
                 label: "Torque USD",
                 href: "https://tusd.torque.fi",
-              },
-              {
-                label: "USD Farm",
-                href: "https://usd.farm",
               },
             ],
           },
