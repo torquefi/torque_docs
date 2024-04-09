@@ -2,6 +2,8 @@
 
 ## Logos
 
+Coming soon!
+
 <!-- ![Olympus](/resources/Olympus_OHM_logo.svg)
 <img src="/resources/Olympus_OHM_logo.svg"  width="60px" height="60px" />
 
