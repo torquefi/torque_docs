@@ -142,7 +142,7 @@ const config = {
               },
               {
                 label: "Torque BTC",
-                href: "https://app.torque.fi/boost",
+                href: "https://tbtc.torque.fi",
               },
               {
                 label: "Torque ETH",
