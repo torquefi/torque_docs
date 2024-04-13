@@ -45,4 +45,4 @@
 ### Torque banner #3
 <img src="/img/borrow-light.png"  width="500px" height="auto" />
 
-- [Download as .png](/img/borrorw-light.png)
+- [Download as .png](/img/borrow-light.png)
