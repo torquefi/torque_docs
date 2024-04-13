@@ -17,16 +17,6 @@
 
 - [Download as .png](/img/torque-white.png)
 
-<!-- ### Icon with text (black)
-<img src="/img/logo.svg"  width="200px" height="auto" />
-
-- [Download as .svg](/img/logo.svg)
-
-### Icon with text (white)
-<img src="/img/logo_dark.svg"  width="200px" height="auto" />
-
-- [Download as .svg](/img/logo_dark.svg) -->
-
 ### Torque token (200px)
 <img src="/img/torq-200.png"  width="200px" height="auto" />
 
