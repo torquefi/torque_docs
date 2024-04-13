@@ -184,7 +184,7 @@ const config = {
               },
               {
                 label: "Discord",
-                href: "https://discord.com/invite/DKnbnpnMZ5",
+                href: "https://bit.ly/torq-disc",
               },
               {
                 label: "YouTube",
