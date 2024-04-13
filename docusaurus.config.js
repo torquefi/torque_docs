@@ -159,7 +159,7 @@ const config = {
             items: [
               {
                 label: "Uniswap",
-                href: "https://bit.ly/torq-uniswap",
+                href: "https://bit.ly/torque-uniswap",
               },
               {
                 label: "CoinGecko",
@@ -167,7 +167,7 @@ const config = {
               },
               {
                 label: "Arbiscan",
-                href: "https://arbiscan.io/token/0xb56c29413af8778977093b9b4947efeea7136c36",
+                href: "https://bit.ly/torque-arbiscan",
               },
               {
                 label: "Tally",
