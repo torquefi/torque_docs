@@ -128,8 +128,8 @@ const config = {
                 href: "https://app.torque.fi/borrow",
               },
               {
-                label: "Vote",
-                href: "https://app.torque.fi/vote",
+                label: "Bridge",
+                href: "https://app.torque.fi/bridge",
               },
             ],
           },
