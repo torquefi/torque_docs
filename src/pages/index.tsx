@@ -272,7 +272,7 @@ export default function Home() {
               alignItems: "center",
             }}
           >
-            <h1 style={{ fontWeight: "600", color: "#FFFFFF"}}> Welcome to Torque Docs</h1>
+            <h1 style={{ fontWeight: "600", color: "#FFFFFF"}}> Welcome to Torque</h1>
           </div>
           <StyledTitleImage
             alt="Background"
