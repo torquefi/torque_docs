@@ -1,13 +1,21 @@
 # Tokens
 
 ## Torque (TORQ)
-> [0xb56C29413AF8778977093B9B4947efEeA7136C36](https://arbiscan.io/token/0xb56c29413af8778977093b9b4947efeea7136c36)
+> 0xb56C29413AF8778977093B9B4947efEeA7136C36
+
+[Arbiscan](https://arbiscan.io/token/0xb56c29413af8778977093b9b4947efeea7136c36) | [Swap](https://bit.ly/torque-uniswap) | [Provide Liquidity](https://app.uniswap.org/add/ETH/0xb56C29413AF8778977093B9B4947efEeA7136C36/3000?minPrice=0.0000000000000000000000000000000000000029543&maxPrice=338490000000000000000000000000000000000&chain=arbitrum) | [Price Chart](https://dexscreener.com/arbitrum/0xb56C29413AF8778977093B9B4947efEeA7136C36)
 
 ## Torque USD (TUSD)
-> [0xf7F6718Cf69967203740cCb431F6bDBff1E0FB68](https://arbiscan.io/token/0xf7F6718Cf69967203740cCb431F6bDBff1E0FB68)
+> 0xf7F6718Cf69967203740cCb431F6bDBff1E0FB68
+
+[Arbiscan](https://arbiscan.io/token/0xf7F6718Cf69967203740cCb431F6bDBff1E0FB68) | [Borrow](https://app.torque.fi/borrow) | [Mint](https://tusd.torque.fi) | [Swap](https://app.uniswap.org/swap?inputCurrency=0xaf88d065e77c8cC2239327C5EDb3A432268e5831&outputCurrency=0xf7F6718Cf69967203740cCb431F6bDBff1E0FB68&chain=arbitrum) | [Provide Liquidity](https://app.uniswap.org/add/0xaf88d065e77c8cC2239327C5EDb3A432268e5831/0xf7F6718Cf69967203740cCb431F6bDBff1E0FB68/100?minPrice=0.998997&maxPrice=1.000997&chain=arbitrum) | [Price Chart](https://dexscreener.com/arbitrum/0xf7F6718Cf69967203740cCb431F6bDBff1E0FB68)
 
 ## Torque BTC (tBTC)
-> [0xB0929fb58978aCB02E34aBf457E49A5Ec4262fe6](https://arbiscan.io/token/0xb0929fb58978acb02e34abf457e49a5ec4262fe6)
+> 0xB0929fb58978aCB02E34aBf457E49A5Ec4262fe6
+
+[Arbiscan](https://arbiscan.io/token/0xb0929fb58978acb02e34abf457e49a5ec4262fe6) | [Mint](https://tbtc.torque.fi) | [Swap](https://app.uniswap.org/swap?inputCurrency=0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f&outputCurrency=0xb0929fb58978acb02e34abf457e49a5ec4262fe6&chain=arbitrum) | [Provide Liquidity](#) | [Price Chart](#)
 
 ## Torque ETH (tETH)
->[0x18ab2e5cE4D0b75E6353B62085CBb6122ef8586B](hhttps://arbiscan.io/token/0x18ab2e5ce4d0b75e6353b62085cbb6122ef8586b)
+>0x18ab2e5cE4D0b75E6353B62085CBb6122ef8586B
+
+[Arbiscan](https://arbiscan.io/token/0x18ab2e5cE4D0b75E6353B62085CBb6122ef8586B) | [Mint](https://teth.torque.fi) | [Swap](#) | [Provide Liquidity](#) | [Price Chart](#)
