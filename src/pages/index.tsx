@@ -30,7 +30,7 @@ export const actions = [
   {
     title: "Governance",
     icon: BuildingLibraryIcon,
-    to: "./main/governance/intro",
+    to: "./main/overview/vote",
     text: `Learn about voting`,
   },
   {
