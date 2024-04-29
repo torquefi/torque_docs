@@ -2,7 +2,7 @@
 
 ## Torque
 
-One key characteristic of Torque is its autonomous nature. To accomplish this, TORQ is distributed to protocol participants across Boost and Borrow. Holders delegate voting power to themselves or an aligned entity to shape the future of Torque. Complete decentralization will be effective once ownership of TORQ has been transferred to the Hamilton governor contract. This and other items will be voted on by the community.
+One key characteristic of Torque is its autonomous nature. To accomplish this, TORQ is distributed to protocol participants across Boost and Borrow. Holders delegate voting power to themselves or an aligned entity to shape the future of Torque. Complete decentralization will be effective once all contract ownerships have been transferred to the governor contract. This and other items will be voted on by holders.
 
 ![Torque Boost](/gitbook/assets/dao-voting.png)
 
