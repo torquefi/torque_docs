@@ -23,9 +23,9 @@
 ## Torque LINK (tLINK)
 > 0x914DC0103E542FA3F823dbE3aaA67926d84B5178
 
-[Arbiscan](https://arbiscan.io/token/0x914DC0103E542FA3F823dbE3aaA67926d84B5178) | [Mint](#) | [Swap](#) | [Provide Liquidity](#) | [Price Chart](#)
+[Arbiscan](https://arbiscan.io/token/0x914DC0103E542FA3F823dbE3aaA67926d84B5178) | [Mint](https://app.torque.fi/boost) | [Swap](#) | [Provide Liquidity](#) | [Price Chart](#)
 
 ## Torque UNI (tUNI)
 > 0x2D422D47dB58cEB32D28E880e87fF673bb086544
 
-[Arbiscan](https://arbiscan.io/token/0x2D422D47dB58cEB32D28E880e87fF673bb086544) | [Mint](#) | [Swap](#) | [Provide Liquidity](#) | [Price Chart](#)
+[Arbiscan](https://arbiscan.io/token/0x2D422D47dB58cEB32D28E880e87fF673bb086544) | [Mint](https://app.torque.fi/boost) | [Swap](#) | [Provide Liquidity](#) | [Price Chart](#)
