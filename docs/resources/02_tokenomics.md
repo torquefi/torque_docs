@@ -1,6 +1,6 @@
 # Tokenomics
 
-| Allocation | Total Allocation % | Total Unlocked Amount | Date Fully Vested |
+| Category | Allocation Percent | Total Amount | Date Fully Vested |
 |------------|---------------------|-----------------------|-------------------|
 | Initial LP | 60%                 | 11,121,512,940        | N/A               |
 | Incentives | 16%                 | 16,000,000,000        | July 8, 2026      |
