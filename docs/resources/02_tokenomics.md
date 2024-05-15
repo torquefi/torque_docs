@@ -1,5 +1,10 @@
 # Tokenomics
 
+## Torque (TORQ)
+> 0xb56C29413AF8778977093B9B4947efEeA7136C36
+
+[Arbiscan](https://arbiscan.io/token/0xb56c29413af8778977093b9b4947efeea7136c36) | [Swap](https://bit.ly/torque-uniswap) | [Provide Liquidity](https://app.uniswap.org/add/ETH/0xb56C29413AF8778977093B9B4947efEeA7136C36/3000?minPrice=0.0000000000000000000000000000000000000029543&maxPrice=338490000000000000000000000000000000000&chain=arbitrum) | [Price Chart](https://dexscreener.com/arbitrum/0xb56C29413AF8778977093B9B4947efEeA7136C36)
+
 | Category | Allocation Percent | Total Amount | Date Fully Vested |
 |------------|---------------------|-----------------------|-------------------|
 | Initial LP | 60%                 | 11,121,512,940        | N/A               |
