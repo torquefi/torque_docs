@@ -11,7 +11,8 @@
 [Arbiscan](https://arbiscan.io/token/0xf7F6718Cf69967203740cCb431F6bDBff1E0FB68) | [Borrow](https://app.torque.fi/borrow) | [Mint](https://tusd.torque.fi) | [Swap](https://app.uniswap.org/swap?inputCurrency=0xaf88d065e77c8cC2239327C5EDb3A432268e5831&outputCurrency=0xf7F6718Cf69967203740cCb431F6bDBff1E0FB68&chain=arbitrum) | [Provide Liquidity](https://app.uniswap.org/add/0xaf88d065e77c8cC2239327C5EDb3A432268e5831/0xf7F6718Cf69967203740cCb431F6bDBff1E0FB68/100?minPrice=0.998997&maxPrice=1.000997&chain=arbitrum) | [Price Chart](https://dexscreener.com/arbitrum/0xf7F6718Cf69967203740cCb431F6bDBff1E0FB68)
 
 ## Torque BTC (tBTC)
-> 0xB0929fb58978aCB02E34aBf457E49A5Ec4262fe6
+> V1: 0xB0929fb58978aCB02E34aBf457E49A5Ec4262fe6
+> V2: 0x279A237F074AC942AD3147834a3b8431b9a759dE
 
 [Arbiscan](https://arbiscan.io/token/0xb0929fb58978acb02e34abf457e49a5ec4262fe6) | [Mint](https://tbtc.torque.fi) | [Swap](https://app.uniswap.org/swap?inputCurrency=0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f&outputCurrency=0xb0929fb58978acb02e34abf457e49a5ec4262fe6&chain=arbitrum) | [Provide Liquidity](#) | [Price Chart](#)
 
