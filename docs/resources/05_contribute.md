@@ -5,7 +5,7 @@ We harness the power of a global community to develop Torque. Anyone can make a 
 Whether you're an individual with a passion for blockchain technology, finance, or community building, there's a place for you here. Solo contributors can engage with existing projects, propose new ideas, or lend their expertise in various capacities.
 
 ## Formal Contributor
-For development groups eager to make a substantial impact, becoming a formal contributor opens up avenues for collaboration, compensation, and influence in the Torque ecosystem. This path is designed for those ready to commit to the vision and values of Torque on a deeper level.
+For development groups eager to make a substantial impact, becoming a formal contributor opens up avenues for collaboration, compensation, and influence in Torque Protocol. If our values and vision align with yours, [reach out]((https://t.me/torquefi)).
 
 <!-- ## Our Principles
 
@@ -16,7 +16,3 @@ Torque is:
 - **Inclusive**: Everyone is welcome. Our strength lies in our diversity.
 
 We champion decentralization not just in technology but in our approach to project management and governance. By aligning around common goals, we can critically assess projects, establish accountability, and ensure their successful delivery. -->
-
-## Join Us
-
-If our values align with yours, reach out to us on our [chat](https://t.me/torquefi) and we look forward to your contributions.
