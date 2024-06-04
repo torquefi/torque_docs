@@ -1,5 +1,5 @@
 # Contribute
-We harness the collective power of a global community to forge our path as a non-custodial financial company. Our mission? To bring stability and transparency back to the financial markets and ensure inclusion for all.
+We harness the collective power of a global community to develop Torque.
 
 ## Solo Contributor
 Whether you're an individual with a passion for blockchain technology, finance, or community building, there's a place for you here. Solo contributors can engage with existing projects, propose new ideas, or lend their expertise in various capacities.
