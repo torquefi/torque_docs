@@ -5,7 +5,7 @@ We harness the power of a global community to develop Torque. Anyone can make a 
 Whether you're an individual with a passion for blockchain technology, finance, or community building, there's a place for you here. Solo contributors can engage with existing projects, propose new ideas, or lend their expertise in various capacities.
 
 ## Formal Contributor
-For development groups eager to make a substantial impact, becoming a formal contributor opens up avenues for collaboration, compensation, and influence in the Meticulous ecosystem. This path is designed for those ready to commit to the vision and values of Meticulous on a deeper level.
+For development groups eager to make a substantial impact, becoming a formal contributor opens up avenues for collaboration, compensation, and influence in the Meticulous ecosystem. This path is designed for those ready to commit to the vision and values ofTorque on a deeper level.
 
 ## Our Principles
 
