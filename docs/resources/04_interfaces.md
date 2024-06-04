@@ -14,4 +14,4 @@
 
 ## Alternative
 
-Some alternative ways to access the Torque would be through the Arbiscan website where you can interact with smart contracts directly or your own local client based on our open-source [repo](https://github.com/torquefi/torque_dapp). We're always working on new ways for users to engage with the protocol and commit to reward contributors who design, develop, and maintain their own user interfaces.
+Some alternative ways to access the Torque would be through the Arbiscan website where you can interact with smart contracts directly or your own local client based on our open-source [repo](https://github.com/torquefi/torque_dapp). We're always working on new ways for users to engage with the protocol and commit to reward contributors who maintain their own interfaces.
