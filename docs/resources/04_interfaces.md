@@ -1,13 +1,16 @@
 # Interfaces
 
-## Torque
-[Home](https://app.torque.fi/home) is an overview with metrics such as net APY, total supply, total borrow, and your available credit. Simply connect a wallet and view on-chain data with total confidence.
+## Flagship
+- [Home](https://app.torque.fi/home) is an overview with metrics such as net APY, total supply, total borrow, and your available credit. Simply connect a wallet and view on-chain data with total confidence.
+- [Boost](https://app.torque.fi/boost) routes deposits to GMX and Stargate liquidity pools to earn daily compound yield while minimizing provider risk. Compounds occur on a daily basis via a public function.
+- [Borrow](https://app.torque.fi/borrow) enables the creation of loan vaults by accepting deposits as collateral. Users may deposit BTC or ETH to borrow USD. Borrowers accumulate TORQ rewards until withdrawn.
+- [Vote](https://app.torque.fi/vote) is a governance voting portal where TORQ holders may direct the future of Torque Protocol.
 
-[Boost](https://app.torque.fi/boost) routes deposits to GMX and Stargate liquidity pools to earn daily compound yield while minimizing provider risk. Compounds occur on a daily basis via a public function.
+## Compact
+- [Torque Bitcoin](https://tbtc.torque.fi)
+- [Torque Ether](https://teth.torque.fi)
+- [Torque USD](https://tusd.torque.fi)
 
-[Borrow](https://app.torque.fi/borrow) enables the creation of loan vaults by accepting deposits as collateral. Users may deposit BTC or ETH to borrow USD. Borrowers accumulate TORQ rewards until withdrawn.
-
-[Vote](https://app.torque.fi/vote) is a governance voting portal where TORQ holders may direct the future of Torque Protocol.
 
 ## Alternative
 
