@@ -15,7 +15,7 @@ Torque is:
 - **Sustainable**: Longevity is key. We're building for a future where Torque continues to evolve.
 - **Inclusive**: Everyone is welcome. Our strength lies in our diversity.
 
-We champion decentralization not just in technology but in our approach to project management and governance. By aligning around common goals, we can critically assess projects, establish accountability, and ensure their successful delivery. Read more about how we work on the [Meticulous Wiki](#).
+We champion decentralization not just in technology but in our approach to project management and governance. By aligning around common goals, we can critically assess projects, establish accountability, and ensure their successful delivery.
 
 ## Join Us
 
