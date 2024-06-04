@@ -1,5 +1,5 @@
 # Contribute
-We harness the collective power of a global community to develop Torque.
+We harness the collective power of a global community to develop Torque. Anyone can make a pull request at the [official Torque dApp](https://github.com/torquefi) repository. Please title your pull requests appropriately.
 
 ## Solo Contributor
 Whether you're an individual with a passion for blockchain technology, finance, or community building, there's a place for you here. Solo contributors can engage with existing projects, propose new ideas, or lend their expertise in various capacities.

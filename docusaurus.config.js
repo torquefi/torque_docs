@@ -69,11 +69,11 @@ const config = {
         respectPrefersColorScheme: false,
       },
       navbar: {
-        title: "Torque",
+        // title: "Torque",
         logo: {
           alt: "Torque Docs",
-          src: "img/logo.svg",
-          srcDark: "img/logo_dark.svg",
+          src: "img/logo.png",
+          srcDark: "img/logo_dark.png",
         },
         items: [
           {
