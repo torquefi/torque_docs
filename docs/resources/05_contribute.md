@@ -7,6 +7,25 @@ Whether you're an individual with a passion for blockchain technology, finance, 
 ## Formal Contributor
 For development groups eager to make a substantial impact, becoming a formal contributor opens up avenues for collaboration, compensation, and influence in Torque Protocol. If our values and vision align with yours, [reach out]((https://t.me/torquefi)).
 
+## Example Pull Requests
+- New asset to be supported
+- New vote to be listed
+
+## Example Applications
+- Launchpads
+- Smart wallets
+- DAO treasuries
+- Voting systems
+- Payment apps
+- Banking apps
+- Trust funds
+
+## Torque SDK
+Coming soon!
+
+## Templates
+Coming soon!
+
 <!-- ## Our Principles
 
 Torque is:
