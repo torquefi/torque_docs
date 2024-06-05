@@ -2,7 +2,7 @@
 
 ## Summary
 
-Boost represents top-level, auto-compounding vehicles and the main entry point for Torque users seeking diversified yield across the decentralized finance space. Upon receiving assets, Boost Managers act as vehicles to handle appropriate child vault routing (`BoostETH` for ETH). `tTokens` represent the user's claim on assets.
+Boost represents top-level, auto-compounding vehicles and the main entry point for Torque users seeking real yield across the decentralized finance space. Upon receiving assets, Boost Managers act as vehicles to handle appropriate child vault routing (`BoostETH` for ETH). `tTokens` represent the user's claim on assets.
 
 ![Torque Boost](/gitbook/assets/boost-design.png)
 
