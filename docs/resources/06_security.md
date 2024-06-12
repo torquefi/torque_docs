@@ -10,8 +10,12 @@
 
 ## Multi-sig
 
-[0x177f6519A523EEbb542aed20320EFF9401bC47d0](https://bit.ly/torque-treasury)
+[0x177f6519A523EEbb542aed20320EFF9401bC47d0](https://arbiscan.io/address/0x177f6519a523eebb542aed20320eff9401bc47d0)
 
 ## Governor
 
-[0x43F726347b5C56325e116b92cc846C3cF50F16c7](https://arbiscan.io/address/0x43f726347b5c56325e116b92cc846c3cf50f16c7#code)
+[0x43F726347b5C56325e116b92cc846C3cF50F16c7](https://arbiscan.io/address/0x43f726347b5c56325e116b92cc846c3cf50f16c7)
+
+## Timelock
+
+[0x78112179F84357B55Db265Bcabb8c9c6f1CcB850](https://arbiscan.io/address/0x78112179F84357B55Db265Bcabb8c9c6f1CcB850)
