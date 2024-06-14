@@ -6,9 +6,9 @@ Boost paired with Borrow enables a powerful saving experience. When `borrow` is 
 
 ![Torque Boost](/gitbook/assets/borrow-system.png)
 
-## Compound V3
+<!-- ## Compound V3
 
-Compound V3, popularly known as the Comet deployment, is integrated with Torque and Torque USD. This integration enables Torque to establish best-in-class loan rates for savers as TORQ and other external incentives accrue to positions.
+Compound V3, popularly known as the Comet deployment, is integrated with Torque and Torque USD. This integration enables Torque to establish best-in-class loan rates for savers as TORQ and other external incentives accrue to positions. -->
 
 ## TUSDEngine
 
