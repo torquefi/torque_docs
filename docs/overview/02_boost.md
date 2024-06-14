@@ -8,7 +8,7 @@ Boost represents top-level, auto-compounding vehicles and the main entry point f
 
 ## Vehicles
 
-Vehicles are Boost Managers which aggregate automated saving strategies. For example, the `BoostBTC` vehicle aggregates the strategies of `GMXV2BTC` and `UniswapBTC` to generate yield as a result of fees collected. When assets are deposited to a vehicle, the vehicle allocates and deposits these into the underlying vaults.
+Vehicles are Boost Managers which aggregate automated saving strategies. For example, the `BoostBTC` vehicle aggregates the strategies of `GMXV2BTC` and `UniswapBTC` to generate diversified yield as a result of fees collected. When assets are deposited to a vehicle, the vehicle allocates and deposits these into the underlying vaults.
 
 ## Child Vaults
 
