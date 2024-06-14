@@ -8,11 +8,11 @@ Boost represents top-level, auto-compounding vehicles and the main entry point f
 
 ## Vehicles
 
-Vehicles are Boost Managers which aggregate strategies. For example, the `BoostETH` vehicle aggregates the strategies of `GMXV2ETH` and `StargateETH`. When assets are deposited to a vehicle, the vehicle allocates and deposits these into the underlying vaults.
+Vehicles are Boost Managers which aggregate strategies. For example, the `BoostBTC` vehicle aggregates the strategies of `GMXV2BTC` and `UniswapBTC`. When assets are deposited to a vehicle, the vehicle allocates and deposits these into the underlying vaults.
 
 ## Child Vaults
 
-A foundational strategy layer. These interact with DeFi protocols to maximize yield on deposited assets. For example, `GMXV2ETH` is specific to GMX V2 for earning yield on ETH, while `StargateETH` interacts with Stargate for liquidity provisioning.
+A foundational strategy layer. These interact with DeFi protocols to maximize yield on deposited assets. For example, `GMXV2BTC` is specific to GMX V2 for earning yield on ETH, while `UniswapBTC` interacts with Uniswap V3 for liquidity provisioning.
 
 <!-- :::info
 A full list of Olympus assets is available on the [Olympus Treasury Dashboard](https://app.olympusdao.finance/#/dashboard)
