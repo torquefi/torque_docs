@@ -2,7 +2,7 @@
 
 ## Summary
 
-Boost paired with Borrow enables a powerful saving experience. When `borrow` is called, a loan is created by routing collateral to Compound, and using that USDC to mint TUSD which is ultimately delivered to end users. On the opposite side, when `repay` is called, the position is unwound. Users may initially deposit wrapped BTC or ETH and earn claimable TORQ rewards on top.
+Boost paired with Borrow enables a powerful saving experience. When `borrow` is called, a loan is created by routing WBTC or WETH collateral to Compound, and using that USDC to mint TUSD which is delivered to end users. On the opposite side, when `repay` is called, the position is unwound.
 
 ![Torque Boost](/gitbook/assets/borrow-system.png)
 
