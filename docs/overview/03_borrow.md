@@ -2,7 +2,7 @@
 
 ## Summary
 
-Boost paired side-by-side with Borrow enables a powerful saving experience. When `borrow` is called, a CDP-based loan is created by routing collateral to Compound for a USDC loan, and using that USDC to mint TUSD which is ultimately delivered to end users. On the opposite side, when `repay` is called, the position is unwound. Users may initially deposit wrapped BTC or ETH and earn claimable TORQ rewards on top.
+Boost paired with Borrow enables a powerful saving experience. When `borrow` is called, a CDP-based loan is created by routing collateral to Compound for a USDC loan, and using that USDC to mint TUSD which is ultimately delivered to end users. On the opposite side, when `repay` is called, the position is unwound. Users may initially deposit wrapped BTC or ETH and earn claimable TORQ rewards on top.
 
 ![Torque Boost](/gitbook/assets/borrow-system.png)
 
@@ -12,4 +12,4 @@ Compound V3, popularly known as the Comet deployment which isolates risk across 
 
 ## TUSDEngine
 
-The TUSDEngine is responsible for minting, burning, and liquidating positions related to Torque USD. Functions are called by users and related ecosystem contracts in a public fashion. It is a fork of the Maker DAO DSS system and mandated to maintain peg at $1.00 for mint and burn via Chainlink oracle. The price of Torque USD on secondary markets generally remains stable as liquidity is concentrated but may fluctuate depending on market conditions. Thus, in the event secondary markets experience a depeg event, users are incentivized to purchase it and redeem at the TUSDEngine for $1.00 of backing assets.
+The TUSDEngine is responsible for minting, burning, and liquidating positions related to Torque USD. Functions are called by users and related ecosystem contracts in a public fashion. It is mandated to maintain peg at $1.00 for mint and burn via Chainlink oracle. The price of Torque USD on secondary markets generally remains stable as liquidity is concentrated but may fluctuate depending on market conditions. Thus, in the event secondary markets experience a depeg event, users are incentivized to purchase it and redeem at the TUSDEngine for $1.00 of backing assets.
