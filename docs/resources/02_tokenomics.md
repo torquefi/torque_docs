@@ -16,4 +16,4 @@
 | Burned   | 9%                  | 9,000,000,000         | N/A     |
 | OTC        | 6%                  | 6,000,000,000         | July 8, 2024      |
 | Advisor    | 4%                  | 4,000,000,000         | July 8, 2026      |
-| **Total Circulating as of May 15th, 2024** |   | 25,357,574,051 | N/A        |
+| **Total Circulating as of May 15th, 2024** |   | 25,357,574,051 |        |
