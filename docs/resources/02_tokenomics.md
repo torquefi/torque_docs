@@ -5,7 +5,7 @@
 
 [Arbiscan](https://arbiscan.io/token/0xb56c29413af8778977093b9b4947efeea7136c36) | [Swap](https://bit.ly/torque-uniswap) | [Provide Liquidity](https://app.uniswap.org/add/ETH/0xb56C29413AF8778977093B9B4947efEeA7136C36/3000?minPrice=0.0000000000000000000000000000000000000029543&maxPrice=338490000000000000000000000000000000000&chain=arbitrum) | [Price Chart](https://dexscreener.com/arbitrum/0xb56C29413AF8778977093B9B4947efEeA7136C36)
 
-| Category | Allocation Percent | Total Amount | Date Fully Vested |
+| Category | Allocation | Total Amount | Date Fully Vested |
 |------------|---------------------|-----------------------|-------------------|
 | Liquidity | 18%                 | 18,000,000,000        | N/A               |
 | Incentives | 16%                 | 16,000,000,000        | July 8, 2026      |
