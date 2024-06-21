@@ -36,7 +36,7 @@ A collection of funds locked in a smart contract. Used to facilitate lending, bo
 
 Users who deposit assets into a pool in exchange for trading fees and other rewards.
 
-## Over-collateralization
+## Over-Collateralization
 
 A system where borrowers must deposit assets worth more than the loan they take out. This is to mitigate risk also used in real world lending concepts like mortgages where the house is collateralized. It ensures lenders are able to recoup funds in case of a default.
 
