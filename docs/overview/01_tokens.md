@@ -12,7 +12,7 @@
 
 ## Torque BTC (tBTC)
 <!-- > V1: 0xB0929fb58978aCB02E34aBf457E49A5Ec4262fe6 -->
-> 0x279A237F074AC942AD3147834a3b8431b9a759dE
+> 0xb0ca57F27374E51B2a2d7658440a3E762B13B59C
 
 [Arbiscan](https://arbiscan.io/token/0x279A237F074AC942AD3147834a3b8431b9a759dE) | [Mint](https://tbtc.torque.fi) | [Swap](#) | [Provide Liquidity](#) | [Price Chart](#)
 
