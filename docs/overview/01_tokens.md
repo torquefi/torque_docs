@@ -14,7 +14,7 @@
 <!-- > V1: 0xB0929fb58978aCB02E34aBf457E49A5Ec4262fe6 -->
 > 0xb0ca57F27374E51B2a2d7658440a3E762B13B59C
 
-[Arbiscan](https://arbiscan.io/token/0x279A237F074AC942AD3147834a3b8431b9a759dE) | [Mint](https://tbtc.torque.fi) | [Swap](#) | [Provide Liquidity](#) | [Price Chart](#)
+[Arbiscan](https://arbiscan.io/token/0xb0ca57F27374E51B2a2d7658440a3E762B13B59C) | [Mint](https://tbtc.torque.fi) | [Swap](#) | [Provide Liquidity](#) | [Price Chart](#)
 
 ## Torque ETH (tETH)
 >0x18ab2e5cE4D0b75E6353B62085CBb6122ef8586B
