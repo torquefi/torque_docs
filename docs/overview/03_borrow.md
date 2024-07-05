@@ -8,7 +8,7 @@ Boost paired with Borrow enables a powerful saving experience. When `borrow` is 
 
 ## Compound V3
 
-Compound V3, popularly known as the Comet deployment, is integrated with Torque for USDC credit lines. This integration enables Torque to establish best-in-class loan rates for savers as TORQ and other external incentives accrue to positions.
+Compound V3, popularly known as the Comet deployment, is integrated with Torque for credit lines. This integration enables Torque to establish best-in-class loan rates for savers as TORQ and other external incentives accrue to positions.
 
 ## TUSDEngine
 :::info
