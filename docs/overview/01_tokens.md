@@ -6,9 +6,9 @@
 [Arbiscan](https://arbiscan.io/token/0xb56c29413af8778977093b9b4947efeea7136c36) | [Swap](https://bit.ly/torque-uniswap) | [Provide Liquidity](https://app.uniswap.org/add/ETH/0xb56C29413AF8778977093B9B4947efEeA7136C36/3000?minPrice=0.0000000000000000000000000000000000000029543&maxPrice=338490000000000000000000000000000000000&chain=arbitrum) | [Price Chart](https://dexscreener.com/arbitrum/0xb56C29413AF8778977093B9B4947efEeA7136C36)
 
 ## Torque USD (TUSD)
-> Torque USD V1 was deprecated. Stay tuned for updates!
+> 0xf7F6718Cf69967203740cCb431F6bDBff1E0FB68
 
-[Arbiscan](#) | [Borrow](#) | [Mint](#) | [Swap](#) | [Provide Liquidity](#) | [Price Chart](#)
+[Arbiscan](https://arbiscan.io/token/0xf7F6718Cf69967203740cCb431F6bDBff1E0FB68) | [Borrow](https://app.torque.fi/borrow) | [Mint](https://tusd.torque.fi) | [Swap](#) | [Provide Liquidity](#) | [Price Chart](#)
 
 ## Torque BTC (tBTC)
 <!-- > V1: 0xB0929fb58978aCB02E34aBf457E49A5Ec4262fe6 -->
