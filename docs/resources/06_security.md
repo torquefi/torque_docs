@@ -7,6 +7,7 @@
 | [InterFi](https://www.interfi.network/)       | Torque.sol    | [Link](https://uploads-ssl.webflow.com/63f25815222b9b0866dcc3ee/65510d2152816a8f5711d499_interfi-audit.pdf)| Governance token| 11/12/23
 | [InterFi](https://www.interfi.network/)       | Torque.sol    | [Link](https://uploads-ssl.webflow.com/6556f6be06fc2abb8a8da998/656f800b417164fcd65c9973_TorqueFi_AuditReport_InterFi.pdf)| Governance token| 12/1/23
 | [Group](https://twitter.com/torquefi/status/1764663606820614334)       | Full coverage    | [Link](https://github.com/torquefi/torque_contracts/pull/190)| Boost, Borrow, Rewards | 3/12/24
+| [Quill](https://www.quillaudits.com) | Refinance | [Link](https://cdn.prod.website-files.com/6556f6be06fc2abb8a8da998/66db510dae392c7d31147ee8_Torque%20Audit%20-%20QuillAudits.pdf)| Aave/Radiant integration | 9/4/24
 
 ## Multi-sig
 
