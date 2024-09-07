@@ -32,6 +32,16 @@
 
 - [Download as .png](/img/torque-square.png)
 
+### Torque horizontal (black)
+<img src="/img/logo-horizontal.png"  width="150px" height="auto" />
+
+- [Download as .png](/img/logo-horizontal.png)
+
+### Torque horizontal (white)
+<img src="/img/logo-horizontal-white.png"  width="150px" height="auto" />
+
+- [Download as .png](/img/logo-horizontal-white.png)
+
 ### Torque banner #1
 <img src="/img/t-banner.png"  width="500px" height="auto" />
 
