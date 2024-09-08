@@ -30,3 +30,13 @@
 > 0x2D422D47dB58cEB32D28E880e87fF673bb086544
 
 [Arbiscan](https://arbiscan.io/token/0x2D422D47dB58cEB32D28E880e87fF673bb086544) | [Mint](https://app.torque.fi/boost) | [Swap](#) | [Provide Liquidity](#) | [Price Chart](#)
+
+## Torque COMP (tCOMP)
+> 0x0D08442B2758a50aA8187D602bA8261C333d44B2
+
+[Arbiscan](https://arbiscan.io/token/0x0D08442B2758a50aA8187D602bA8261C333d44B2) | [Mint](https://app.torque.fi/boost) | [Swap](#) | [Provide Liquidity](#) | [Price Chart](#)
+
+## Torque TORQ (tTORQ)
+> 0xA6c53eC2a3085994000E5B831F5ECCCD051ea02c
+
+[Arbiscan](https://arbiscan.io/token/0xA6c53eC2a3085994000E5B831F5ECCCD051ea02c) | [Mint](https://app.torque.fi/boost) | [Swap](#) | [Provide Liquidity](#) | [Price Chart](#)
