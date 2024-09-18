@@ -98,8 +98,8 @@ const config = {
             href: "https://app.torque.fi/vote",
           },
           {
-            href: "https://arbiscan.io/address/0x177f6519A523EEbb542aed20320EFF9401bC47d0",
-            label: "Treasury",
+            href: "https://commonwealth.im/torque",
+            label: "Forum",
             position: "right",
           },
           {
