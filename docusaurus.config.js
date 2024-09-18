@@ -107,11 +107,11 @@ const config = {
             label: "Roadmap",
             position: "right",
           },
-          {
-            href: "https://forms.gle/uzRN4tQtVoE2Dthw6",
-            label: "Feedback",
-            position: "right",
-          },
+          // {
+          //   href: "https://forms.gle/uzRN4tQtVoE2Dthw6",
+          //   label: "Feedback",
+          //   position: "right",
+          // },
           {
             href: "https://t.me/torquefi",
             label: "Support",
