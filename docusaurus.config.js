@@ -103,10 +103,25 @@ const config = {
             position: "right",
           },
           {
-            href: "mailto:hello@torque.fi",
-            label: "Contact",
+            href: "https://dub.sh/torque-roadmap",
+            label: "Roadmap",
             position: "right",
           },
+          {
+            href: "https://forms.gle/uzRN4tQtVoE2Dthw6",
+            label: "Feedback",
+            position: "right",
+          },
+          {
+            href: "https://t.me/torquefi",
+            label: "Support",
+            position: "right",
+          },
+          // {
+          //   href: "mailto:hello@torque.fi",
+          //   label: "Contact",
+          //   position: "right",
+          // },
         ],
       },
       footer: {
