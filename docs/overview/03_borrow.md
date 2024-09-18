@@ -2,7 +2,7 @@
 
 ## Summary
 
-Boost paired with Borrow enables a next-level saving experience. When `borrow` is called, a new loan position is created by routing wrapped Bitcoin or wrapped Ether collateral to Compound, and the borrowed asset is delivered to users. In the case of Torque USD (TUSD), USDC becomes protocol reserves to be deployed across yield strategies.
+Boost paired with Borrow enables a powerful saving experience. When `borrow` is called, a new loan position is created by routing wrapped Bitcoin or wrapped Ether collateral to Compound, and the borrowed asset is delivered to users. In the case of Torque USD (TUSD), USDC becomes protocol reserves to be deployed across yield strategies.
 
 The purpose is to maximize capital efficiency and yield generation for borrowers.
 
