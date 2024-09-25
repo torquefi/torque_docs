@@ -4,15 +4,13 @@
 
 A decentralized autonomous organization. -->
 
-## Mint
+<!-- ## Mint
 
-The process of creating new tokens such as Torque USD when collateral is supplied.
+The process of creating new tokens such as Torque USD when collateral is supplied. -->
 
 ## tTokens
 
-When a user creates a Boost vehicle,  `tTokens` are minted to represent the underlying claim. These initially map users 1:1 with their funds and are redeemable through the Torque dApp or by directly interacting with Torque smart contracts.
-
-The protocol enables diversified yield across the finest onchain opportunities. Further use cases for `tTokens` may develop such as lending markets or other wealth management apps.
+When a user creates a Boost vehicle,  `tTokens` are minted to represent the claim. These initially map users 1:1 with their funds and are redeemable through the Torque dApp or by directly interacting with Torque smart contracts. The protocol enables diversified yield across the finest onchain opportunities. Further use cases for `tTokens` may develop.
 
 <!-- ## Collateral
 
