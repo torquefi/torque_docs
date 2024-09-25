@@ -4,7 +4,7 @@
 When a user creates a Boost vehicle, `tTokens` are minted to represent their claim. These tokens initially map 1:1 with users' deposited funds and are redeemable through the Torque dApp or by interacting directly with Torque smart contracts. The protocol diversifies yield by routing funds to the best on-chain opportunities. New `tToken` use cases may develop.
 
 ## Liquidation
-If the value of your collateral drops below a certain threshold, your position can be liquidated. For example, with Bitcoin, the loan-to-value (LTV) limit is currently 75%, and for Ether, it’s 83%. If you deposit $10,000 worth of Ether, the maximum you can safely borrow is $8,300. If the collateral value decreases and the LTV exceeds the limit, a portion of your collateral may be liquidated to maintain protocol health.
+If the value of your collateral drops low, your position can be liquidated. With Bitcoin, the loan-to-value (LTV) limit is currently 75%, and for Ether, it’s 83%. If you deposit $10,000 worth of Ether, the maximum you can safely borrow is $8,300. If the collateral value decreases and the LTV exceeds the limit, a portion of your collateral may be liquidated to maintain protocol health.
 
 ## ERC-20
 ERC-20 is a technical standard for fungible tokens on the Ethereum blockchain. Torque utilizes this standard for its native Torque (TORQ) token and tokenized assets like Torque ETH (tETH) and Torque USD (TUSD), ensuring compatibility across the DeFi ecosystem.
@@ -52,7 +52,7 @@ A cryptocurrency pegged to the value of an external reference, typically a fiat 
 The yearly interest earned on an investment or paid on a loan, expressed as a percentage. Torque displays APRs for both borrowing and yield farming operations.
 
 ## APY (Annual Percentage Yield)
-The real rate of return, accounting for the effects of compounding interest. APY is typically higher than APR when compounding occurs, making it a key metric for evaluating yield farming and other interest-bearing investments within Torque.
+The real rate of return, accounting for the effects of compounding interest. APY is typically higher than APR when compounding occurs, making it a key metric for evaluating yield farming and other interest-bearing opportunities.
 
 ## Governance Token
 A token that allows holders to participate in decision-making for a protocol. Torque (TORQ) is the governance token of the Torque Protocol, enabling holders to vote on key proposals.
