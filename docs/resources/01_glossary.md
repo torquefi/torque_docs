@@ -1,13 +1,13 @@
 # Glossary
 
 ## tTokens
-When a user creates a Boost vehicle, `tTokens` are minted to represent their claim. These tokens initially map 1:1 with users' deposited funds and are redeemable through the Torque dApp or by interacting directly with Torque smart contracts. The protocol diversifies yield by routing funds to the best on-chain opportunities. Future utility for `tTokens` is expected to evolve as the protocol grows.
+When a user creates a Boost vehicle, `tTokens` are minted to represent their claim. These tokens initially map 1:1 with users' deposited funds and are redeemable through the Torque dApp or by interacting directly with Torque smart contracts. The protocol diversifies yield by routing funds to the best on-chain opportunities. New `tToken` use cases may develop.
 
 ## Liquidation
-If the value of your collateral drops below a certain threshold, your position can be liquidated. For example, with Bitcoin, the loan-to-value (LTV) limit is currently 75%, and for Ether, it’s 83%. If you deposit $10,000 worth of Ether, the maximum you can safely borrow is $7,800. If the collateral value decreases and the LTV exceeds the limit, a portion of your collateral may be liquidated to maintain the health of the protocol.
+If the value of your collateral drops below a certain threshold, your position can be liquidated. For example, with Bitcoin, the loan-to-value (LTV) limit is currently 75%, and for Ether, it’s 83%. If you deposit $10,000 worth of Ether, the maximum you can safely borrow is $8,300. If the collateral value decreases and the LTV exceeds the limit, a portion of your collateral may be liquidated to maintain the health of the protocol.
 
 ## ERC-20
-ERC-20 is a technical standard for fungible tokens on the Ethereum blockchain. Torque utilizes this standard for its native TORQ token and tokenized assets like Torque ETH (tETH) and Torque USD (TUSD), ensuring compatibility across the DeFi ecosystem.
+ERC-20 is a technical standard for fungible tokens on the Ethereum blockchain. Torque utilizes this standard for its native Torque (TORQ) token and tokenized assets like Torque ETH (tETH) and Torque USD (TUSD), ensuring compatibility across the DeFi ecosystem.
 
 ## Smart Contract
 A self-executing contract with the terms of the agreement written directly into code. These contracts automatically enforce and verify the conditions without the need for intermediaries.
