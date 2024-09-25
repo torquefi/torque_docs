@@ -1,8 +1,8 @@
 # Glossary
 
-## DAO
+<!-- ## DAO
 
-A decentralized autonomous organization.
+A decentralized autonomous organization. -->
 
 ## Mint
 
@@ -10,7 +10,9 @@ The process of creating new tokens such as Torque USD when collateral is supplie
 
 ## tTokens
 
-When a user creates a Boost vehicle,  `tTokens` are issued to represent the underlying claim. These initially map users 1:1 with their funds and are redeemable through the Torque dApp or by directly interacting with Torque smart contracts. The protocol enables diversified yield capture across DeFi's finest opportunities. Further use cases for `tTokens` may develop such as a lending market or other wealth management applications.
+When a user creates a Boost vehicle,  `tTokens` are minted to represent the underlying claim. These initially map users 1:1 with their funds and are redeemable through the Torque dApp or by directly interacting with Torque smart contracts.
+
+The protocol enables diversified yield across the finest onchain opportunities. Further use cases for `tTokens` may develop such as lending markets or other wealth management apps.
 
 <!-- ## Collateral
 
@@ -18,7 +20,7 @@ Collateral backs Torque USD loans. In the case where the loan becomes underwater
 
 ## Liquidation
 
-When you take a loan, you must remain below the loan-to-value limit as displayed. For Bitcoin, it is currently 70%. For Ether, it is currently 78%. This means if you have $10,000 of Ether collateral deposited, the max amount you may safely borrow is $7,800. In the case your collateral drops in value and the position goes above this limit, it may be liquidated via public function in the USDEngine smart contract.
+When you take a loan, you must remain below the loan-to-value limit. For Bitcoin, it is currently 75%. For Ether, it is currently 83%. If you have $10,000 of Ether collateral deposited, the max amount you may safely borrow is $7,800. In the case your collateral value drops and the position goes above this, it may be liquidated via public function.
 
 <!-- ## Governance
 
