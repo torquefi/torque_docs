@@ -10,7 +10,7 @@ If the value of your collateral drops low, your position can be liquidated. With
 ERC-20 is a technical standard for fungible tokens on the Ethereum blockchain. Torque utilizes this standard for its native Torque (TORQ) token and tokenized assets like Torque ETH (tETH) and Torque USD (TUSD), ensuring compatibility across the DeFi ecosystem.
 
 ## Smart Contract
-A self-executing contract with the terms of the agreement written directly into code. These contracts automatically enforce and verify the conditions without the need for intermediaries.
+A self-executing contract with the terms of the agreement written directly into code. These contracts automatically enforce and verify conditions without intermediaries.
 
 ## Liquidity Pool
 A pool of assets locked in a smart contract, used to facilitate decentralized lending, borrowing, or token swaps. Liquidity pools allow protocols to operate without relying on traditional market makers.
