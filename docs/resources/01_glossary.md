@@ -30,7 +30,7 @@ The ratio between collateral and debt for a position. CR of 1 means debt is full
 
 ## ERC-20
 
-ERC-20 is a technical standard for fungible tokens. The protocol uses this standard for TORQ and the other assets such as Torque ETH (tETH) and Torque USD (TUSD).
+ERC-20 is a technical standard for fungible tokens. The protocol uses this standard for Torque (TORQ) and the other tokenized assets such as Torque ETH (tETH) and Torque USD (TUSD).
 
 ## Smart Contract
 
