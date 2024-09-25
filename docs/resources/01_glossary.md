@@ -1,69 +1,67 @@
 # Glossary
 
-<!-- ## DAO
-
-A decentralized autonomous organization. -->
-
-<!-- ## Mint
-
-The process of creating new tokens such as Torque USD when collateral is supplied. -->
-
 ## tTokens
-
-When a user creates a Boost vehicle,  `tTokens` are minted to represent the claim. These initially map users 1:1 with their funds and are redeemable through the Torque dApp or by directly interacting with Torque smart contracts. The protocol enables diversified yield across the finest onchain opportunities. Further use cases for `tTokens` may develop.
-
-<!-- ## Collateral
-
-Collateral backs Torque USD loans. In the case where the loan becomes underwater, a partial amount of the collateral will be liquidated to ensure protocol health. -->
+When a user creates a Boost vehicle, `tTokens` are minted to represent their claim. These tokens initially map 1:1 with users' deposited funds and are redeemable through the Torque dApp or by interacting directly with Torque smart contracts. The protocol diversifies yield by routing funds to the best on-chain opportunities. Future utility for `tTokens` is expected to evolve as the protocol grows.
 
 ## Liquidation
-
-When you take a loan, you must remain below the loan-to-value limit. For Bitcoin, it is currently 75%. For Ether, it is currently 83%. If you have $10,000 of Ether collateral deposited, the max amount you may safely borrow is $7,800. In the case your collateral value drops and the position goes above this, it may be liquidated via public function.
-
-<!-- ## Governance
-
-TORQ holders may delegate voting power to themselves or an aligned entity to shape the future of Torque. This approach fosters an ecosystem of collaboration, trust, and shared purpose. With decentralized governance, decisions are made by those most invested in the protocol's success. Some items up for discussion are new routes, collateral assets, chain expansion, partnerships/integrations, marketing initiatives and more. -->
-
-<!-- ## Collateral Ratio
-
-The ratio between collateral and debt for a position. CR of 1 means debt is fully covered or collateralized. An over-collateralized position means the CR is greater than 1. The protocol maintains an over-collateralization of assets to ensure protocol solvency and stability. -->
+If the value of your collateral drops below a certain threshold, your position can be liquidated. For example, with Bitcoin, the loan-to-value (LTV) limit is currently 75%, and for Ether, it’s 83%. If you deposit $10,000 worth of Ether, the maximum you can safely borrow is $7,800. If the collateral value decreases and the LTV exceeds the limit, a portion of your collateral may be liquidated to maintain the health of the protocol.
 
 ## ERC-20
-
-ERC-20 is a technical standard for fungible tokens. The protocol uses this standard for Torque (TORQ) and the other tokenized assets such as Torque ETH (tETH) and Torque USD (TUSD).
+ERC-20 is a technical standard for fungible tokens on the Ethereum blockchain. Torque utilizes this standard for its native TORQ token and tokenized assets like Torque ETH (tETH) and Torque USD (TUSD), ensuring compatibility across the DeFi ecosystem.
 
 ## Smart Contract
-
-Self-executing contracts where the terms of agreement are pre-defined in code.
+A self-executing contract with the terms of the agreement written directly into code. These contracts automatically enforce and verify the conditions without the need for intermediaries.
 
 ## Liquidity Pool
-
-A collection of funds locked in a smart contract. Used to facilitate lending, borrowing, or exchanging tokens without relying on traditional market makers.
+A pool of assets locked in a smart contract, used to facilitate decentralized lending, borrowing, or token swaps. Liquidity pools allow protocols to operate without relying on traditional market makers.
 
 ## Liquidity Provider (LP)
-
-Users who deposit assets into a pool in exchange for trading fees and other rewards.
+A user who deposits assets into a liquidity pool in exchange for a share of trading fees or rewards. By providing liquidity, LPs help maintain the protocol’s stability and efficiency.
 
 ## Over-Collateralization
-
-A system where borrowers must deposit assets worth more than the loan they take out. This is to mitigate risk also used in real world lending concepts like mortgages where the house is collateralized. It ensures lenders are able to recoup funds in case of a default.
+A requirement that borrowers deposit collateral worth more than the value of their loan. This reduces risk for lenders by ensuring that even if the loan defaults, the protocol has enough collateral to cover the debt.
 
 ## Loan-to-Value (LTV)
-
-A metric showing the size of a loan compared to the value of the collateral. For example, if someone deposits $150 worth of ETH as collateral and borrows $100, the LTV is 66.67%.
+The ratio of a loan's size compared to the value of the collateral backing it. For example, if someone deposits $150 worth of ETH and borrows $100, the LTV would be 66.67%. Lower LTVs typically reduce the risk of liquidation.
 
 ## Interest Rate
-
-The proportion of a loan charged as interest to the borrower, typically expressed as APR.
+The cost of borrowing, expressed as an annual percentage rate (APR). Torque’s interest rates can vary depending on the protocol’s parameters and market conditions.
 
 ## Yield Farming
-
-The practice of maximizing returns by lending or providing liquidity to DeFi protocols. In the case of Torque, the process is streamlined as assets follow strategic, dynamic routes.
+A DeFi strategy where users lend or stake their assets in protocols to earn rewards, typically in the form of additional tokens or interest. Torque automates yield farming by dynamically routing deposits to the most optimal opportunities available on-chain.
 
 ## Oracles
-
-Services that feed real-world data into smart contracts. They're used to provide price feeds. For example, when a user mints Torque USD, the collateral asset's price is referenced from the Chainlink oracle in order for the transaction to go through.
+Oracles bring real-world data, such as asset prices, into the blockchain. Torque relies on Chainlink oracles to ensure accurate price feeds for minting and redeeming Torque USD, as well as for liquidation thresholds.
 
 ## Gas Fee
+A fee paid by users to perform transactions on the blockchain. Gas fees compensate miners for the computational work needed to execute smart contract operations, such as deposits, withdrawals, or loan repayments.
 
-A fee required to execute a smart contract action on the blockchain.
+## Automated Market Maker (AMM)
+A decentralized exchange mechanism that allows assets to be traded without permission and automatically by using liquidity pools. Torque leverages external AMMs to offer seamless asset swaps when required by protocol functions.
+
+## Decentralized Finance (DeFi)
+A financial system built on public blockchains that allows peer-to-peer transactions without intermediaries like banks. Torque is a DeFi protocol that automates borrowing and lending using smart contracts.
+
+## Collateral
+An asset pledged by a borrower to secure a loan. In Torque, users deposit assets like Bitcoin or Ethereum as collateral to borrow Torque USD or other assets.
+
+## Stablecoin
+A cryptocurrency pegged to the value of an external reference, typically a fiat currency like the U.S. dollar. Torque USD (TUSD) is a stablecoin pegged to $1, used within the protocol for borrowing and yield generation.
+
+## APR (Annual Percentage Rate)
+The yearly interest earned on an investment or paid on a loan, expressed as a percentage. Torque displays APRs for both borrowing and yield farming operations.
+
+## APY (Annual Percentage Yield)
+The real rate of return earned on an investment, accounting for the effects of compounding interest. APY is typically higher than APR when compounding occurs, making it a key metric for evaluating yield farming and other interest-bearing investments within Torque.
+
+<!-- ## Flash Loan
+A type of uncollateralized loan in DeFi that must be repaid within the same transaction. Torque may interact with protocols offering flash loans for liquidation events or arbitrage opportunities. -->
+
+## Governance Token
+A token that allows holders to participate in decision-making for a protocol. Torque (TORQ) is the governance token of the Torque Protocol, enabling holders to vote on key proposals.
+
+## Non-Custodial
+A system where users retain full control of their assets without relying on intermediaries or custodians. Torque is a non-custodial protocol, ensuring users always maintain ownership of their funds.
+
+## Tokenomics
+The design and implementation of a token’s economic model, including its supply, distribution, and utility. Torque’s tokenomics define the role of TORQ, tETH, and tUSD within the ecosystem.
