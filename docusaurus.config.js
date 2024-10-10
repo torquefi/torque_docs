@@ -97,21 +97,21 @@ const config = {
             label: "Voting",
             href: "https://app.torque.fi/vote",
           },
-          {
-            href: "https://commonwealth.im/torque",
-            label: "Forum",
-            position: "right",
-          },
+          // {
+          //   href: "https://commonwealth.im/torque",
+          //   label: "Forum",
+          //   position: "right",
+          // },
           {
             href: "https://dub.sh/torque-roadmap",
             label: "Roadmap",
             position: "right",
           },
-          // {
-          //   href: "https://forms.gle/uzRN4tQtVoE2Dthw6",
-          //   label: "Feedback",
-          //   position: "right",
-          // },
+          {
+            href: "https://forms.gle/uzRN4tQtVoE2Dthw6",
+            label: "Feedback",
+            position: "right",
+          },
           {
             href: "https://t.me/torquefi",
             label: "Support",
