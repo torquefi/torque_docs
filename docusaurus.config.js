@@ -97,11 +97,6 @@ const config = {
             label: "Voting",
             href: "https://app.torque.fi/vote",
           },
-          // {
-          //   href: "https://commonwealth.im/torque",
-          //   label: "Forum",
-          //   position: "right",
-          // },
           {
             href: "https://dub.sh/torque-roadmap",
             label: "Roadmap",
@@ -117,11 +112,6 @@ const config = {
             label: "Support",
             position: "right",
           },
-          // {
-          //   href: "mailto:hello@torque.fi",
-          //   label: "Contact",
-          //   position: "right",
-          // },
         ],
       },
       footer: {
