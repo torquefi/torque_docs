@@ -171,12 +171,12 @@ const config = {
                 href: "https://www.coingecko.com/en/coins/torque",
               },
               {
-                label: "Arbiscan",
-                href: "https://bit.ly/torque-arbiscan",
-              },
-              {
                 label: "Snapshot",
                 href: "https://snapshot.org/#/s:torquefi.eth",
+              },
+              {
+                label: "Arbiscan",
+                href: "https://bit.ly/torque-arbiscan",
               },
             ],
           },
