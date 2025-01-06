@@ -98,8 +98,8 @@ const config = {
             href: "https://app.torque.fi/vote",
           },
           {
-            href: "Forum",
-            label: "https://t.me/torquefi",
+            href: "https://t.me/torquefi",
+            label: "Forum",
             position: "right",
           },
           {
