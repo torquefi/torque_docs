@@ -97,11 +97,11 @@ const config = {
             label: "Voting",
             href: "https://app.torque.fi/vote",
           },
-          {
-            href: "https://dub.sh/torque-roadmap",
-            label: "Roadmap",
-            position: "right",
-          },
+          // {
+          //   href: "https://dub.sh/torque-roadmap",
+          //   label: "Roadmap",
+          //   position: "right",
+          // },
           {
             href: "https://forms.gle/uzRN4tQtVoE2Dthw6",
             label: "Feedback",
@@ -174,10 +174,10 @@ const config = {
                 label: "Arbiscan",
                 href: "https://bit.ly/torque-arbiscan",
               },
-              {
-                label: "Tally",
-                href: "https://www.tally.xyz/gov/torque",
-              },
+              // {
+              //   label: "Tally",
+              //   href: "https://www.tally.xyz/gov/torque",
+              // },
             ],
           },
           {
