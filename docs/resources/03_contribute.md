@@ -25,13 +25,3 @@ Coming soon!
 
 ## Templates
 Coming soon!
-
-<!-- ## Our Principles
-
-Torque is:
-- **Community-run**: Not just user-focused; we're user-driven. Our community's voice is our guiding star.
-- **Results-oriented**: Impact is our metric. We prioritize tangible outcomes that advance our mission.
-- **Sustainable**: Longevity is key. We're building for a future where Torque continues to evolve.
-- **Inclusive**: Everyone is welcome. Our strength lies in our diversity.
-
-We champion decentralization not just in technology but in our approach to project management and governance. By aligning around common goals, we can critically assess projects, establish accountability, and ensure their successful delivery. -->
