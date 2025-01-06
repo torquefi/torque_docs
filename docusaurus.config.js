@@ -164,7 +164,7 @@ const config = {
             items: [
               {
                 label: "Uniswap",
-                href: "https://bit.ly/torque-uniswap",
+                href: "#",
               },
               {
                 label: "CoinGecko",
