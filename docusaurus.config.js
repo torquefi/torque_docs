@@ -99,17 +99,17 @@ const config = {
           },
           {
             href: "https://t.me/torquefi",
-            label: "Forum",
+            label: "Telegram",
             position: "right",
           },
           {
-            href: "https://forms.gle/uzRN4tQtVoE2Dthw6",
-            label: "Feedback",
+            href: "https://x.com/torquefi",
+            label: "X (Twitter)",
             position: "right",
           },
           {
-            href: "https://bit.ly/torq-disc",
-            label: "Support",
+            href: "https://youtube.com/@torquefi",
+            label: "YouTube",
             position: "right",
           },
         ],
