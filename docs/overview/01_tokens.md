@@ -23,7 +23,7 @@ The new Torque USD (TUSD) contract address is TBA.
 The new Torque BTC (tBTC) contract address is TBA.
 :::
 <!-- > V1: 0xB0929fb58978aCB02E34aBf457E49A5Ec4262fe6 -->
-> 0xb0ca57F27374E51B2a2d7658440a3E762B13B59C
+<!-- > 0xb0ca57F27374E51B2a2d7658440a3E762B13B59C -->
 
 <!-- [Arbiscan](#) | [Mint](#) | [Swap](#) | [Provide Liquidity](#) | [Chart](#) -->
 
