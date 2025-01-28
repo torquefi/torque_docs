@@ -38,7 +38,7 @@ The new Torque ETH (tETH) contract address is TBA.
 
 ## Torque LINK (tLINK)
 :::info
-The new Torque LINK (tBTC) contract address is TBA.
+The new Torque LINK (tLINK) contract address is TBA.
 :::
 
 <!-- > 0x914DC0103E542FA3F823dbE3aaA67926d84B5178 -->
