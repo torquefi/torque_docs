@@ -11,7 +11,7 @@ The new Torque (TORQ) contract address is TBA.
 
 ## Torque USD (TUSD)
 :::info
-The new Torque US Dollar (TUSD) contract address is TBA.
+The new Torque USD (TUSD) contract address is TBA.
 :::
 
 <!-- > 0xf7F6718Cf69967203740cCb431F6bDBff1E0FB68 -->
