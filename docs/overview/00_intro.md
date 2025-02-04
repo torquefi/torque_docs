@@ -6,5 +6,5 @@ Torque is an omnichain aggregator built on leading non-custodial protocols. It u
 
 ![Torque](/gitbook/assets/torque-system.png)
 <p style={{ textAlign: 'center', opacity: 0.5, marginTop: '-6px' }}>
-  <em>V1 displayed. V2 pending.</em>
+  <em>V1 displayed. V2 under development.</em>
 </p>
