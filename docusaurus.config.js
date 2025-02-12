@@ -87,8 +87,8 @@ const config = {
             type: "doc",
             docId: "overview/intro",
             position: "left",
-            label: "App",
-            href: "https://app.torque.fi",
+            label: "Blog",
+            href: "https://medium.com/@torquefi",
           },
           {
             type: "doc",
