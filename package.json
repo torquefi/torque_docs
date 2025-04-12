@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@docusaurus/core": "2.4.1",
-    "@docusaurus/preset-classic": "2.4.1",
+    "@docusaurus/preset-classic": "2.4.3",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "@heroicons/react": "^2.0.18",
