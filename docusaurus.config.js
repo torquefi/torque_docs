@@ -147,15 +147,15 @@ const config = {
               },
               {
                 label: "Torque BTC",
-                href: "https://tbtc.torque.fi",
+                href: "https://legacy.torque.fi",
               },
               {
                 label: "Torque ETH",
-                href: "https://teth.torque.fi",
+                href: "https://legacy.torque.fi",
               },
               {
                 label: "Torque USD",
-                href: "https://tusd.torque.fi",
+                href: "https://legacy.torque.fi",
               },
             ],
           },
