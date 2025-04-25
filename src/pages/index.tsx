@@ -55,11 +55,11 @@ export const github = [
   //   href: "https://github.com/torquefi/torque_sdk",
   //   icon: CodeBracketIcon,
   // },
-  {
-    title: "torque_dapp",
-    href: "https://github.com/torquefi/torque_dapp",
-    icon: CodeBracketIcon,
-  },
+  // {
+  //   title: "torque_legacy",
+  //   href: "https://github.com/torquefi/torque_legacy",
+  //   icon: CodeBracketIcon,
+  // },
   {
     title: "torque_contracts",
     href: "https://github.com/torquefi/torque_contracts",
