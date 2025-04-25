@@ -122,19 +122,19 @@ const config = {
             items: [
               {
                 label: "Home",
-                href: "https://app.torque.fi",
+                href: "https://legacy.torque.fi",
               },
               {
                 label: "Boost",
-                href: "https://app.torque.fi/boost",
+                href: "https://legacy.torque.fi/boost",
               },
               {
                 label: "Borrow",
-                href: "https://app.torque.fi/borrow",
+                href: "https://legacy.torque.fi/borrow",
               },
               {
                 label: "Vote",
-                href: "https://app.torque.fi/vote",
+                href: "https://legacy.torque.fi/vote",
               },
             ],
           },
@@ -142,8 +142,8 @@ const config = {
             title: "Interfaces",
             items: [
               {
-                label: "Flagship",
-                href: "https://app.torque.fi",
+                label: "Legacy",
+                href: "https://legacy.torque.fi",
               },
               {
                 label: "Torque BTC",
