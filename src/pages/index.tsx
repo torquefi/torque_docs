@@ -52,14 +52,14 @@ export const actions = [
 export const github = [
   // {
   //   title: "torque_sdk",
-  //   href: "https://github.com/torquefi/torque_sdk",
+  //   href: "#",
   //   icon: CodeBracketIcon,
   // },
-  // {
-  //   title: "torque_legacy",
-  //   href: "https://github.com/torquefi/torque_legacy",
-  //   icon: CodeBracketIcon,
-  // },
+  {
+    title: "torque_widget",
+    href: "https://torque.fi",
+    icon: CodeBracketIcon,
+  },
   {
     title: "torque_contracts",
     href: "https://github.com/torquefi/torque_contracts",
