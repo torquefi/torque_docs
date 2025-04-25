@@ -95,7 +95,7 @@ const config = {
             docId: "overview/intro",
             position: "left",
             label: "Voting",
-            href: "https://app.torque.fi/vote",
+            href: "https://legacy.torque.fi/vote",
           },
           {
             href: "https://t.me/torquefi",
