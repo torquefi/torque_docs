@@ -4,7 +4,7 @@
 
 > **V2 is under development. [Join the community](https://t.me/torquefi).**
 
-Torque is an onchain aggregator specialized in non-custodial liquidity solutions. It unifies opportunities to satisfy the key components of wealth generation while reducing friction, increasing transparency, and guaranteeing self-custody.
+Torque is evolving. Stay tuned for our revamped documentation and the introduction of our new product line. We sincerely appreciate your interest. Follow Torque on X: [@torquefi](https://x.com/torquefi).
 
 ![Torque](/gitbook/assets/torque-system.png)
 <p style={{ textAlign: 'center', opacity: 0.5, marginTop: '-6px' }}>
