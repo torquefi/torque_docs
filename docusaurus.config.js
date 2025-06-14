@@ -60,6 +60,14 @@ const config = {
     },
   ],
 
+  scripts: [
+    {
+      src: '/js/accordion.js',
+      async: false,
+      defer: false,
+    },
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -94,8 +102,8 @@ const config = {
             type: "doc",
             docId: "overview/intro",
             position: "left",
-            label: "Voting",
-            href: "https://legacy.torque.fi/vote",
+            label: "Vote",
+            href: "https://snapshot.box/#/s:torquefi.eth",
           },
           {
             href: "https://t.me/torquefi",
@@ -115,68 +123,58 @@ const config = {
         ],
       },
       footer: {
-        style: "light",
         links: [
           {
-            title: "Protocol",
             items: [
               {
-                label: "Home",
-                href: "https://legacy.torque.fi",
-              },
-              {
-                label: "Boost",
-                href: "https://legacy.torque.fi/boost",
-              },
-              {
-                label: "Borrow",
-                href: "https://legacy.torque.fi/borrow",
-              },
-              {
-                label: "Vote",
-                href: "https://legacy.torque.fi/vote",
+                html: `
+                  <a href="/">
+                    <img src="/img/logo.png" alt="Torque Logo" width="122" height="36" class="footer__logo" />
+                  </a>
+                  <div class="footer__copyright">Copyright © ${new Date().getFullYear()} Torque</div>
+                `,
               },
             ],
           },
           {
-            title: "Interfaces",
+            title: "Features",
             items: [
               {
-                label: "Legacy",
-                href: "https://legacy.torque.fi",
+                label: "Account System",
+                href: "/main/overview/accounts",
               },
               {
-                label: "Torque BTC",
-                href: "https://legacy.torque.fi",
+                label: "Risk Management",
+                href: "/main/overview/risk",
               },
               {
-                label: "Torque ETH",
-                href: "https://legacy.torque.fi",
+                label: "Currency Engines",
+                href: "/main/overview/engines",
               },
               {
-                label: "Torque USD",
-                href: "https://legacy.torque.fi",
+                label: "Rewards System",
+                href: "/main/overview/rewards",
               },
             ],
           },
           {
-            title: "Ecosystem",
+            title: "Resources",
             items: [
               {
-                label: "Uniswap",
-                href: "#",
+                label: "Ecosystem",
+                href: "/main/overview/intro",
               },
               {
-                label: "CoinGecko",
-                href: "https://www.coingecko.com/en/coins/torque",
+                label: "Interfaces",
+                href: "/main/overview/intro",
               },
               {
-                label: "Snapshot",
-                href: "https://snapshot.org/#/s:torquefi.eth",
+                label: "Addresses",
+                href: "/main/contracts/api",
               },
               {
-                label: "Arbiscan",
-                href: "https://bit.ly/torque-arbiscan",
+                label: "Security",
+                href: "/main/resources/security",
               },
             ],
           },
@@ -184,20 +182,20 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Telegram",
-                href: "https://t.me/torquefi",
-              },
-              {
                 label: "Discord",
                 href: "https://bit.ly/torq-disc",
               },
               {
-                label: "YouTube",
-                href: "https://www.youtube.com/@torquefi",
+                label: "Telegram",
+                href: "https://t.me/torquefi",
               },
               {
                 label: "Twitter",
                 href: "https://twitter.com/torquefi",
+              },
+              {
+                label: "Blog",
+                href: "https://blog.torque.fi",
               },
             ],
           },

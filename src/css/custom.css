@@ -5,6 +5,8 @@
  */
 
 /* You can override the default Infima variables here. */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
 :root {
   --ifm-color-primary: #030303;
   --ifm-color-primary-dark: #2C2E37;
@@ -48,19 +50,599 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Rogan Bold', sans-serif;
+  font-family: -apple-system, 'SF Pro Display', 'SF Pro', system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
 }
 
 /* Example for small titles */
 .small-title {
-  font-family: 'Rogan Medium', sans-serif;
+  font-family: -apple-system, 'SF Pro Display', 'SF Pro', system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
 }
 
 /* Example for body text */
 body {
-  font-family: 'Rogan Regular', sans-serif;
+  font-family: -apple-system, 'SF Pro Text', 'SF Pro', system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+}
+
+/* Navbar styles */
+.navbar__item,
+.navbar__link,
+.navbar__title {
+  font-family: -apple-system, 'SF Pro Text', 'SF Pro', system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
 }
 
 .navbar__title {
   font-size: 24px;
+  font-weight: 600;
+}
+
+/* Footer styles */
+.footer {
+  --ifm-footer-background-color: transparent;
+  --ifm-footer-color: var(--ifm-color-emphasis-700);
+  --ifm-footer-link-color: var(--ifm-color-emphasis-700);
+  --ifm-footer-link-hover-color: var(--ifm-color-primary);
+  --ifm-footer-title-color: var(--ifm-color-emphasis-900);
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  padding: 2rem 0;
+}
+
+[data-theme='dark'] .footer {
+  --ifm-footer-background-color: transparent;
+  --ifm-footer-color: var(--ifm-color-emphasis-500);
+  --ifm-footer-link-color: var(--ifm-color-emphasis-500);
+  --ifm-footer-link-hover-color: var(--ifm-color-primary);
+  --ifm-footer-title-color: var(--ifm-color-emphasis-100);
+  border-top: 1px solid var(--ifm-color-emphasis-800);
+}
+
+.footer__logo {
+  margin-bottom: 1rem;
+  display: block;
+  margin-top: -1rem;
+}
+
+[data-theme='dark'] .footer__logo {
+  content: url('/img/logo_dark.png');
+}
+
+.footer__copyright {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+[data-theme='dark'] .footer__copyright {
+  color: var(--ifm-color-emphasis-400);
+}
+
+.footer__content {
+  max-width: calc(var(--ifm-container-width) * 1.2);
+  margin: 0 auto;
+  padding: 0 var(--ifm-spacing-horizontal);
+}
+
+.footer__links {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.footer__col {
+  flex: 1;
+  max-width: 250px;
+}
+
+.footer__title {
+  font-family: -apple-system, 'SF Pro Display', 'SF Pro', system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.footer__link-item {
+  font-family: -apple-system, 'SF Pro Text', 'SF Pro', system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+}
+
+/* Feature Grid Styles */
+.features-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin: 2rem 0;
+  background: transparent;
+  border-radius: 12px;
+  overflow: hidden;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.feature-item {
+  background: transparent;
+  text-decoration: none;
+  color: var(--ifm-color-primary);
+  position: relative;
+  transition: all 0.3s ease;
+  border: none;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  cursor: pointer;
+}
+
+.feature-item:last-child {
+  border-bottom: none;
+}
+
+.feature-item:hover {
+  text-decoration: none;
+  background: linear-gradient(
+    135deg,
+    rgba(var(--ifm-color-primary-rgb), 0.05) 0%,
+    rgba(var(--ifm-color-primary-rgb), 0.1) 100%
+  );
+}
+
+.feature-header {
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  background: transparent;
+  transition: all 0.3s ease;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-header::after {
+  content: '+';
+  font-size: 1.5rem;
+  color: var(--ifm-color-primary);
+  transition: transform 0.3s ease;
+  line-height: 1;
+  font-weight: 300;
+  pointer-events: none;
+}
+
+.feature-item.active .feature-header::after {
+  transform: rotate(45deg);
+}
+
+.feature-title {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.feature-content {
+  padding: 0 1.5rem;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  background: transparent;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.feature-item.active .feature-content {
+  padding: 0 1.5rem 1.5rem;
+  opacity: 1;
+  visibility: visible;
+  max-height: 1000px;
+  pointer-events: auto;
+}
+
+.feature-description {
+  margin: 0;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 1.1rem;
+  line-height: 1.6;
+  font-weight: 400;
+  opacity: 0.9;
+  display: block;
+}
+
+/* FAQ Container */
+.faq-container {
+  max-width: 800px !important;
+  width: 100%;
+  margin: 2rem auto;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  background: transparent;
+}
+
+.theme-doc-markdown .faq-container {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Details/Summary Styles */
+details {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  background: transparent !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  position: relative;
+}
+
+details:last-child {
+  border-bottom: none !important;
+}
+
+details::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--ifm-color-emphasis-200) 20%,
+    var(--ifm-color-emphasis-200) 80%,
+    transparent
+  );
+}
+
+details[open] {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  outline: none !important;
+}
+
+details[open] summary {
+  border-bottom: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+details summary {
+  padding: 1.5rem !important;
+  cursor: pointer !important;
+  font-size: 1.25rem !important;
+  font-weight: 600 !important;
+  color: var(--ifm-color-emphasis-900) !important;
+  letter-spacing: -0.02em !important;
+  line-height: 1.2 !important;
+  user-select: none !important;
+  position: relative !important;
+  transition: all 0.3s ease !important;
+  list-style: none !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  background: transparent !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* Override Docusaurus focus/active states */
+details summary:focus,
+details summary:focus-visible,
+details summary:active,
+details[open] summary:focus,
+details[open] summary:focus-visible,
+details[open] summary:active {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  color: var(--ifm-color-emphasis-900) !important;
+}
+
+/* Remove the left-side marker completely */
+details summary::-webkit-details-marker,
+details summary::marker,
+details summary::before {
+  display: none !important;
+  color: transparent !important;
+  background: none !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+  opacity: 0 !important;
+}
+
+/* Ensure the right-side arrow is visible */
+details summary::after {
+  content: '+' !important;
+  font-size: 1.5rem !important;
+  color: var(--ifm-color-emphasis-900) !important;
+  transition: transform 0.3s ease !important;
+  line-height: 1 !important;
+  font-weight: 300 !important;
+  display: block !important;
+  margin-left: 1rem !important;
+}
+
+details[open] summary::after {
+  transform: rotate(45deg) !important;
+}
+
+details summary:hover {
+  background: transparent !important;
+}
+
+details > div {
+  padding: 0 1.5rem 1.5rem !important;
+  color: var(--ifm-color-emphasis-700) !important;
+  font-size: 1.1rem !important;
+  line-height: 1.6 !important;
+  font-weight: 400 !important;
+  opacity: 0.9 !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* Override any borders on the content div when open */
+details[open] > div {
+  border: none !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .faq-container {
+    margin: 1rem;
+  }
+
+  details summary {
+    padding: 1.25rem !important;
+    font-size: 1.1rem !important;
+  }
+
+  details > div {
+    padding: 0 1.25rem 1.25rem !important;
+  }
+}
+
+/* Dark mode refinements */
+[data-theme='dark'] details::after {
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--ifm-color-emphasis-800) 20%,
+    var(--ifm-color-emphasis-800) 80%,
+    transparent
+  );
+}
+
+[data-theme='dark'] details summary {
+  color: var(--ifm-color-emphasis-0) !important;
+}
+
+[data-theme='dark'] details summary::after {
+  color: var(--ifm-color-emphasis-0) !important;
+}
+
+[data-theme='dark'] details summary:focus,
+[data-theme='dark'] details summary:focus-visible,
+[data-theme='dark'] details summary:active,
+[data-theme='dark'] details[open] summary:focus,
+[data-theme='dark'] details[open] summary:focus-visible,
+[data-theme='dark'] details[open] summary:active {
+  color: var(--ifm-color-emphasis-0) !important;
+}
+
+/* Getting Started Wrapper */
+.getting-started-wrapper {
+  background: var(--ifm-color-emphasis-100);
+  margin: 4rem auto;
+  padding: 2rem;
+  max-width: 800px;
+  border-radius: 16px;
+}
+
+/* Getting Started Container */
+.getting-started-container {
+  margin: 0;
+  padding: 0;
+  background: var(--ifm-background-color);
+  border: 1px solid rgba(var(--ifm-color-primary-rgb), 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+}
+
+.getting-started-container:hover {
+  background: linear-gradient(
+    135deg,
+    rgba(var(--ifm-color-primary-rgb), 0.05) 0%,
+    rgba(var(--ifm-color-primary-rgb), 0.1) 100%
+  );
+  border-color: rgba(var(--ifm-color-primary-rgb), 0.2);
+}
+
+.getting-started-content {
+  padding: 3rem;
+  flex: 1;
+}
+
+.getting-started-container h2 {
+  margin: 0 0 1rem 0;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.getting-started-container p {
+  margin: 0;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 1.1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  opacity: 0.8;
+  max-width: 600px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .faq-container {
+    margin: 1rem;
+  }
+
+  details summary {
+    padding: 1.25rem !important;
+    font-size: 1.1rem !important;
+  }
+
+  details > div {
+    padding: 0 1.25rem 1.25rem !important;
+  }
+
+  .getting-started-wrapper {
+    margin: 2rem 1rem;
+    padding: 1rem;
+  }
+
+  .getting-started-container {
+    flex-direction: column;
+  }
+
+  .getting-started-content {
+    padding: 2rem;
+  }
+
+  .getting-started-container h2 {
+    font-size: 1.75rem;
+  }
+
+  .getting-started-container p {
+    max-width: 100%;
+  }
+}
+
+/* Dark mode refinements */
+[data-theme='dark'] details {
+  border-bottom-color: var(--ifm-color-emphasis-800) !important;
+}
+
+[data-theme='dark'] details summary {
+  color: var(--ifm-color-emphasis-700) !important;
+}
+
+[data-theme='dark'] details summary::after {
+  color: var(--ifm-color-emphasis-700) !important;
+}
+
+[data-theme='dark'] .getting-started-wrapper {
+  background: var(--ifm-color-emphasis-200);
+}
+
+[data-theme='dark'] .getting-started-container {
+  background: rgba(255, 255, 255, 0.02);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+[data-theme='dark'] .getting-started-container:hover {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.05) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Remove all borders except the bottom border */
+.faq-container details,
+.faq-container details > div,
+.faq-container details[open] > div,
+.theme-doc-markdown details,
+.theme-doc-markdown details > div,
+.theme-doc-markdown details[open] > div {
+  border: none !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+/* Add a gradient bottom border to each FAQ item except the last */
+.faq-container details:not(:last-child) {
+  border-bottom: 1.5px solid transparent !important;
+  background: linear-gradient(to right, transparent 0%, #e5e7eb 20%, #e5e7eb 80%, transparent 100%);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 100% 1.5px;
+}
+
+/* Apple-like spacing */
+.faq-container details > div {
+  padding-bottom: 0rem !important;
+  padding-top: 0rem !important;
+}
+
+.collapsibleContent_node_modules-@docusaurus-theme-common-lib-components-Details-styles-module {
+  padding-top: 0.5rem !important;
+  margin-top: 0 !important;
+}
+
+.faq-container details > div,
+.faq-container details[open] > div,
+details > div,
+details[open] > div {
+  padding-top: 0.5rem !important;
+  margin-top: 0 !important;
+}
+
+.faq-container details summary {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+
+.faq-container details > div {
+  padding-top: 0.75rem !important;
+  padding-bottom: 1.5rem !important;
+}
+
+.faq-container details[open] summary {
+  margin-bottom: 0 !important;
+  padding-bottom: 0.5rem !important;
+}
+
+.faq-container details[open] > div {
+  margin-top: 0 !important;
+  padding-top: 0rem !important;
+}
+
+.faq-container details {
+  margin-bottom: 0rem !important;
+}
+
+.faq-container details:last-child > div {
+  padding-bottom: 0 !important;
 }

@@ -28,16 +28,16 @@ export const actions = [
     text: `What is Torque?`,
   },
   {
-    title: "Governance",
-    icon: BuildingLibraryIcon,
-    to: "./main/overview/vote",
-    text: `Learn about voting`,
-  },
-  {
     title: "Addresses",
     icon: BookOpenIcon,
     to: "./main/contracts/addresses",
     text: `Build on Torque`,
+  },
+  {
+    title: "Brand Kit",
+    icon: BuildingLibraryIcon,
+    to: "./main/resources/assets",
+    text: `Media assets`,
   }
   /*
   {
@@ -56,13 +56,13 @@ export const github = [
   //   icon: CodeBracketIcon,
   // },
   {
-    title: "torque_widget",
-    href: "https://torque.fi",
+    title: "torque_sdk",
+    href: "#",
     icon: CodeBracketIcon,
   },
   {
-    title: "torque_contracts",
-    href: "https://github.com/torquefi/torque_contracts",
+    title: "torque_widget",
+    href: "https://torque.fi",
     icon: CodeBracketIcon,
   },
   // {
@@ -79,14 +79,14 @@ export const Guides = [
     to: "./main/overview/intro",
   },
   {
-    title: "What is Boost?",
-    text: "An overview of Boost",
-    to: "./main/overview/boost",
+    title: "What is fxAMM?",
+    text: "An overview of fxAMM",
+    to: "./main/overview/fxamm",
   },
   {
-    title: "What is Borrow?",
-    text: "An overview of Borrow",
-    to: "./main/overview/borrow",
+    title: "How to provide liquidity?",
+    text: "An overview of engines",
+    to: "./main/overview/engines",
   },
 ];
 

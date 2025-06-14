@@ -41,18 +41,3 @@
 <img src="/img/logo-horizontal-white.png"  width="150px" height="auto" />
 
 - [Download as .png](/img/logo-horizontal-white.png)
-
-### Torque banner #1
-<img src="/img/t-banner.png"  width="500px" height="auto" />
-
-- [Download as .png](/img/t-banner.png)
-
-### Torque banner #2
-<img src="/img/boost-light.png"  width="500px" height="auto" />
-
-- [Download as .png](/img/boost-light.png)
-
-### Torque banner #3
-<img src="/img/borrow-light.png"  width="500px" height="auto" />
-
-- [Download as .png](/img/borrow-light.png)
