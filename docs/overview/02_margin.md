@@ -1,6 +1,6 @@
 # Margin Trading
 
-Torque provides sophisticated margin trading functionality for forex and commodity pairs, enabling traders to maximize their market exposure with up to 100x leverage while benefiting from comprehensive risk management systems, real-time position monitoring, and automated safeguards against market volatility.
+Torque, through the TorqueFX smart contract extension, provides sophisticated margin trading functionality for forex and commodity pairs, enabling traders to maximize their market exposure with up to 100x leverage while benefiting from comprehensive risk management systems, real-time position monitoring, and automated safeguards against market volatility.
 
 <div class="faq-container">
 
