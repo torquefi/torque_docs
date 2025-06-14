@@ -170,7 +170,7 @@ const config = {
               },
               {
                 label: "Addresses",
-                href: "/main/contracts/api",
+                href: "/main/contracts/addresses",
               },
               {
                 label: "Security",
