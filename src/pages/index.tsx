@@ -62,7 +62,7 @@ export const github = [
   },
   {
     title: "torque_widget",
-    href: "https://torque.fi",
+    href: "https://widget.torque.fi",
     icon: CodeBracketIcon,
   },
   // {
