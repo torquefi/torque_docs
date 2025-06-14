@@ -1,5 +1,9 @@
 # Introduction
 
+:::tip
+The new Torque is being rolled out soon. Get a first look at the details below. Much detail is to be added. Please bare with us. Sincerely, Torque Core
+:::
+
 Torque is a next-generation decentralized exchange (DEX) that combines the best features of traditional forex and commodity trading with the power of blockchain technology. Our protocol offers a comprehensive suite of trading tools, risk management features, and innovative financial products.
 
 <div class="faq-container">
