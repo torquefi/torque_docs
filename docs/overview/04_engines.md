@@ -1,6 +1,6 @@
 # Currency Engines
 
-Torque's engines are smart contracts powering the minting and burning of Torque currencies. Each engine is designed to manage a specific currency pair, ensuring stability through a collateralization mechanism, real-time price feeds, and dynamic risk parameters. The engines incorporate cross-chain capabilities, automated market making, and robust security features to maintain protocol integrity and user protection.
+Torque's engines are smart contracts powering the minting and burning of Torque currencies. Each engine is designed to manage a specific currency pair, ensuring stability through a collateralization mechanism, real-time price feeds, and dynamic risk parameters. The engines incorporate cross-chain capabilities and full collateralization to maintain protocol integrity and user protection.
 
 <div class="faq-container">
 
@@ -32,43 +32,26 @@ Reentrancy protection, oracle validation, health checks, liquidation incentives,
 </div>
 </details>
 
+<details>
+<summary>Getting Started</summary>
+<div>
+To begin using Torque's currency engines, first select your desired Torque currency from the supported options. Then, deposit USDC as collateral to mint your chosen Torque tokens. Throughout the process, make sure to monitor your health factor to maintain a safe position. When you're ready to exit, you can redeem your collateral at any time. Remember to check cross-chain gas fees and verify oracle prices before executing transactions.
+</div>
+</details>
+
 </div>
 
 ## Supported Currencies
 
-- TorqueUSD
-- TorqueEUR
-- TorqueGBP
-- TorqueJPY
-- TorqueAUD
-- TorqueCAD
-- TorqueCHF
-- TorqueNZD
-- TorqueXAU
-- TorqueXAG
-
-## Getting Started
-
-1. Choose your desired Torque currency
-2. Deposit collateral (USDC)
-3. Mint Torque tokens
-4. Monitor health factor
-5. Redeem collateral when needed
-
-## Security Features
-
-- Reentrancy protection
-- Oracle price validation
-- Health factor checks
-- Liquidation incentives
-- Emergency pause capability
-- Treasury integration
-
-## Best Practices
-
-- Monitor health factor regularly
-- Maintain sufficient collateral
-- Understand liquidation risks
-- Check cross-chain gas fees
-- Verify oracle prices
-- Use appropriate slippage protection 
+<div class="currency-grid">
+  <a href="#" class="currency-item">TorqueUSD</a>
+  <a href="#" class="currency-item">TorqueEUR</a>
+  <a href="#" class="currency-item">TorqueGBP</a>
+  <a href="#" class="currency-item">TorqueJPY</a>
+  <a href="#" class="currency-item">TorqueAUD</a>
+  <a href="#" class="currency-item">TorqueCAD</a>
+  <a href="#" class="currency-item">TorqueCHF</a>
+  <a href="#" class="currency-item">TorqueNZD</a>
+  <a href="#" class="currency-item">TorqueXAU</a>
+  <a href="#" class="currency-item">TorqueXAG</a>
+</div> 
