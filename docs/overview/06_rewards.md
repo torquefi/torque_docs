@@ -1,6 +1,6 @@
 # Rewards System
 
-Torque implements a rewards system that incentivizes participation through volume bonuses, LP rewards, and ecosystem growth incentives, creating a sustainable token economy that benefits all participants. The system includes reward multipliers and cross-chain reward distribution to maximize benefits while maintaining sustainability.
+Torque implements a rewards system that incentivizes participation through volume bonuses, LP rewards, and ecosystem growth incentives, creating a sustainable token economy that benefits all participants. The system includes reward multipliers and cross-chain reward distribution to ensuring seamless distribution while maintaining protocol sustainability.
 
 <div class="faq-container">
 
