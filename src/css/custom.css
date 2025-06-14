@@ -576,7 +576,6 @@ details[open] > div {
   border-color: rgba(255, 255, 255, 0.2);
 }
 
-/* Remove all borders except the bottom border */
 .faq-container details,
 .faq-container details > div,
 .faq-container details[open] > div,
@@ -592,19 +591,35 @@ details[open] > div {
   background: transparent !important;
 }
 
-/* Add a gradient bottom border to each FAQ item except the last */
-.faq-container details:not(:last-child) {
-  border-bottom: 1.5px solid transparent !important;
-  background: linear-gradient(to right, transparent 0%, #e5e7eb 20%, #e5e7eb 80%, transparent 100%);
-  background-repeat: no-repeat;
-  background-position: bottom left;
-  background-size: 100% 1.5px;
-}
-
 /* Apple-like spacing */
 .faq-container details > div {
-  padding-bottom: 0rem !important;
-  padding-top: 0rem !important;
+  padding: 0 1.5rem 1.5rem !important;
+  margin: 0 !important;
+  color: var(--ifm-color-emphasis-700) !important;
+  font-size: 1.1rem !important;
+  line-height: 1.6 !important;
+  font-weight: 400 !important;
+  opacity: 0.9 !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.faq-container details[open] > div {
+  margin-bottom: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+}
+
+.faq-container details:last-child[open] > div {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* Ensure proper spacing between summary and content */
+.faq-container details[open] summary {
+  margin-bottom: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
 }
 
 .collapsibleContent_node_modules-@docusaurus-theme-common-lib-components-Details-styles-module {
