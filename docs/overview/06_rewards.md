@@ -27,7 +27,7 @@ Invite others to join Torque and earn rewards from their trading activity and pr
 
 <details>
 <summary>Governance</summary>
-<div>
+<div class="faq-reward">
 Participate in protocol governance and earn rewards for active community involvement and voting.
 </div>
 </details>

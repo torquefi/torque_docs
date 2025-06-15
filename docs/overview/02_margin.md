@@ -27,7 +27,7 @@ Real-time charts, order types, and position management tools for professional tr
 
 <details>
 <summary>Cross-Margin</summary>
-<div>
+<div class="faq-reward">
 Efficient margin utilization across multiple positions with shared margin accounts and portfolio margin.
 </div>
 </details>
