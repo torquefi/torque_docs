@@ -45,7 +45,7 @@ Mint and burn Torque currencies with cross-chain support and collateral manageme
 
 <details>
 <summary>What are the Rewards?</summary>
-<div>
+<div class='faq-reward'>
 Earn rewards through trading, liquidity provision, and protocol participation. Users can earn passive income by providing liquidity to pools, receive trading fee rebates, and participate in governance decisions.
 </div>
 </details>
