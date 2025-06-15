@@ -41,7 +41,7 @@ Provide liquidity to any supported pair, earn trading fees and rewards with flex
 
 <details>
   <summary>Getting Started (for Stakers)</summary>
-  <div>
+  <div class="faq-reward">
   Navigate to the Pool interface, select the pair you want to provide liquidity for, enter your contribution amount, and approve and confirm the transaction.
   </div>
 </details>

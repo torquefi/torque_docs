@@ -55,7 +55,7 @@ Regularly monitor your position health using the provided tools and adjust as ne
 
 <details>
 <summary>Getting Started</summary>
-<div>
+<div class="faq-reward">
 Begin by understanding the risk parameters and how they affect your positions. Set up regular monitoring of your position health and establish appropriate limits for your trading strategy. Utilize the available risk management tools and stay informed about protocol updates and market conditions. Follow the best practices to ensure safe and effective trading on the platform.
 </div>
 </details>

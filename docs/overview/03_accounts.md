@@ -27,7 +27,7 @@ Unified view of all positions, balances, and performance metrics across differen
 
 <details>
 <summary>Risk Controls</summary>
-<div>
+<div class="faq-reward">
 Advanced risk management tools including position limits, margin requirements, and automated safeguards.
 </div>
 </details>
