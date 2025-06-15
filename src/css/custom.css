@@ -627,6 +627,11 @@ details[open] > div {
   margin-top: 0 !important;
 }
 
+.collapsibleContent_node_modules-\@docusaurus-theme-common-lib-components-Details-styles-module {
+  border-top: 1px solid transparent !important;
+  border-image: linear-gradient(to right, transparent, var(--ifm-color-emphasis-200) 20%, var(--ifm-color-emphasis-200) 80%, transparent) 1 !important;
+}
+
 .faq-container details > div,
 .faq-container details[open] > div,
 details > div,
@@ -661,6 +666,11 @@ details[open] > div {
 
 .faq-container details:last-child > div {
   padding-bottom: 0 !important;
+}
+
+.faq-reward {
+  padding-bottom: 1.5rem !important;
+  margin-top: 0 !important;
 }
 
 /* Currency Grid */
