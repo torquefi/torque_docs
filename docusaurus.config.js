@@ -77,6 +77,41 @@ const config = {
         href: '/img/apple-touch-icon.png',
       },
     },
+    {
+      tagName: 'meta',
+      attributes: {
+        property: 'og:image',
+        content: '/img/torque.png',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        property: 'og:image:width',
+        content: '1200',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        property: 'og:image:height',
+        content: '630',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'twitter:image',
+        content: '/img/torque.png',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
+    },
   ],
 
   themeConfig:
