@@ -876,3 +876,121 @@ details[open] > div {
   opacity: 0 !important;
   visibility: hidden !important;
 }
+
+/* Use Cases Grid */
+.usecases-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 0;
+  margin: 2rem 0;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.usecase-item {
+  background: transparent;
+  border: none;
+  border-right: 1px solid var(--ifm-color-emphasis-200);
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 0;
+  padding: 2rem;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.usecase-item:nth-child(3n) {
+  border-right: none;
+}
+
+.usecase-item:nth-last-child(-n+3) {
+  border-bottom: none;
+}
+
+.usecase-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(to right, transparent, #aa5bff 50%, transparent);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.usecase-item:hover {
+  background: rgba(170, 91, 255, 0.02);
+  transform: none;
+  box-shadow: none;
+}
+
+.usecase-item:hover::before {
+  opacity: 1;
+}
+
+.usecase-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+  margin: 0 0 1rem 0;
+  letter-spacing: -0.02em;
+  line-height: 1.3;
+}
+
+.usecase-description {
+  font-size: 1rem;
+  color: var(--ifm-color-emphasis-700);
+  line-height: 1.6;
+  margin: 0;
+  opacity: 1;
+  max-height: none;
+  overflow: visible;
+  transition: all 0.3s ease;
+}
+
+[data-theme='dark'] .usecases-grid {
+  border-color: var(--ifm-color-emphasis-800);
+}
+
+[data-theme='dark'] .usecase-item {
+  border-right-color: var(--ifm-color-emphasis-800);
+  border-bottom-color: var(--ifm-color-emphasis-800);
+}
+
+[data-theme='dark'] .usecase-item:hover {
+  background: rgba(170, 91, 255, 0.05);
+}
+
+[data-theme='dark'] .usecase-description {
+  color: var(--ifm-color-emphasis-500);
+}
+
+@media (max-width: 768px) {
+  .usecases-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .usecase-item {
+    border-right: none;
+    padding: 1.5rem;
+    min-height: auto;
+  }
+  
+  .usecase-item:nth-child(3n) {
+    border-right: none;
+  }
+  
+  .usecase-item:nth-last-child(-n+3) {
+    border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  }
+  
+  .usecase-item:last-child {
+    border-bottom: none;
+  }
+}
