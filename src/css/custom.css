@@ -254,6 +254,22 @@ body {
 }
 
 /* FAQ Container */
+.intro-description {
+  width: 100% !important;
+  margin: 2rem auto !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  background: transparent;
+  max-width: 800px !important;
+}
+
+/* Constrain tip alerts to match other content width */
+.theme-doc-markdown .admonition {
+  max-width: 800px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 .faq-container {
   width: 100% !important;
   margin: 2rem 0 !important;
@@ -265,7 +281,9 @@ body {
 .theme-doc-markdown .faq-container {
   padding-left: 0 !important;
   padding-right: 0 !important;
-  max-width: none !important;
+  max-width: 800px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 /* Details/Summary Styles */

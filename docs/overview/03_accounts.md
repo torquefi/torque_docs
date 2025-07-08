@@ -1,6 +1,6 @@
 # Torque Accounts
 
-Torque implements an account system that provides flexible capabilities while maintaining strict risk controls. The system enables users to create multiple specialized accounts for different trading strategies, manage their positions efficiently, and monitor risk exposure in real-time. Each account type features customizable parameters and automated risk management tools.
+Torque Accounts provide flexible capabilities while maintaining strict risk controls. The system enables users to create multiple specialized accounts for different trading strategies, manage their positions efficiently, and monitor risk exposure in real-time. Each account type features customizable parameters.
 
 <div class="faq-container">
 

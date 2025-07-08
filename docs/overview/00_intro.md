@@ -1,10 +1,12 @@
 # Introduction
 
 :::tip
-The new Torque is being rolled out soon. Get a first look at the details below. Much detail is to be added. Please bare with us. Sincerely, Torque Core
+The new Torque is being rolled out soon. Get a first look at the details below.
 :::
 
-Torque is a next-generation decentralized exchange (DEX) that combines the best features of traditional forex and commodity trading with the power of blockchain technology. We offer comprehensive suite of trading tools, automated risk management features, and innovative products such as TorqueFX (margin trading extension), TorqueDEX (fxAMM), and Torque Payments (multi-currency payment system).
+<div class="intro-description">
+Torque is a decentralized exchange that democratizes access to the $7.5 trillion daily forex and commodity markets through blockchain technology. The protocol combines consumer-friendly margin trading (up to 500x leverage), institutional-grade liquidity provision, and a next-generation multi-currency payment system. As we bridge the gap between TradFi and DeFi, Torque captures a massive market opportunity while providing users with unprecedented trading capabilities, risk management tools, and cross-chain interoperability.
+</div>
 
 <div class="faq-container">
 
@@ -25,7 +27,7 @@ Flexible margin and lending accounts with portfolio management and risk controls
 <details>
 <summary>How does Margin Trading work?</summary>
 <div>
-Trade with up to 100x leverage on forex and commodity pairs with advanced risk management tools. Our protocol provides real-time position monitoring, automated liquidation protection, and flexible margin requirements.
+Trade with up to 500x leverage on forex and commodity pairs with advanced risk management tools. Our protocol provides real-time position monitoring, automated liquidation protection, and flexible margin requirements.
 </div>
 </details>
 
@@ -52,8 +54,8 @@ Multi-currency payment system that allows merchants to accept payments in any To
 
 <details>
 <summary>What are the Rewards?</summary>
-<div>
-Flow-based rewards system where TORQ tokens are earned through real economic activity including FX trading (0.25%), payment processing (0.1%), liquidity provision (0.5%), staking (1%), cross-chain operations (0.75%), and referrals (2%). Volume tiers provide multipliers up to 3x.
+<div class="faq-reward">
+Flow-based rewards system where TORQ tokens are earned through real economic activity including FX trading, payment processing, liquidity provision, staking, and referrals. Volume tiers provide multipliers up to 3x.
 </div>
 </details>
 

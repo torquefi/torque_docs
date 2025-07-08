@@ -1,6 +1,6 @@
 # Torque Payments
 
-Torque Payments is a comprehensive, multi-currency payment system that allows merchants to accept payments in any supported Torque currency while receiving settlements in their preferred currency. The system handles currency orchestration seamlessly, providing maximum flexibility for both payers and merchants through cross-chain capabilities and instant settlements.
+Torque Payments is a multi-currency payment system that enables merchants to accept payments in any supported Torque currency while receiving settlements in their preferred currency. The system handles orchestration seamlessly, providing maximum flexibility for both customers and merchants.
 
 <div class="faq-container">
 
@@ -12,9 +12,9 @@ Accept payments in any Torque currency (TUSD, TEUR, TGBP, TJPY, TAUD, TCAD, TCHF
 </details>
 
 <details>
-<summary>Payment Types</summary>
+<summary>Cross-Chain Capabilities</summary>
 <div>
-Support for crypto-to-crypto payments, subscription payments, invoice payments, donations, buy now pay later (BNPL) with flexible installment plans, mass payments for bulk payouts to multiple recipients, and cross-chain payments with instant settlement across different blockchain networks.
+Seamless cross-chain payments using Torque currencies as Omnichain Fungible Tokens (OFTs). No liquidity pools required. Payments work through mint/burn mechanisms ensuring guaranteed success, lower fees, and instant settlement. Support for all major blockchain networks.
 </div>
 </details>
 
@@ -24,6 +24,20 @@ Support for crypto-to-crypto payments, subscription payments, invoice payments, 
 Merchants can set their preferred settlement currency, and the system automatically handles currency conversion. Whether you prefer TUSD, TEUR, or any other Torque currency, payments are processed instantly with your chosen settlement method including instant settlement, batch settlement, or escrow settlement for added security.
 </div>
 </details>
+
+<details>
+<summary>Donations & Creators</summary>
+<div>
+Comprehensive donation system supporting charities, content creators, and open source projects. Features include anonymous donations, custom messages, cause categorization, and cross-chain donations for international organizations. Perfect for charitable giving and creator support with full transparency and traceability.
+</div>
+</details>
+
+<!-- <details>
+<summary>Payment Types</summary>
+<div>
+Support for crypto-to-crypto payments, subscription payments, invoice payments, donations, buy now pay later (BNPL) with flexible installment plans, mass payments for bulk payouts to multiple recipients, and cross-chain payments with instant settlement across different blockchains.
+</div>
+</details> -->
 
 <details>
 <summary>Buy Now, Pay Later</summary>
@@ -40,22 +54,8 @@ Send payments to up to 1,000 recipients simultaneously with efficient batch proc
 </details>
 
 <details>
-<summary>Donations & Creator Support</summary>
-<div>
-Comprehensive donation system supporting charities, content creators, and open source projects. Features include anonymous donations, custom messages, cause categorization, and cross-chain donations for international organizations. Perfect for charitable giving and creator support with full transparency and traceability.
-</div>
-</details>
-
-<details>
-<summary>Cross-Chain Capabilities</summary>
-<div>
-Seamless cross-chain payments using Torque currencies as Omnichain Fungible Tokens (OFTs). No liquidity pools required - payments work through mint/burn mechanisms ensuring guaranteed success, lower fees, and instant settlement. Support for all major blockchain networks with automatic currency validation.
-</div>
-</details>
-
-<details>
 <summary>Getting Started</summary>
-<div>
+<div class="faq-reward">
 Begin by setting up your merchant account and configuring your preferred settlement currency. Create payment requests specifying the amount, currency, and payment type. For merchants, enable the payment types you want to accept including BNPL and mass payments. The system handles all currency conversion and cross-chain transfers automatically.
 </div>
 </details>
