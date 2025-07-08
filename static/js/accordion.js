@@ -13,24 +13,27 @@ document.addEventListener('DOMContentLoaded', function() {
       console.log('Found details elements in container:', details.length);
       
       details.forEach(detail => {
-        // Remove any existing click listeners
-        const newDetail = detail.cloneNode(true);
-        detail.parentNode.replaceChild(newDetail, detail);
-        
-        newDetail.addEventListener('click', function(e) {
-          // Only handle clicks on the summary element
-          if (e.target.tagName === 'SUMMARY') {
+        const summary = detail.querySelector('summary');
+        if (summary) {
+          summary.addEventListener('click', function(e) {
+            // Stop the default behavior
+            e.preventDefault();
+            
             console.log('Summary clicked');
             
-            // Close all other details in the same container
+            // Close all other details
             details.forEach(otherDetail => {
-              if (otherDetail !== newDetail && otherDetail.hasAttribute('open')) {
-                console.log('Closing other detail');
+              if (otherDetail !== detail) {
                 otherDetail.removeAttribute('open');
               }
             });
-          }
-        });
+            
+            // Always open the clicked detail (unless it's already open)
+            if (!detail.hasAttribute('open')) {
+              detail.setAttribute('open', '');
+            }
+          });
+        }
       });
     });
   }

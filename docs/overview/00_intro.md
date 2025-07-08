@@ -1,10 +1,10 @@
 # Introduction
 
 :::tip
-The new Torque is being rolled out soon. Get a first look at the details below. Sincerely, Torque Core
+The new Torque is being rolled out soon. Get a first look at the details below. Much detail is to be added. Please bare with us. Sincerely, Torque Core
 :::
 
-Torque is a next-generation decentralized exchange (DEX) that combines the best features of traditional forex and commodity trading with the power of blockchain technology. Torque offers a comprehensive suite of trading tools, automated risk management features, and innovative products such as TorqueFX (margin trading extension) and the TorqueDEX (fxAMM).
+Torque is a next-generation decentralized exchange (DEX) that combines the best features of traditional forex and commodity trading with the power of blockchain technology. We offer comprehensive suite of trading tools, automated risk management features, and innovative products such as TorqueFX (margin trading extension), TorqueDEX (fxAMM), and Torque Payments (multi-currency payment system).
 
 <div class="faq-container">
 
@@ -44,9 +44,16 @@ Mint and burn Torque currencies with cross-chain support and collateral manageme
 </details>
 
 <details>
+<summary>What is Torque Payments?</summary>
+<div>
+Multi-currency payment system that allows merchants to accept payments in any Torque currency while receiving settlements in their preferred currency. Features include BNPL, mass payments, donations, and cross-chain capabilities with instant settlement.
+</div>
+</details>
+
+<details>
 <summary>What are the Rewards?</summary>
-<div class='faq-reward'>
-Earn rewards through trading, liquidity provision, and protocol participation. Users can earn passive income by providing liquidity to pools, receive trading fee rebates, and participate in governance decisions.
+<div>
+Flow-based rewards system where TORQ tokens are earned through real economic activity including FX trading (0.25%), payment processing (0.1%), liquidity provision (0.5%), staking (1%), cross-chain operations (0.75%), and referrals (2%). Volume tiers provide multipliers up to 3x.
 </div>
 </details>
 

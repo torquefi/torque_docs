@@ -7,29 +7,28 @@ Torque, through the TorqueFX smart contract extension, provides sophisticated ma
 <details>
 <summary>High Leverage</summary>
 <div>
-Trade with up to 100x leverage on major forex pairs and commodities, with flexible position sizing and margin requirements.
+Trade with up to 500x leverage on major forex pairs and commodities.
 </div>
 </details>
 
 <details>
 <summary>Risk Management</summary>
 <div>
-Advanced liquidation protection, position monitoring, and automated risk controls to protect trader positions.
+Take-profit and stop-loss protection and position monitoring to protect trader positions.
 </div>
 </details>
 
 <details>
 <summary>Trading Tools</summary>
 <div>
-Real-time charts, order types, and position management tools for professional trading experience.
+Real-time charts, order types, and position management tools.
 </div>
 </details>
 
 <details>
 <summary>Cross-Margin</summary>
 <div class="faq-reward">
-Efficient margin utilization across multiple positions with shared margin accounts and portfolio margin.
+Efficient margin utilization across multiple positions with shared portfolio margin.
 </div>
 </details>
-
 </div>

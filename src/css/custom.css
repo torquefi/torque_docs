@@ -720,3 +720,141 @@ details[open] > div {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+/* Benefits Grid */
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 0;
+  margin: 2rem 0;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.benefit-item {
+  background: transparent;
+  border: none;
+  border-right: 1px solid var(--ifm-color-emphasis-200);
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 0;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.benefit-item:nth-child(2n) {
+  border-right: none;
+}
+
+.benefit-item:nth-last-child(-n+2) {
+  border-bottom: none;
+}
+
+.benefit-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #aa5bff 50%, transparent);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.benefit-item:hover {
+  background: rgba(170, 91, 255, 0.02);
+  transform: none;
+  box-shadow: none;
+}
+
+.benefit-item:hover::before {
+  opacity: 1;
+}
+
+.benefit-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+  margin: 0 0 0.5rem 0;
+  letter-spacing: -0.02em;
+}
+
+.benefit-description {
+  font-size: 0.95rem;
+  color: var(--ifm-color-emphasis-700);
+  line-height: 1.5;
+  margin: 0;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.benefit-item:hover .benefit-description {
+  opacity: 0.9;
+  max-height: 200px;
+  margin-top: 0.5rem;
+}
+
+[data-theme='dark'] .benefits-grid {
+  border-color: var(--ifm-color-emphasis-800);
+}
+
+[data-theme='dark'] .benefit-item {
+  border-right-color: var(--ifm-color-emphasis-800);
+  border-bottom-color: var(--ifm-color-emphasis-800);
+}
+
+[data-theme='dark'] .benefit-item:hover {
+  background: rgba(170, 91, 255, 0.05);
+}
+
+[data-theme='dark'] .benefit-description {
+  color: var(--ifm-color-emphasis-500);
+}
+
+@media (max-width: 768px) {
+  .benefits-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .benefit-item {
+    border-right: none;
+    padding: 1.25rem;
+  }
+  
+  .benefit-item:nth-child(even) {
+    border-right: none;
+  }
+}
+
+/* CSS-only accordion behavior */
+.faq-container details[open] ~ details {
+  overflow: hidden;
+}
+
+.faq-container details[open] ~ details summary {
+  pointer-events: auto;
+}
+
+.faq-container details[open] ~ details > div {
+  max-height: 0 !important;
+  padding: 0 1.5rem !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
+
+/* Force single open behavior */
+.faq-container details:not([open]) {
+  overflow: hidden;
+}
+
+.faq-container details:not([open]) > div {
+  max-height: 0 !important;
+  padding: 0 1.5rem !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
