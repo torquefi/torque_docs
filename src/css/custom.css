@@ -260,6 +260,11 @@ body {
   padding-left: 0 !important;
   padding-right: 0 !important;
   background: transparent;
+  color: var(--ifm-color-emphasis-700) !important;
+  font-size: 1.1rem !important;
+  line-height: 1.6 !important;
+  font-weight: 400 !important;
+  opacity: 0.9 !important;
 }
 
 /* Constrain tip alerts to match other content width */
