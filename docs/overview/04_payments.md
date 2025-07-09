@@ -1,6 +1,8 @@
 # Torque Payments
 
+<div class="intro-description">
 Torque Payments is a multi-currency payment system that enables merchants to accept payments in any supported Torque currency while receiving settlements in their preferred currency. The system handles orchestration seamlessly, providing maximum flexibility for both customers and merchants.
+</div>
 
 <div class="faq-container">
 

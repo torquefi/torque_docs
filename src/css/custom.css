@@ -260,7 +260,6 @@ body {
   padding-left: 0 !important;
   padding-right: 0 !important;
   background: transparent;
-  max-width: 800px !important;
 }
 
 /* Constrain tip alerts to match other content width */
@@ -650,7 +649,7 @@ details[open] > div {
   border-image: linear-gradient(to right, transparent, var(--ifm-color-emphasis-200) 20%, var(--ifm-color-emphasis-200) 80%, transparent) 1 !important;
 }
 
-.collapsibleContent_i85q{ 
+.collapsibleContent_i85q { 
   border-top: 1px solid transparent !important;
   border-image: linear-gradient(to right, transparent, var(--ifm-color-emphasis-200) 20%, var(--ifm-color-emphasis-200) 80%, transparent) 1 !important;
 }

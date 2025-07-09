@@ -5,7 +5,7 @@ The new Torque is being rolled out soon. Get a first look at the details below.
 :::
 
 <div class="intro-description">
-Torque is a decentralized exchange that democratizes access to the $7.5 trillion daily forex and commodity markets through blockchain technology. The protocol combines consumer-friendly margin trading (up to 500x leverage), institutional-grade liquidity provision, and a next-generation multi-currency payment system. As we bridge the gap between TradFi and DeFi, Torque captures a massive market opportunity while providing users with unprecedented trading capabilities, risk management tools, and cross-chain interoperability.
+Torque is a decentralized exchange that democratizes access to the $7.5 trillion daily forex and commodity markets through blockchain technology. It combines margin trading (up to 500x leverage), institutional-grade liquidity provision, and a next-generation multi-currency payment system. As we bridge the gap between TradFi and DeFi, Torque captures a massive market opportunity providing users with unprecedented capabilities, risk management tools, and cross-chain interoperability.
 </div>
 
 <div class="faq-container">
