@@ -531,7 +531,7 @@ details[open] > div {
   }
 
   details summary {
-    padding: 1.25rem !important;
+    padding: 1.25rem 1.25rem 1.25rem 0 !important;
     font-size: 1.1rem !important;
   }
 
