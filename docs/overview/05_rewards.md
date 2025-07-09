@@ -35,16 +35,16 @@ Earn 0.75% of cross-chain volume for bridging assets across different blockchain
 </details>
 
 <details>
-<summary>Referral Rewards</summary>
+<summary>Volume Bonus Rewards</summary>
 <div>
-Earn 2% of referred users' activity when you bring new participants to Torque. This creates organic growth through user networks and rewards community building. Referral rewards apply to all activities including trading, payments, and liquidity provision.
+High-volume users receive a 0.05% bonus on total volume across all activities. This rewards power users who drive the most value to the ecosystem and encourages continued engagement with the platform.
 </div>
 </details>
 
 <details>
-<summary>Volume Bonus Rewards</summary>
+<summary>Affiliate Rewards</summary>
 <div>
-High-volume users receive a 0.05% bonus on total volume across all activities. This rewards power users who drive the most value to the ecosystem and encourages continued engagement with the platform.
+Earn 2% of referred users' activity when you bring new participants to Torque. This creates organic growth through user networks and rewards community building. Referral rewards apply to all activities including trading, payments, and liquidity provision.
 </div>
 </details>
 
@@ -56,7 +56,7 @@ Progress through volume-based tiers that provide multipliers on all rewards: Bro
 </details>
 
 <details>
-<summary>Activity Scoring System</summary>
+<summary>Activity Scoring</summary>
 <div>
 Build an Activity Score (0-1000) based on engagement: liquidity provision (+15), cross-chain operations (+12), FX trading (+10), staking (+8), payment processing (+5), and referrals (+3). Higher scores provide bonus rewards: 800+ (0.5%), 600+ (0.3%), 400+ (0.15%), 200+ (0.05%). Scores decay over time to encourage consistent engagement.
 </div>
