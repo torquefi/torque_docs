@@ -1,7 +1,7 @@
 # Torque Rewards
 
 <div class="intro-description">
-Torque implements a flow-based rewards system that creates natural value loops where TORQ tokens are earned through real economic activity rather than artificial incentives. This makes TORQ a byproduct of useful actions, not a speculative asset, ensuring sustainable tokenomics and long-term ecosystem growth.
+Torque implements a rewards system that creates natural value loops where TORQ is earned through real economic activity rather than artificial incentives. This makes TORQ a byproduct of useful actions, not a speculative asset, ensuring sustainable tokenomics and long-term ecosystem growth. Staking rewards are distributed based on protocol activity. 
 </div>
 
 <div class="faq-container">
@@ -24,13 +24,6 @@ Earn 0.1% of payment volume in TORQ for processing payments through TorquePaymen
 <summary>Liquidity Provision Rewards</summary>
 <div>
 Earn 0.5% of your provided liquidity in TORQ tokens. Liquidity providers directly enable the ecosystem and receive the highest activity score points (+15), making this one of the most valuable ways to contribute to and earn from the Torque protocol.
-</div>
-</details>
-
-<details>
-<summary>Staking Rewards</summary>
-<div>
-Earn 1% of your staked TORQ amount (scaled by lock duration) for participating in governance. Staking aligns your interests with protocol success and provides voting power in important protocol decisions while earning additional rewards.
 </div>
 </details>
 
@@ -71,7 +64,7 @@ Build an Activity Score (0-1000) based on engagement: liquidity provision (+15),
 
 <details>
 <summary>Getting Started</summary>
-<div>
+<div class="faq-reward">
 Begin with FX trading to earn your first TORQ tokens and build volume toward Silver tier for 25% bonus rewards. Diversify your activity by trying payments, liquidity provision, and staking to maximize your activity score. Engage consistently to maintain high scores and refer friends to earn 2% of their activity.
 </div>
 </details>
@@ -85,7 +78,6 @@ Begin with FX trading to earn your first TORQ tokens and build volume toward Sil
 | **FX Trading** | 0.25% of volume | +10 points | Core ecosystem activity |
 | **Payment Processing** | 0.1% of volume | +5 points | Utility-based rewards |
 | **Liquidity Provision** | 0.5% of liquidity | +15 points | Highest value activity |
-| **Staking** | 1% of staked amount | +8 points | Governance participation |
 | **Cross-Chain** | 0.75% of volume | +12 points | Ecosystem expansion |
 | **Referrals** | 2% of referred activity | +3 points | Organic growth |
 | **Volume Bonus** | 0.05% bonus | - | Power user rewards |
