@@ -280,7 +280,6 @@ body {
 .theme-doc-markdown .faq-container {
   padding-left: 0 !important;
   padding-right: 0 !important;
-  max-width: 800px !important;
   margin-left: auto !important;
   margin-right: auto !important;
 }
@@ -332,7 +331,7 @@ details[open] summary {
 }
 
 details summary {
-  padding: 1.5rem !important;
+  padding: 1.5rem 1.5rem 1.5rem 0 !important;
   cursor: pointer !important;
   font-size: 1.25rem !important;
   font-weight: 600 !important;
