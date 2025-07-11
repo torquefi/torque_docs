@@ -91,12 +91,3 @@ Begin with FX trading to earn your first TORQ tokens and build volume toward Sil
 | **Gold** | $100k+ | 1.5x | 50% bonus on all rewards |
 | **Platinum** | $1M+ | 2.0x | 100% bonus on all rewards |
 | **Diamond** | $10M+ | 3.0x | 200% bonus on all rewards |
-
-## Key Features
-
-- **Natural Value Loops**: Rewards feel automatic, not forced
-- **Sustainable Tokenomics**: Fixed rates prevent inflation
-- **Network Effects**: Referrals and tiers create competitive dynamics
-- **Long-term Alignment**: Activity decay encourages consistent usage
-- **Gas-efficient**: Batch reward distribution and optimized calculations
-- **Comprehensive Tracking**: Full event logging and analytics
