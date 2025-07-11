@@ -66,6 +66,11 @@ const config = {
       async: false,
       defer: false,
     },
+    {
+      src: 'https://cloud.umami.is/script.js',
+      'data-website-id': 'ec08eaa3-d7ae-4f98-99ab-b86a8b4a4639',
+      defer: true,
+    },
   ],
 
   // Add Apple touch icon and other meta tags
