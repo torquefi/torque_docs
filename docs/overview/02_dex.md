@@ -1,7 +1,7 @@
 # Torque Exchange
 
 <div class="intro-description">
-Torque is a next-generation automated market maker (AMM) for forex and commodity trading. It provides stable pools and secondary market price discovery for major currency pairs and commodities, leveraging real-time data to ensure optimal conditions. The protocol incorporates cross-chain capabilities powered by LayerZero.
+Torque is an automated market maker for forex and commodity trading. It provides stable pools and secondary market price discovery for major currency pairs and commodities, leveraging real-time data to ensure optimal conditions. The protocol incorporates cross-chain capabilities powered by LayerZero.
 </div>
 
 <div class="faq-container">
