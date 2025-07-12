@@ -1,7 +1,7 @@
 # Torque Rewards
 
 <div class="intro-description">
-Torque implements a rewards system that creates natural value loops where TORQ is earned through real economic activity rather than artificial incentives. This makes TORQ a byproduct of useful actions, not a speculative asset, ensuring sustainable tokenomics and long-term ecosystem growth. Staking rewards are distributed based on protocol activity. 
+Torque implements a rewards system that creates natural value loops where TORQ is earned through real economic activity. This makes TORQ a byproduct of useful actions, ensuring sustainable tokenomics and long-term ecosystem growth. Staking rewards are distributed based on protocol activity. 
 </div>
 
 <div class="faq-container">
