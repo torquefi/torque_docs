@@ -188,7 +188,6 @@ Torque is to be deployed across multiple blockchain networks to provide maximum 
 | Arbitrum | `0x...` |
 | BSC | `0x...` |
 | Base | `0x...` |
-| Abstract | `0x...` |
 
 **Price Feeds:**
 
@@ -198,7 +197,6 @@ Torque is to be deployed across multiple blockchain networks to provide maximum 
 | Arbitrum | `0x20bae7e1De9c596f5F7615aeaa1342Ba99294e12` |
 | BSC | `0xF37Be32598E9851f785acA86c2162e7C1A8466dd` |
 | Base | `0x35e9D7001819Ea3B39Da906aE6b06A62cfe2c181` |
-| Abstract | `0x...` |
 
 ### Wrapped Ether (WETH)
 
@@ -206,7 +204,7 @@ Torque is to be deployed across multiple blockchain networks to provide maximum 
 
 | Network | Address |
 |---------|---------|
-| Ethereum | `0x...` |
+| Ethereum | `0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2` |
 | Abstract | `0x3439153EB7AF838Ad19d56E1571FBD09333C2809` |
 
 **Price Feeds:**
@@ -248,6 +246,20 @@ Torque is to be deployed across multiple blockchain networks to provide maximum 
 | Ethereum | `0x...` |
 | Base | `0x...` |
 
+### Mantle ETH (mETH)
+
+**Contract Addresses:**
+
+| Network | Address |
+|---------|---------|
+| Mantle | `0x...` |
+
+**Price Feeds:**
+
+| Network | Address |
+|---------|---------|
+| Mantle | `0x...` |
+
 ## BTC Derivatives
 
 ### Wrapped Bitcoin (WBTC)
@@ -282,36 +294,6 @@ Torque is to be deployed across multiple blockchain networks to provide maximum 
 | Ethereum | `0x...` |
 | Base | `0x...` |
 
-## Other Assets
-
-### Chainlink (LINK)
-
-**Contract Addresses:**
-
-| Network | Address |
-|---------|---------|
-| Ethereum | `0x514910771AF9Ca656af840dff83E8264EcF986CA` |
-
-**Price Feeds:**
-
-| Network | Address |
-|---------|---------|
-| Ethereum | `0x2c1d072e956AFFC0D435Cb7AC38EF18d24d9127c` |
-
-### Mantle ETH (mETH)
-
-**Contract Addresses:**
-
-| Network | Address |
-|---------|---------|
-| Mantle | `0x...` |
-
-**Price Feeds:**
-
-| Network | Address |
-|---------|---------|
-| Mantle | `0x...` |
-
 ### Babylon BTC (stBTC)
 
 **Contract Addresses:**
@@ -339,6 +321,22 @@ Torque is to be deployed across multiple blockchain networks to provide maximum 
 | Network | Address |
 |---------|---------|
 | Cornchain | `0x...` |
+
+## Other Assets
+
+### Chainlink (LINK)
+
+**Contract Addresses:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0x514910771AF9Ca656af840dff83E8264EcF986CA` |
+
+**Price Feeds:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0x2c1d072e956AFFC0D435Cb7AC38EF18d24d9127c` |
 
 ## Deployment Status
 
