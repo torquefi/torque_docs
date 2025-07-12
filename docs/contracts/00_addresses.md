@@ -38,8 +38,8 @@ Torque is to be deployed across multiple blockchain networks to provide maximum 
 
 ## Testnet Deployments
 
-| Contract | Sepolia | Arbitrum Sepolia | Optimism Sepolia | Polygon Mumbai | Base Goerli |
-|----------|---------|------------------|------------------|----------------|-------------|
+| Contract | Sepolia | Arbitrum Sep... | Optimism Sep... | Polygon Mum... | Base Goer... |
+|----------|---------|----------------|----------------|---------------|-------------|
 | TorqueFX | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
 | TorqueRouter | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
 | TorqueDEX | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
@@ -68,7 +68,7 @@ Torque is to be deployed across multiple blockchain networks to provide maximum 
 | TorqueXAU | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
 | TorqueXAG | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
 
-# Collateral Tokens
+## Collateral Tokens
 
 ## Stablecoins
 
@@ -324,6 +324,34 @@ Torque is to be deployed across multiple blockchain networks to provide maximum 
 
 ## Other Assets
 
+### Aave (AAVE)
+
+**Contract Addresses:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9` |
+
+**Price Feeds:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0xbd7F896e60B650C01caf2d7279a1148189A68884` |
+
+### Compound (COMP)
+
+**Contract Addresses:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0xc00e94Cb662C3520282E6f5717214004A7f26888` |
+
+**Price Feeds:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0xdbd020CAeF83eFd542f4De03e3cF0C28A4428bd5` |
+
 ### Chainlink (LINK)
 
 **Contract Addresses:**
@@ -331,9 +359,23 @@ Torque is to be deployed across multiple blockchain networks to provide maximum 
 | Network | Address |
 |---------|---------|
 | Ethereum | `0x514910771AF9Ca656af840dff83E8264EcF986CA` |
+| Arbitrum | `0xf97f4df75117a78c1A5a0DBb814Af92458539FB4` |
+| Avalanche | `0x5947BB275c521040051D82396192181b413227A3` |
+| Base | `0x88Fb150BDc53A65fe94Dea0c9BA0a6dAf8C6e196` |
+| BSC | `0x404460C6A5EdE2D891e8297795264fDe62ADBB75` |
+| Optimism | `0x350a791Bfc2C21F9Ed5d10980Dad2e2638ffa7f6` |
+| Polygon | `0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39` |
+| Sonic | `0x71052BAe71C25C78E37fD12E5ff1101A71d9018F` |
 
 **Price Feeds:**
 
 | Network | Address |
 |---------|---------|
 | Ethereum | `0x2c1d072e956AFFC0D435Cb7AC38EF18d24d9127c` |
+| Arbitrum | `0x86E53CF1B870786351Da77A57575e79CB55812CB` |
+| Avalanche | `0x49ccd9ca821EfEab2b98c60dC60F518E765EDe9a` |
+| Base | `0x17CAb8FE31E32f08326e5E27412894e49B0f9D65` |
+| BSC | `0xca236E327F629f9Fc2c30A4E95775EbF0B89fac8` |
+| Optimism | `0xCc232dcFAAE6354cE191Bd574108c1aD03f86450` |
+| Polygon | `0xd9FFdb71EbE7496cC440152d43986Aae0AB76665` |
+| Sonic | `0x26e450ca14D7bF598C89f212010c691434486119` |
