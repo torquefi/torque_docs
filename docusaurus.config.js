@@ -191,15 +191,19 @@ const config = {
             title: "Features",
             items: [
               {
-                label: "Risk Management",
-                href: "/main/overview/risk",
-              },
-              {
-                label: "Currency Engines",
+                label: "Engines",
                 href: "/main/overview/engines",
               },
               {
-                label: "Rewards System",
+                label: "Exchange",
+                href: "/main/overview/dex",
+              },
+              {
+                label: "Payments",
+                href: "/main/overview/payments",
+              },
+              {
+                label: "Rewards",
                 href: "/main/overview/rewards",
               },
             ],
@@ -213,7 +217,7 @@ const config = {
               },
               {
                 label: "Interfaces",
-                href: "/main/overview/intro",
+                href: "/main/resources/interfaces",
               },
               {
                 label: "Addresses",
