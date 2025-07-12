@@ -178,6 +178,38 @@ Torque is to be deployed across multiple blockchain networks to provide maximum 
 
 ## ETH Derivatives
 
+### Wrapped Ether (WETH)
+
+**Contract Addresses:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2` |
+| Abstract | `0x3439153EB7AF838Ad19d56E1571FBD09333C2809` |
+
+**Price Feeds:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419` |
+| Abstract | `0x...` |
+
+### Coinbase ETH (cbETH)
+
+**Contract Addresses:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0x...` |
+| Base | `0x...` |
+
+**Price Feeds:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0x...` |
+| Base | `0x...` |
+
 ### Ether.fi ETH (weETH)
 
 **Contract Addresses:**
@@ -198,21 +230,19 @@ Torque is to be deployed across multiple blockchain networks to provide maximum 
 | BSC | `0xF37Be32598E9851f785acA86c2162e7C1A8466dd` |
 | Base | `0x35e9D7001819Ea3B39Da906aE6b06A62cfe2c181` |
 
-### Wrapped Ether (WETH)
+### Mantle ETH (mETH)
 
 **Contract Addresses:**
 
 | Network | Address |
 |---------|---------|
-| Ethereum | `0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2` |
-| Abstract | `0x3439153EB7AF838Ad19d56E1571FBD09333C2809` |
+| Mantle | `0x...` |
 
 **Price Feeds:**
 
 | Network | Address |
 |---------|---------|
-| Ethereum | `0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419` |
-| Abstract | `0x...` |
+| Mantle | `0x...` |
 
 ### Lido ETH (stETH)
 
@@ -229,36 +259,6 @@ Torque is to be deployed across multiple blockchain networks to provide maximum 
 |---------|---------|
 | Ethereum | `0x...` |
 | Arbitrum | `0x...` |
-
-### Coinbase ETH (cbETH)
-
-**Contract Addresses:**
-
-| Network | Address |
-|---------|---------|
-| Ethereum | `0x...` |
-| Base | `0x...` |
-
-**Price Feeds:**
-
-| Network | Address |
-|---------|---------|
-| Ethereum | `0x...` |
-| Base | `0x...` |
-
-### Mantle ETH (mETH)
-
-**Contract Addresses:**
-
-| Network | Address |
-|---------|---------|
-| Mantle | `0x...` |
-
-**Price Feeds:**
-
-| Network | Address |
-|---------|---------|
-| Mantle | `0x...` |
 
 ## BTC Derivatives
 
