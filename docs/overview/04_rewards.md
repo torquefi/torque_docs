@@ -58,7 +58,7 @@ Progress through volume-based tiers that provide multipliers on all rewards: Bro
 <details>
 <summary>Activity Scoring</summary>
 <div>
-Build an Activity Score (0-1000) based on engagement: liquidity provision (+15), cross-chain operations (+12), FX trading (+10), staking (+8), payment processing (+5), and referrals (+3). Higher scores provide bonus rewards: 800+ (0.5%), 600+ (0.3%), 400+ (0.15%), 200+ (0.05%). Scores decay over time to encourage consistent engagement.
+Build an Activity Score (0-1000) based on engagement: liquidity provision (+15), cross-chain operations (+12), FX trading (+10), staking (+8), payment processing (+5), and referrals (+3). Higher scores provide bonus rewards: 800+ (0.5%), 600+ (0.3%), 400+ (0.15%), 200+ (0.05%). Scores decay over time to encourage engagement.
 </div>
 </details>
 
