@@ -37,7 +37,7 @@ Reentrancy protection, oracle validation, health checks, liquidation incentives,
 <details>
 <summary>Getting Started</summary>
 <div class="faq-reward">
-To begin using Torque's currency engines, first select your desired Torque currency from the supported options. Then, deposit USDC as collateral to mint your chosen Torque tokens. Throughout the process, make sure to monitor your health factor to maintain a safe position. When you're ready to exit, you can redeem your collateral at any time. Remember to check cross-chain gas fees and verify oracle prices before executing transactions.
+To begin using Torque's currency engines, first select your desired Torque currency from the supported options. Then, deposit collateral to mint your chosen Torque tokens. Throughout the process, make sure to monitor your health factor to maintain a safe position. When you're ready to exit, you can redeem your collateral at any time. Remember to check cross-chain gas fees and verify oracle prices before executing transactions.
 </div>
 </details>
 
