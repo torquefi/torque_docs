@@ -1,6 +1,8 @@
-# Contract Addresses
+# Addresses
 
+<div class="intro-description">
 Torque is deployed across multiple blockchain networks to provide maximum accessibility and cross-chain interoperability. This page provides comprehensive information about all contract addresses, deployment status, and network configurations.
+</div>
 
 ## Supported Networks
 
@@ -334,13 +336,13 @@ Torque supports various collateral tokens across different networks for minting 
 | Coinbase Ether | cbETH | Ethereum, Base | Chainlink |
 | Wrapped Ether | WETH | Ethereum, Abstract | Chainlink |
 | Wrapped Bitcoin | WBTC | Ethereum, Base | Chainlink |
+| Chainlink | LINK | Ethereum | Chainlink |
 | Ether.fi ETH | weETH | Ethereum, Arbitrum, BSC, Base | Chainlink |
 | Kelp DAO ETH | rsETH | Ethereum | Chainlink |
 | Lido ETH | stETH | Ethereum, Arbitrum | Chainlink |
 | Mantle ETH | mETH | Mantle | Chainlink |
 | Babylon BTC | stBTC | Babylon | Chainlink |
 | Corn BTC | vBTC | Cornchain | Chainlink |
-| Chainlink | LINK | Ethereum | Chainlink |
 
 ## Deployment Status
 
@@ -350,35 +352,6 @@ Torque supports various collateral tokens across different networks for minting 
 - 🟡 **Testing** - Contracts are deployed on testnet for testing
 - 🔴 **Paused** - Contracts are deployed but paused for maintenance
 
-### Current Status
-All networks are currently in **🔄 Pending** status. Deployment will begin with mainnet networks followed by testnet networks for comprehensive testing.
-
-## Cross-Chain Integration
-
-Torque leverages LayerZero for seamless cross-chain operations:
-
-- **Omnichain Fungible Tokens (OFTs)** - Torque currencies can be minted and burned across all supported networks
-- **Unified Liquidity** - Liquidity pools are interconnected across networks
-- **Cross-Chain Trading** - Trade positions can be opened on one network and closed on another
-- **Unified Rewards** - TORQ rewards are earned across all networks and can be claimed on any network
-
-## Network Selection
-
-When choosing a network for your Torque operations, consider:
-
-- **Gas Fees** - Layer 2 networks typically have lower transaction costs
-- **Speed** - Some networks offer faster transaction confirmation
-- **Liquidity** - Check which networks have the most active trading volume
-- **Token Availability** - Ensure your preferred collateral tokens are available on the network
-
-## Getting Started
-
-1. **Choose a Network** - Select from the supported networks above
-2. **Connect Wallet** - Ensure your wallet supports the chosen network
-3. **Add Network** - Add the network to your wallet if not already supported
-4. **Get Test Tokens** - For testnet networks, obtain test tokens from faucets
-5. **Start Trading** - Begin trading once contracts are deployed and live
-
 ---
 
-*Contract addresses will be updated as deployments progress. Follow our [announcements](https://blog.torque.fi) for the latest deployment updates.*
+*Contract addresses will be updated as deployments progress. Follow our [announcements](https://x.com/torquefi) for the latest deployment updates.*
