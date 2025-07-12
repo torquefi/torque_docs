@@ -96,7 +96,7 @@ body {
   --ifm-footer-link-color: var(--ifm-color-emphasis-500);
   --ifm-footer-link-hover-color: var(--ifm-color-primary);
   --ifm-footer-title-color: var(--ifm-color-emphasis-100);
-  border-top: 1px solid var(--ifm-color-emphasis-800);
+  border-top: 1px solid #404040;
 }
 
 .footer__logo {
@@ -448,8 +448,8 @@ details[open] > div {
   background: linear-gradient(
     to right,
     transparent,
-    var(--ifm-color-emphasis-800) 20%,
-    var(--ifm-color-emphasis-800) 80%,
+    #404040 20%,
+    #404040 80%,
     transparent
   );
 }
@@ -727,7 +727,7 @@ details[open] > div {
 }
 
 [data-theme='dark'] .currency-item {
-  border-color: var(--ifm-color-emphasis-800);
+  border-color: #404040;
   color: var(--ifm-color-emphasis-0) !important;
 }
 
@@ -821,12 +821,12 @@ details[open] > div {
 }
 
 [data-theme='dark'] .benefits-grid {
-  border-color: var(--ifm-color-emphasis-800);
+  border-color: #404040;
 }
 
 [data-theme='dark'] .benefit-item {
-  border-right-color: var(--ifm-color-emphasis-800);
-  border-bottom-color: var(--ifm-color-emphasis-800);
+  border-right-color: #404040;
+  border-bottom-color: #404040;
 }
 
 [data-theme='dark'] .benefit-item:hover {
@@ -958,12 +958,12 @@ details[open] > div {
 }
 
 [data-theme='dark'] .usecases-grid {
-  border-color: var(--ifm-color-emphasis-800);
+  border-color: #404040;
 }
 
 [data-theme='dark'] .usecase-item {
-  border-right-color: var(--ifm-color-emphasis-800);
-  border-bottom-color: var(--ifm-color-emphasis-800);
+  border-right-color: #404040;
+  border-bottom-color: #404040;
 }
 
 [data-theme='dark'] .usecase-item:hover {
@@ -997,3 +997,90 @@ details[open] > div {
     border-bottom: none;
   }
 }
+
+/* Navigation Button Styles */
+.pagination-nav,
+.pagination-nav__link,
+.pagination-nav__item {
+  border-color: var(--ifm-color-emphasis-200);
+  transition: border-color 0.3s ease;
+}
+
+.pagination-nav:hover,
+.pagination-nav__link:hover,
+.pagination-nav__item:hover {
+  border-color: var(--ifm-color-emphasis-400);
+}
+
+[data-theme='dark'] .pagination-nav,
+[data-theme='dark'] .pagination-nav__link,
+[data-theme='dark'] .pagination-nav__item {
+  border-color: #404040;
+}
+
+[data-theme='dark'] .pagination-nav:hover,
+[data-theme='dark'] .pagination-nav__link:hover,
+[data-theme='dark'] .pagination-nav__item:hover {
+  border-color: var(--ifm-color-emphasis-600);
+}
+
+/* Alternative navigation classes that might be used */
+.theme-doc-pagination,
+.theme-doc-pagination-nav,
+.theme-doc-pagination-nav__link,
+.theme-doc-pagination-nav__item {
+  border-color: var(--ifm-color-emphasis-200);
+  transition: border-color 0.3s ease;
+}
+
+.theme-doc-pagination:hover,
+.theme-doc-pagination-nav:hover,
+.theme-doc-pagination-nav__link:hover,
+.theme-doc-pagination-nav__item:hover {
+  border-color: var(--ifm-color-emphasis-400);
+}
+
+[data-theme='dark'] .theme-doc-pagination,
+[data-theme='dark'] .theme-doc-pagination-nav,
+[data-theme='dark'] .theme-doc-pagination-nav__link,
+[data-theme='dark'] .theme-doc-pagination-nav__item {
+  border-color: #404040;
+}
+
+[data-theme='dark'] .theme-doc-pagination:hover,
+[data-theme='dark'] .theme-doc-pagination-nav:hover,
+[data-theme='dark'] .theme-doc-pagination-nav__link:hover,
+[data-theme='dark'] .theme-doc-pagination-nav__item:hover {
+  border-color: var(--ifm-color-emphasis-600);
+}
+
+/* Generic navigation link borders */
+a[class*="pagination"],
+a[class*="nav"],
+.nav-link,
+.navigation-link {
+  border-color: var(--ifm-color-emphasis-200);
+  transition: border-color 0.3s ease;
+}
+
+a[class*="pagination"]:hover,
+a[class*="nav"]:hover,
+.nav-link:hover,
+.navigation-link:hover {
+  border-color: var(--ifm-color-emphasis-400);
+}
+
+[data-theme='dark'] a[class*="pagination"],
+[data-theme='dark'] a[class*="nav"],
+[data-theme='dark'] .nav-link,
+[data-theme='dark'] .navigation-link {
+  border-color: #404040;
+}
+
+[data-theme='dark'] a[class*="pagination"]:hover,
+[data-theme='dark'] a[class*="nav"]:hover,
+[data-theme='dark'] .nav-link:hover,
+[data-theme='dark'] .navigation-link:hover {
+  border-color: var(--ifm-color-emphasis-600);
+}
+
