@@ -115,7 +115,7 @@ Torque is to be deployed across multiple blockchain networks to provide maximum 
 | Avalanche | `0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7` |
 | Sonic | `0x6047828dc181963ba44974801FF68e538dA5eaF9` |
 | Abstract | `0x0709F39376dEEe2A2dfC94A58EdEb2Eb9DF012bD` |
-| Optimism | `0x...` |
+| Optimism | `0x94b008aA00579c1307B0EF2c499aD98a8ce58e58` |
 
 **Price Feeds:**
 
