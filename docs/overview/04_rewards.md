@@ -7,49 +7,49 @@ Torque implements a rewards system that creates natural value loops where TORQ i
 <div class="faq-container">
 
 <details>
-<summary>FX Trading Rewards</summary>
+<summary>FX Trading</summary>
 <div>
 Earn 0.25% of trade volume in TORQ tokens for every FX trade you make. Trading is the core use case of Torque, making these rewards feel organic and natural. As you build volume, you'll qualify for tier multipliers that boost all your rewards across the ecosystem.
 </div>
 </details>
 
 <details>
-<summary>Payment Processing Rewards</summary>
+<summary>Payment Processing</summary>
 <div>
 Earn 0.1% of payment volume in TORQ for processing payments through TorquePayments. Whether you're making crypto-to-crypto payments, donations, or using BNPL services, you'll earn rewards for every transaction processed through the Torque ecosystem.
 </div>
 </details>
 
 <details>
-<summary>Liquidity Provision Rewards</summary>
+<summary>Liquidity Provision</summary>
 <div>
 Earn 0.5% of your provided liquidity in TORQ tokens. Liquidity providers directly enable the ecosystem and receive the highest activity score points (+15), making this one of the most valuable ways to contribute to and earn from the Torque protocol.
 </div>
 </details>
 
 <details>
-<summary>Cross-Chain Rewards</summary>
+<summary>Cross-Chain</summary>
 <div>
 Earn 0.75% of cross-chain volume for bridging assets across different blockchain networks. Cross-chain operations are essential for ecosystem expansion and receive high activity score points (+12) for their strategic importance.
 </div>
 </details>
 
 <details>
-<summary>Volume Bonus Rewards</summary>
+<summary>Volume Bonus</summary>
 <div>
 High-volume users receive a 0.05% bonus on total volume across all activities. This rewards power users who drive the most value to the ecosystem and encourages continued engagement with the platform.
 </div>
 </details>
 
 <details>
-<summary>Affiliate Rewards</summary>
+<summary>Affiliates</summary>
 <div>
 Earn 2% of referred users' activity when you bring new participants to Torque. This creates organic growth through user networks and rewards community building. Referral rewards apply to all activities including trading, payments, and liquidity provision.
 </div>
 </details>
 
 <details>
-<summary>Volume Tiers & Multipliers</summary>
+<summary>Multipliers</summary>
 <div>
 Progress through volume-based tiers that provide multipliers on all rewards: Bronze (1.0x), Silver (1.25x at $10k+), Gold (1.5x at $100k+), Platinum (2.0x at $1M+), and Diamond (3.0x at $10M+). Higher tiers provide significant bonuses on all reward categories.
 </div>
