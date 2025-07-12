@@ -1,357 +1,348 @@
 # Addresses
 
 <div class="intro-description">
-Torque is deployed across multiple blockchain networks to provide maximum accessibility and cross-chain interoperability. This page provides comprehensive information about all contract addresses, deployment status, and network configurations.
+Torque is to be deployed across multiple blockchain networks to provide maximum accessibility and cross-chain interoperability. This page provides comprehensive information about all contract addresses, deployment status, and network configurations. Addresses will be updated as deployments progress.
 </div>
 
-## Supported Networks
+## Mainnet Deployments
 
-### Mainnet Networks
-
-| Network | Chain ID | Status | LayerZero Endpoint |
-|---------|----------|--------|-------------------|
-| Ethereum | 1 | 🔄 Pending | `0x1a44076050125825900e736c501f859c50fE728c` |
-| Arbitrum One | 42161 | 🔄 Pending | `0x1a44076050125825900e736c501f859c50fE728c` |
-| Optimism | 10 | 🔄 Pending | `0x1a44076050125825900e736c501f859c50fE728c` |
-| Polygon | 137 | 🔄 Pending | `0x1a44076050125825900e736c501f859c50fE728c` |
-| Base | 8453 | 🔄 Pending | `0x1a44076050125825900e736c501f859c50fE728c` |
-| BNB Smart Chain | 56 | 🔄 Pending | `0x1a44076050125825900e736c501f859c50fE728c` |
-| Avalanche C-Chain | 43114 | 🔄 Pending | `0x1a44076050125825900e736c501f859c50fE728c` |
-| Sonic | 146 | 🔄 Pending | `0x6F475642a6e85809B1c36Fa62763669b1b48DD5B` |
-| Abstract | 2741 | 🔄 Pending | `0x5c6cfF4b7C49805F8295Ff73C204ac83f3bC4AE7` |
-| HyperEVM | 999 | 🔄 Pending | `0x3A73033C0b1407574C76BdBAc67f126f6b4a9AA9` |
-| Fraxtal | 252 | 🔄 Pending | `0x1a44076050125825900e736c501f859c50fE728c` |
-
-### Testnet Networks
-
-| Network | Chain ID | Status | LayerZero Endpoint |
-|---------|----------|--------|-------------------|
-| Sepolia | 11155111 | 🔄 Pending | `0x6EDCE65403992e310A62460808c4b910D972f10f` |
-| Arbitrum Sepolia | 421614 | 🔄 Pending | `0x6EDCE65403992e310A62460808c4b910D972f10f` |
-| Optimism Sepolia | 11155420 | 🔄 Pending | `0x6EDCE65403992e310A62460808c4b910D972f10f` |
-| Polygon Mumbai | 80001 | 🔄 Pending | `0x6EDCE65403992e310A62460808c4b910D972f10f` |
-| Base Goerli | 84531 | 🔄 Pending | `0x6EDCE65403992e310A62460808c4b910D972f10f` |
-
-## Core Contracts
-
-### Mainnet Deployments
-
-<div class="faq-container">
-
-<details>
-<summary>Ethereum (Chain ID: 1)</summary>
-<div>
-**Status:** 🔄 Pending Deployment
-
-**Core Contracts:**
-- TorqueFX: `[Unique Ethereum Address]`
-- TorqueRouter: `[Unique Ethereum Address]`
-- TorqueDEX: `[Unique Ethereum Address]`
-- TorqueLP: `[Unique Ethereum Address]`
-- TorqueRewards: `[Unique Ethereum Address]`
-- TorqueStake: `[Unique Ethereum Address]`
-- TorqueBatchMinter: `[Unique Ethereum Address]`
-- EntryPoint: `[Unique Ethereum Address]`
-
-**Currency Engines:**
-- TorqueUSDEngine: `[Unique Ethereum Address]`
-- TorqueEUREngine: `[Unique Ethereum Address]`
-- TorqueGBPEngine: `[Unique Ethereum Address]`
-- TorqueJPYEngine: `[Unique Ethereum Address]`
-- TorqueAUDEngine: `[Unique Ethereum Address]`
-- TorqueCADEngine: `[Unique Ethereum Address]`
-- TorqueCHFEngine: `[Unique Ethereum Address]`
-- TorqueNZDEngine: `[Unique Ethereum Address]`
-- TorqueXAUEngine: `[Unique Ethereum Address]`
-- TorqueXAGEngine: `[Unique Ethereum Address]`
-
-**Currency Tokens:**
-- TorqueUSD: `[Unique Ethereum Address]`
-- TorqueEUR: `[Unique Ethereum Address]`
-- TorqueGBP: `[Unique Ethereum Address]`
-- TorqueJPY: `[Unique Ethereum Address]`
-- TorqueAUD: `[Unique Ethereum Address]`
-- TorqueCAD: `[Unique Ethereum Address]`
-- TorqueCHF: `[Unique Ethereum Address]`
-- TorqueNZD: `[Unique Ethereum Address]`
-- TorqueXAU: `[Unique Ethereum Address]`
-- TorqueXAG: `[Unique Ethereum Address]`
-
-</div>
-</details>
-
-<details>
-<summary>Arbitrum One (Chain ID: 42161)</summary>
-<div>
-**Status:** 🔄 Pending Deployment
-
-**Core Contracts:**
-- TorqueFX: `[Unique Arbitrum Address]`
-- TorqueRouter: `[Unique Arbitrum Address]`
-- TorqueDEX: `[Unique Arbitrum Address]`
-- TorqueLP: `[Unique Arbitrum Address]`
-- TorqueRewards: `[Unique Arbitrum Address]`
-- TorqueStake: `[Unique Arbitrum Address]`
-- TorqueBatchMinter: `[Unique Arbitrum Address]`
-- EntryPoint: `[Unique Arbitrum Address]`
-
-**Currency Engines:**
-- TorqueUSDEngine: `[Unique Arbitrum Address]`
-- TorqueEUREngine: `[Unique Arbitrum Address]`
-- TorqueGBPEngine: `[Unique Arbitrum Address]`
-- TorqueJPYEngine: `[Unique Arbitrum Address]`
-- TorqueAUDEngine: `[Unique Arbitrum Address]`
-- TorqueCADEngine: `[Unique Arbitrum Address]`
-- TorqueCHFEngine: `[Unique Arbitrum Address]`
-- TorqueNZDEngine: `[Unique Arbitrum Address]`
-- TorqueXAUEngine: `[Unique Arbitrum Address]`
-- TorqueXAGEngine: `[Unique Arbitrum Address]`
-
-**Currency Tokens:**
-- TorqueUSD: `[Unique Arbitrum Address]`
-- TorqueEUR: `[Unique Arbitrum Address]`
-- TorqueGBP: `[Unique Arbitrum Address]`
-- TorqueJPY: `[Unique Arbitrum Address]`
-- TorqueAUD: `[Unique Arbitrum Address]`
-- TorqueCAD: `[Unique Arbitrum Address]`
-- TorqueCHF: `[Unique Arbitrum Address]`
-- TorqueNZD: `[Unique Arbitrum Address]`
-- TorqueXAU: `[Unique Arbitrum Address]`
-- TorqueXAG: `[Unique Arbitrum Address]`
-
-</div>
-</details>
-
-<details>
-<summary>Optimism (Chain ID: 10)</summary>
-<div>
-**Status:** 🔄 Pending Deployment
-
-**Core Contracts:**
-- TorqueFX: `[Unique Optimism Address]`
-- TorqueRouter: `[Unique Optimism Address]`
-- TorqueDEX: `[Unique Optimism Address]`
-- TorqueLP: `[Unique Optimism Address]`
-- TorqueRewards: `[Unique Optimism Address]`
-- TorqueStake: `[Unique Optimism Address]`
-- TorqueBatchMinter: `[Unique Optimism Address]`
-- EntryPoint: `[Unique Optimism Address]`
-
-**Currency Engines:**
-- TorqueUSDEngine: `[Unique Optimism Address]`
-- TorqueEUREngine: `[Unique Optimism Address]`
-- TorqueGBPEngine: `[Unique Optimism Address]`
-- TorqueJPYEngine: `[Unique Optimism Address]`
-- TorqueAUDEngine: `[Unique Optimism Address]`
-- TorqueCADEngine: `[Unique Optimism Address]`
-- TorqueCHFEngine: `[Unique Optimism Address]`
-- TorqueNZDEngine: `[Unique Optimism Address]`
-- TorqueXAUEngine: `[Unique Optimism Address]`
-- TorqueXAGEngine: `[Unique Optimism Address]`
-
-**Currency Tokens:**
-- TorqueUSD: `[Unique Optimism Address]`
-- TorqueEUR: `[Unique Optimism Address]`
-- TorqueGBP: `[Unique Optimism Address]`
-- TorqueJPY: `[Unique Optimism Address]`
-- TorqueAUD: `[Unique Optimism Address]`
-- TorqueCAD: `[Unique Optimism Address]`
-- TorqueCHF: `[Unique Optimism Address]`
-- TorqueNZD: `[Unique Optimism Address]`
-- TorqueXAU: `[Unique Optimism Address]`
-- TorqueXAG: `[Unique Optimism Address]`
-
-</div>
-</details>
-
-<details>
-<summary>Polygon (Chain ID: 137)</summary>
-<div>
-**Status:** 🔄 Pending Deployment
-
-**Core Contracts:**
-- TorqueFX: `[Unique Polygon Address]`
-- TorqueRouter: `[Unique Polygon Address]`
-- TorqueDEX: `[Unique Polygon Address]`
-- TorqueLP: `[Unique Polygon Address]`
-- TorqueRewards: `[Unique Polygon Address]`
-- TorqueStake: `[Unique Polygon Address]`
-- TorqueBatchMinter: `[Unique Polygon Address]`
-- EntryPoint: `[Unique Polygon Address]`
-
-**Currency Engines:**
-- TorqueUSDEngine: `[Unique Polygon Address]`
-- TorqueEUREngine: `[Unique Polygon Address]`
-- TorqueGBPEngine: `[Unique Polygon Address]`
-- TorqueJPYEngine: `[Unique Polygon Address]`
-- TorqueAUDEngine: `[Unique Polygon Address]`
-- TorqueCADEngine: `[Unique Polygon Address]`
-- TorqueCHFEngine: `[Unique Polygon Address]`
-- TorqueNZDEngine: `[Unique Polygon Address]`
-- TorqueXAUEngine: `[Unique Polygon Address]`
-- TorqueXAGEngine: `[Unique Polygon Address]`
-
-**Currency Tokens:**
-- TorqueUSD: `[Unique Polygon Address]`
-- TorqueEUR: `[Unique Polygon Address]`
-- TorqueGBP: `[Unique Polygon Address]`
-- TorqueJPY: `[Unique Polygon Address]`
-- TorqueAUD: `[Unique Polygon Address]`
-- TorqueCAD: `[Unique Polygon Address]`
-- TorqueCHF: `[Unique Polygon Address]`
-- TorqueNZD: `[Unique Polygon Address]`
-- TorqueXAU: `[Unique Polygon Address]`
-- TorqueXAG: `[Unique Polygon Address]`
-
-</div>
-</details>
-
-<details>
-<summary>Base (Chain ID: 8453)</summary>
-<div>
-**Status:** 🔄 Pending Deployment
-
-**Core Contracts:**
-- TorqueFX: `[Unique Base Address]`
-- TorqueRouter: `[Unique Base Address]`
-- TorqueDEX: `[Unique Base Address]`
-- TorqueLP: `[Unique Base Address]`
-- TorqueRewards: `[Unique Base Address]`
-- TorqueStake: `[Unique Base Address]`
-- TorqueBatchMinter: `[Unique Base Address]`
-- EntryPoint: `[Unique Base Address]`
-
-**Currency Engines:**
-- TorqueUSDEngine: `[Unique Base Address]`
-- TorqueEUREngine: `[Unique Base Address]`
-- TorqueGBPEngine: `[Unique Base Address]`
-- TorqueJPYEngine: `[Unique Base Address]`
-- TorqueAUDEngine: `[Unique Base Address]`
-- TorqueCADEngine: `[Unique Base Address]`
-- TorqueCHFEngine: `[Unique Base Address]`
-- TorqueNZDEngine: `[Unique Base Address]`
-- TorqueXAUEngine: `[Unique Base Address]`
-- TorqueXAGEngine: `[Unique Base Address]`
-
-**Currency Tokens:**
-- TorqueUSD: `[Unique Base Address]`
-- TorqueEUR: `[Unique Base Address]`
-- TorqueGBP: `[Unique Base Address]`
-- TorqueJPY: `[Unique Base Address]`
-- TorqueAUD: `[Unique Base Address]`
-- TorqueCAD: `[Unique Base Address]`
-- TorqueCHF: `[Unique Base Address]`
-- TorqueNZD: `[Unique Base Address]`
-- TorqueXAU: `[Unique Base Address]`
-- TorqueXAG: `[Unique Base Address]`
-
-</div>
-</details>
-
-<details>
-<summary>Other Mainnet Networks</summary>
-<div class="faq-reward">
-**BNB Smart Chain (Chain ID: 56)** - 🔄 Pending Deployment
-- All contracts will have unique BSC addresses
-
-**Avalanche C-Chain (Chain ID: 43114)** - 🔄 Pending Deployment  
-- All contracts will have unique Avalanche addresses
-
-**Sonic (Chain ID: 146)** - 🔄 Pending Deployment
-- All contracts will have unique Sonic addresses
-
-**Abstract (Chain ID: 2741)** - 🔄 Pending Deployment
-- All contracts will have unique Abstract addresses
-
-**HyperEVM (Chain ID: 999)** - 🔄 Pending Deployment
-- All contracts will have unique HyperEVM addresses
-
-**Fraxtal (Chain ID: 252)** - 🔄 Pending Deployment
-- All contracts will have unique Fraxtal addresses
-
-Each network will have completely unique contract addresses for all Torque contracts.
-</div>
-</details>
-
-</div>
+| Contract | Ethereum | Arbitrum | Optimism | Polygon | Base | BSC | Avalanche | Sonic | Abstract | HyperEVM | Fraxtal |
+|----------|----------|----------|----------|---------|------|-----|-----------|-------|----------|----------|---------|
+| TorqueFX | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueRouter | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueDEX | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueLP | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueRewards | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueStake | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueBatchMinter | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueUSDEngine | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueEUREngine | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueGBPEngine | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueJPYEngine | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueAUDEngine | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueCADEngine | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueCHFEngine | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueNZDEngine | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueXAUEngine | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueXAGEngine | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueUSD | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueEUR | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueGBP | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueJPY | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueAUD | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueCAD | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueCHF | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueNZD | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueXAU | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueXAG | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
 
 ## Testnet Deployments
 
-<div class="faq-container">
+| Contract | Sepolia | Arbitrum Sepolia | Optimism Sepolia | Polygon Mumbai | Base Goerli |
+|----------|---------|------------------|------------------|----------------|-------------|
+| TorqueFX | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueRouter | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueDEX | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueLP | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueRewards | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueStake | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueBatchMinter | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueUSDEngine | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueEUREngine | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueGBPEngine | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueJPYEngine | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueAUDEngine | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueCADEngine | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueCHFEngine | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueNZDEngine | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueXAUEngine | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueXAGEngine | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueUSD | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueEUR | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueGBP | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueJPY | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueAUD | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueCAD | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueCHF | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueNZD | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueXAU | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
+| TorqueXAG | `0x...` | `0x...` | `0x...` | `0x...` | `0x...` |
 
-<details>
-<summary>Sepolia (Chain ID: 11155111)</summary>
-<div>
-**Status:** 🔄 Pending Deployment
+# Collateral Tokens
 
-**Core Contracts:**
-- TorqueFX: `[Unique Sepolia Address]`
-- TorqueRouter: `[Unique Sepolia Address]`
-- TorqueDEX: `[Unique Sepolia Address]`
-- TorqueLP: `[Unique Sepolia Address]`
-- TorqueRewards: `[Unique Sepolia Address]`
-- TorqueStake: `[Unique Sepolia Address]`
-- TorqueBatchMinter: `[Unique Sepolia Address]`
-- EntryPoint: `[Unique Sepolia Address]`
+## Stablecoins
 
-**Currency Engines & Tokens:** Same structure as mainnet with unique Sepolia addresses
-</div>
-</details>
+### USD Coin (USDC)
 
-<details>
-<summary>Other Testnet Networks</summary>
-<div class="faq-reward">
-**Arbitrum Sepolia (Chain ID: 421614)** - 🔄 Pending Deployment
-- All contracts will have unique Arbitrum Sepolia addresses
+**Contract Addresses:**
 
-**Optimism Sepolia (Chain ID: 11155420)** - 🔄 Pending Deployment
-- All contracts will have unique Optimism Sepolia addresses
+| Network | Address |
+|---------|---------|
+| Ethereum | `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48` |
+| Arbitrum | `0xaf88d065e77c8cC2239327C5EDb3A432268e5831` |
+| Optimism | `0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85` |
+| Polygon | `0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359` |
+| Base | `0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913` |
+| BSC | `0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d` |
+| Avalanche | `0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E` |
+| Sonic | `0x29219dd400f2Bf60E5a23d13Be72B486D4038894` |
+| Abstract | `0x84A71ccD554Cc1b02749b35d22F684CC8ec987e1` |
 
-**Polygon Mumbai (Chain ID: 80001)** - 🔄 Pending Deployment
-- All contracts will have unique Polygon Mumbai addresses
+**Price Feeds:**
 
-**Base Goerli (Chain ID: 84531)** - 🔄 Pending Deployment
-- All contracts will have unique Base Goerli addresses
+| Network | Address |
+|---------|---------|
+| Ethereum | `0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6` |
+| Arbitrum | `0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3` |
+| Optimism | `0x16a9FA2FDa030272Ce99B29CF780dFA30361E0f3` |
+| Polygon | `0xfE4A8cc5b5B2366C1B58Bea3858e81843581b2F7` |
+| Base | `0xd30e2101a97dcbAeBCBC04F14C3f624E67A35165` |
+| BSC | `0x90c069C4538adAc136E051052E14c1cD799C41B7` |
+| Avalanche | `0x97FE42a7E96640D932bbc0e1580c73E705A8EB73` |
+| Sonic | `0x55bCa887199d5520B3Ce285D41e6dC10C08716C9` |
+| Abstract | `0x...` |
 
-Each testnet network will have completely unique contract addresses for comprehensive testing.
-</div>
-</details>
+### Tether (USDT)
 
-</div>
+**Contract Addresses:**
 
-## Collateral Tokens
+| Network | Address |
+|---------|---------|
+| Ethereum | `0xdAC17F958D2ee523a2206206994597C13D831ec7` |
+| Arbitrum | `0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9` |
+| Polygon | `0xc2132D05D31c914a87C6611C10748AEb04B58e8F` |
+| Base | `0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2` |
+| Avalanche | `0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7` |
+| Sonic | `0x6047828dc181963ba44974801FF68e538dA5eaF9` |
+| Abstract | `0x0709F39376dEEe2A2dfC94A58EdEb2Eb9DF012bD` |
+| Optimism | `0x...` |
 
-Torque supports various collateral tokens across different networks for minting Torque currencies:
+**Price Feeds:**
 
-### Supported Collateral
+| Network | Address |
+|---------|---------|
+| Ethereum | `0x3E7d1eAB13ad0104d2750B8863b489D65364e32D` |
+| Arbitrum | `0x3f3f5dF88dC9F13eac63DF89EC16ef6e7E25DdE7` |
+| Polygon | `0x0A6513e40db6EB1b165753AD52E80663aeA50545` |
+| Base | `0xf19d560eB8d2ADf07BD6D13ed03e1D11215721F9` |
+| Avalanche | `0xEBE676ee90Fe1112671f19b6B7459bC678B67e8a` |
+| Sonic | `0x76F4C040A792aFB7F6dBadC7e30ca3EEa140D216` |
+| Abstract | `0x...` |
+| Optimism | `0xECef79E109e997bCA29c1c0897ec9d7b03647F5E` |
 
-| Token | Symbol | Networks | Price Feed |
-|-------|--------|----------|------------|
-| USD Coin | USDC | Ethereum, Arbitrum, Optimism, Polygon, Avalanche, Base, Sonic, Abstract | Chainlink |
-| Tether | USDT | Ethereum, Arbitrum, Polygon, Avalanche, Base, Sonic, Abstract | Chainlink |
-| Sky USD | USDS | Ethereum, Arbitrum, Base | Chainlink |
-| PayPal USD | PYUSD | Ethereum | Chainlink |
-| Wyoming Stable | WYST | Wyoming | Chainlink |
-| Coinbase Bitcoin | cbBTC | Ethereum, Base | Chainlink |
-| Coinbase Ether | cbETH | Ethereum, Base | Chainlink |
-| Wrapped Ether | WETH | Ethereum, Abstract | Chainlink |
-| Wrapped Bitcoin | WBTC | Ethereum, Base | Chainlink |
-| Chainlink | LINK | Ethereum | Chainlink |
-| Ether.fi ETH | weETH | Ethereum, Arbitrum, BSC, Base | Chainlink |
-| Kelp DAO ETH | rsETH | Ethereum | Chainlink |
-| Lido ETH | stETH | Ethereum, Arbitrum | Chainlink |
-| Mantle ETH | mETH | Mantle | Chainlink |
-| Babylon BTC | stBTC | Babylon | Chainlink |
-| Corn BTC | vBTC | Cornchain | Chainlink |
+### Sky USD (USDS)
+
+**Contract Addresses:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0xdC035D45d973E3EC169d2276DDab16f1e407384F` |
+| Arbitrum | `0x6491c05A82219b8D1479057361ff1654749b876b` |
+| Base | `0x820C137fa70C8691f0e44Dc420a5e53c168921Dc` |
+
+**Price Feeds:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0xfF30586cD0F29eD462364C7e81375FC0C71219b1` |
+| Arbitrum | `0x37833E5b3fbbEd4D613a3e0C354eF91A42B81eeB` |
+| Base | `0x2330aaE3bca5F05169d5f4597964D44522F62930` |
+
+### PayPal USD (PYUSD)
+
+**Contract Addresses:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0x6c3ea9036406852006290770BEdFcAbA0e23A0e8` |
+
+**Price Feeds:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0x8f1dF6D7F2db73eECE86a18b4381F4707b918FB1` |
+
+### Wyoming Stable (WYST)
+
+**Contract Addresses:**
+
+| Network | Address |
+|---------|---------|
+| Wyoming | `0x...` |
+
+**Price Feeds:**
+
+| Network | Address |
+|---------|---------|
+| Wyoming | `0x...` |
+
+## ETH Derivatives
+
+### Ether.fi ETH (weETH)
+
+**Contract Addresses:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0x...` |
+| Arbitrum | `0x...` |
+| BSC | `0x...` |
+| Base | `0x...` |
+| Abstract | `0x...` |
+
+**Price Feeds:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0x...` |
+| Arbitrum | `0x20bae7e1De9c596f5F7615aeaa1342Ba99294e12` |
+| BSC | `0xF37Be32598E9851f785acA86c2162e7C1A8466dd` |
+| Base | `0x35e9D7001819Ea3B39Da906aE6b06A62cfe2c181` |
+| Abstract | `0x...` |
+
+### Wrapped Ether (WETH)
+
+**Contract Addresses:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0x...` |
+| Abstract | `0x3439153EB7AF838Ad19d56E1571FBD09333C2809` |
+
+**Price Feeds:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419` |
+| Abstract | `0x...` |
+
+### Lido ETH (stETH)
+
+**Contract Addresses:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0x...` |
+| Arbitrum | `0x...` |
+
+**Price Feeds:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0x...` |
+| Arbitrum | `0x...` |
+
+### Coinbase ETH (cbETH)
+
+**Contract Addresses:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0x...` |
+| Base | `0x...` |
+
+**Price Feeds:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0x...` |
+| Base | `0x...` |
+
+## BTC Derivatives
+
+### Wrapped Bitcoin (WBTC)
+
+**Contract Addresses:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0x...` |
+| Base | `0x...` |
+
+**Price Feeds:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0x...` |
+| Base | `0x...` |
+
+### Coinbase Bitcoin (cbBTC)
+
+**Contract Addresses:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0x...` |
+| Base | `0x...` |
+
+**Price Feeds:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0x...` |
+| Base | `0x...` |
+
+## Other Assets
+
+### Chainlink (LINK)
+
+**Contract Addresses:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0x514910771AF9Ca656af840dff83E8264EcF986CA` |
+
+**Price Feeds:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0x2c1d072e956AFFC0D435Cb7AC38EF18d24d9127c` |
+
+### Mantle ETH (mETH)
+
+**Contract Addresses:**
+
+| Network | Address |
+|---------|---------|
+| Mantle | `0x...` |
+
+**Price Feeds:**
+
+| Network | Address |
+|---------|---------|
+| Mantle | `0x...` |
+
+### Babylon BTC (stBTC)
+
+**Contract Addresses:**
+
+| Network | Address |
+|---------|---------|
+| Babylon | `0x...` |
+
+**Price Feeds:**
+
+| Network | Address |
+|---------|---------|
+| Babylon | `0x...` |
+
+### Corn BTC (vBTC)
+
+**Contract Addresses:**
+
+| Network | Address |
+|---------|---------|
+| Cornchain | `0x...` |
+
+**Price Feeds:**
+
+| Network | Address |
+|---------|---------|
+| Cornchain | `0x...` |
 
 ## Deployment Status
 
-### Status Legend
-- 🟢 **Deployed** - Contracts are live and functional
-- 🔄 **Pending** - Contracts are planned but not yet deployed
-- 🟡 **Testing** - Contracts are deployed on testnet for testing
+- 🟢 **Live** - Contracts are deployed and fully operational
+- 🟡 **Testing** - Contracts are deployed and under testing
+- 🔄 **Pending** - Contracts are scheduled for deployment
 - 🔴 **Paused** - Contracts are deployed but paused for maintenance
-
----
-
-*Contract addresses will be updated as deployments progress. Follow our [announcements](https://x.com/torquefi) for the latest deployment updates.*
