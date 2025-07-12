@@ -18,13 +18,6 @@ Deep liquidity pools for major forex pairs and commodities with efficient price 
 </details>
 
 <details>
-<summary>What is the Account System?</summary>
-<div>
-Flexible margin and lending accounts with portfolio management and risk controls. Users can create multiple accounts for different trading strategies, manage their positions efficiently, and monitor their risk exposure in real-time.
-</div>
-</details>
-
-<details>
 <summary>How does Margin Trading work?</summary>
 <div>
 Trade with up to 500x leverage on forex and commodity pairs with advanced risk management tools. Our protocol provides real-time position monitoring, automated liquidation protection, and flexible margin requirements.
@@ -65,7 +58,7 @@ Flow-based rewards system where TORQ tokens are earned through real economic act
 <div class="getting-started-container">
 <div class="getting-started-content">
 <h2>Getting Started</h2>
-<p>Ready to start trading on Torque? Follow our quick start guide to set up your account, fund your wallet, and begin trading. Our protocol is designed to be intuitive and user-friendly, making it easy for both beginners and experienced traders to get started.</p>
+<p>Ready to start trading on Torque? Follow our quick start guide to fund your wallet and begin trading. Our protocol is designed to be intuitive and user-friendly, making it easy for both beginners and experienced traders to get started.</p>
 </div>
 </div>
 </div> -->

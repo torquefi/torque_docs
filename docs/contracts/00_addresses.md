@@ -22,13 +22,6 @@
 | TorqueGateway | `0x...`      | `0x...`           |
 | TorqueMerchant | `0x...`  | `0x...`           |
 | TorqueRewards    | `0x...`          | `0x...`           |
-| TorqueAccount    | `0x...`          | `0x...`           |
-| TorqueAccountFactory | `0x...`      | `0x...`           |
-| TorqueAccountBundler | `0x...`      | `0x...`           |
-| TorqueAccountRecovery | `0x...`    | `0x...`           |
-| TorqueAccountUpgrade | `0x...`      | `0x...`           |
-| TorqueAccountGasOptimizer | `0x...` | `0x...`           |
-| TorqueAccountCrossChain | `0x...`  | `0x...`           |
 | EntryPoint       | `0x...`          | `0x...`           |
 | TorqueUSDEngine  | `0x...`          | `0x...`           |
 | TorqueEUREngine  | `0x...`          | `0x...`           |

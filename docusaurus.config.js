@@ -191,10 +191,6 @@ const config = {
             title: "Features",
             items: [
               {
-                label: "Account System",
-                href: "/main/overview/accounts",
-              },
-              {
                 label: "Risk Management",
                 href: "/main/overview/risk",
               },

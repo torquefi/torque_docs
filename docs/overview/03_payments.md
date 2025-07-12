@@ -58,7 +58,7 @@ Send payments to up to 1,000 recipients simultaneously with efficient batch proc
 <details>
 <summary>Getting Started</summary>
 <div class="faq-reward">
-Begin by setting up your merchant account and configuring your preferred settlement currency. Create payment requests specifying the amount, currency, and payment type. For merchants, enable the payment types you want to accept including BNPL and mass payments. The system handles all currency conversion and cross-chain transfers automatically.
+Begin by configuring your preferred settlement currency. Create payment requests specifying the amount, currency, and payment type. For merchants, enable the payment types you want to accept including BNPL and mass payments. The system handles all currency conversion and cross-chain transfers automatically.
 </div>
 </details>
 
