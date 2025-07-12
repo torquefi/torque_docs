@@ -337,10 +337,3 @@ Torque is to be deployed across multiple blockchain networks to provide maximum 
 | Network | Address |
 |---------|---------|
 | Ethereum | `0x2c1d072e956AFFC0D435Cb7AC38EF18d24d9127c` |
-
-## Deployment Status
-
-- 🟢 **Live** - Contracts are deployed and fully operational
-- 🟡 **Testing** - Contracts are deployed and under testing
-- 🔄 **Pending** - Contracts are scheduled for deployment
-- 🔴 **Paused** - Contracts are deployed but paused for maintenance
