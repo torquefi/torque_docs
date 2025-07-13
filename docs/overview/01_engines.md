@@ -46,14 +46,14 @@ To begin using Torque's currency engines, first select your desired Torque curre
 ## Supported Currencies
 
 <div class="currency-grid">
-  <a href="https://www.torque.fi/mint?expanded=torque+usd" class="currency-item">TorqueUSD</a>
-  <a href="https://www.torque.fi/mint?expanded=torque+eur" class="currency-item">TorqueEUR</a>
-  <a href="https://www.torque.fi/mint?expanded=torque+gbp" class="currency-item">TorqueGBP</a>
-  <a href="https://www.torque.fi/mint?expanded=torque+jpy" class="currency-item">TorqueJPY</a>
-  <a href="https://www.torque.fi/mint?expanded=torque+aud" class="currency-item">TorqueAUD</a>
-  <a href="https://www.torque.fi/mint?expanded=torque+cad" class="currency-item">TorqueCAD</a>
-  <a href="https://www.torque.fi/mint?expanded=torque+chf" class="currency-item">TorqueCHF</a>
-  <a href="https://www.torque.fi/mint?expanded=torque+nzd" class="currency-item">TorqueNZD</a>
-  <a href="https://www.torque.fi/mint?expanded=torque+xau" class="currency-item">TorqueXAU</a>
-  <a href="https://www.torque.fi/mint?expanded=torque+xag" class="currency-item">TorqueXAG</a>
+  <a href="https://www.torque.fi/mint?expanded=torque+usd" class="currency-item">Torque USD</a>
+  <a href="https://www.torque.fi/mint?expanded=torque+eur" class="currency-item">Torque EUR</a>
+  <a href="https://www.torque.fi/mint?expanded=torque+gbp" class="currency-item">Torque GBP</a>
+  <a href="https://www.torque.fi/mint?expanded=torque+jpy" class="currency-item">Torque JPY</a>
+  <a href="https://www.torque.fi/mint?expanded=torque+aud" class="currency-item">Torque AUD</a>
+  <a href="https://www.torque.fi/mint?expanded=torque+cad" class="currency-item">Torque CAD</a>
+  <a href="https://www.torque.fi/mint?expanded=torque+chf" class="currency-item">Torque CHF</a>
+  <a href="https://www.torque.fi/mint?expanded=torque+nzd" class="currency-item">Torque NZD</a>
+  <a href="https://www.torque.fi/mint?expanded=torque+xau" class="currency-item">Torque XAU</a>
+  <a href="https://www.torque.fi/mint?expanded=torque+xag" class="currency-item">Torque XAG</a>
 </div> 

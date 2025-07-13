@@ -67,16 +67,16 @@ Begin by configuring your preferred settlement currency. Create payment requests
 ## Supported Currencies
 
 <div class="currency-grid">
-  <a href="#" class="currency-item">TUSD</a>
-  <a href="#" class="currency-item">TEUR</a>
-  <a href="#" class="currency-item">TGBP</a>
-  <a href="#" class="currency-item">TJPY</a>
-  <a href="#" class="currency-item">TAUD</a>
-  <a href="#" class="currency-item">TCAD</a>
-  <a href="#" class="currency-item">TCHF</a>
-  <a href="#" class="currency-item">TNZD</a>
-  <a href="#" class="currency-item">TXAU</a>
-  <a href="#" class="currency-item">TXAG</a>
+  <a href="https://www.torque.fi/mint?expanded=torque+usd" class="currency-item">Torque USD</a>
+  <a href="https://www.torque.fi/mint?expanded=torque+eur" class="currency-item">Torque EUR</a>
+  <a href="https://www.torque.fi/mint?expanded=torque+gbp" class="currency-item">Torque GBP</a>
+  <a href="https://www.torque.fi/mint?expanded=torque+jpy" class="currency-item">Torque JPY</a>
+  <a href="https://www.torque.fi/mint?expanded=torque+aud" class="currency-item">Torque AUD</a>
+  <a href="https://www.torque.fi/mint?expanded=torque+cad" class="currency-item">Torque CAD</a>
+  <a href="https://www.torque.fi/mint?expanded=torque+chf" class="currency-item">Torque CHF</a>
+  <a href="https://www.torque.fi/mint?expanded=torque+nzd" class="currency-item">Torque NZD</a>
+  <a href="https://www.torque.fi/mint?expanded=torque+xau" class="currency-item">Torque XAU</a>
+  <a href="https://www.torque.fi/mint?expanded=torque+xag" class="currency-item">Torque XAG</a>
 </div>
 
 ## Key Benefits
