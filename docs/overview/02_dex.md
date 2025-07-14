@@ -47,19 +47,4 @@ Take-profit and stop-loss protection with position monitoring to protect trader 
 Efficient margin utilization across multiple positions with shared portfolio margin for optimal capital efficiency.
 </div>
 </details>
-
-<details>
-  <summary>Getting Started (for Traders)</summary>
-  <div>
-  To start trading, simply open the Torque app, choose your desired trading pair, and enter the amount to complete your transaction.
-  </div>
-</details>
-
-<details>
-  <summary>Getting Started (for Stakers)</summary>
-  <div class="faq-reward">
-  Navigate to the Pool interface, select the pair you want to provide liquidity for, enter your contribution amount, and approve and confirm the transaction.
-  </div>
-</details>
-
 </div>
