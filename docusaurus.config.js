@@ -153,8 +153,8 @@ const config = {
             type: "doc",
             docId: "overview/intro",
             position: "left",
-            label: "Vote",
-            href: "https://snapshot.box/#/s:torquefi.eth",
+            label: "Explorer",
+            href: "https://explorer.torque.fi",
           },
           {
             href: "https://t.me/torquefi",

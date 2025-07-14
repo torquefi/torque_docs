@@ -7,37 +7,30 @@ Torque Engines are smart contracts powering the minting and burning of Torque cu
 <div class="faq-container">
 
 <details>
-<summary>Collateral Management</summary>
+<summary>Collateralization</summary>
 <div>
-Deposit and redeem collateral with real-time price feeds, health factor monitoring, and liquidation protection.
+Supply and redeem approved collateral with real-time Chainlink price feeds, health factor monitoring, and automated liquidation protection.
 </div>
 </details>
 
 <details>
 <summary>Cross-Chain Support</summary>
 <div>
-LayerZero integration for cross-chain minting and burning with gas-efficient operations and secure message passing.
+LayerZero integrated for cross-chain minting and burning with secure message passing.
 </div>
 </details>
 
 <details>
 <summary>Security Features</summary>
 <div>
-Reentrancy protection, oracle validation, health checks, liquidation incentives, and emergency pause capability.
+Reentrancy protection, oracle validation, health checks, and liquidation incentives.
 </div>
 </details>
 
 <details>
 <summary>Risk Parameters</summary>
-<div>
-98% liquidation threshold, 20% liquidation bonus, minimum health factor requirements, and precision handling.
-</div>
-</details>
-
-<details>
-<summary>Getting Started</summary>
 <div class="faq-reward">
-To begin using Torque's currency engines, first select your desired Torque currency from the supported options. Then, deposit collateral to mint your chosen Torque tokens. Throughout the process, make sure to monitor your health factor to maintain a safe position. When you're ready to exit, you can redeem your collateral at any time. Remember to check cross-chain gas fees and verify oracle prices before executing transactions.
+98% liquidation threshold on stable assets (volatile assets typically see lower), 20% liquidation bonus, and minimum health factor requirements.
 </div>
 </details>
 

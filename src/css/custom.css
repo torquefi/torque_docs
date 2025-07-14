@@ -872,32 +872,13 @@ details[open] > div {
   }
 }
 
-/* CSS-only accordion behavior */
-.faq-container details[open] ~ details {
-  overflow: hidden;
+/* FAQ accordion behavior - handled by JavaScript */
+.faq-container details {
+  transition: all 0.2s ease;
 }
 
-.faq-container details[open] ~ details summary {
-  pointer-events: auto;
-}
-
-.faq-container details[open] ~ details > div {
-  max-height: 0 !important;
-  padding: 0 1.5rem !important;
-  opacity: 0 !important;
-  visibility: hidden !important;
-}
-
-/* Force single open behavior */
-.faq-container details:not([open]) {
-  overflow: hidden;
-}
-
-.faq-container details:not([open]) > div {
-  max-height: 0 !important;
-  padding: 0 1.5rem !important;
-  opacity: 0 !important;
-  visibility: hidden !important;
+.faq-container details > div {
+  transition: all 0.2s ease;
 }
 
 /* Use Cases Grid */

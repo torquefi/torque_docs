@@ -56,8 +56,8 @@ export const github = [
   //   icon: CodeBracketIcon,
   // },
   {
-    title: "torque_sdk",
-    href: "#",
+    title: "torque_fx",
+    href: "https://github.com/torquefi/torque_fx",
     icon: CodeBracketIcon,
   },
   {
