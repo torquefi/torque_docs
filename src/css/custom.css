@@ -81,11 +81,22 @@ body {
 
 /* Reduce logo margin to bring navigation items closer */
 .navbar__brand {
-  margin-right: 1rem;
+  margin-right: 0.5rem !important;
 }
 
 .navbar__logo {
-  margin-right: 0.5rem;
+  margin-right: 0 !important;
+}
+
+/* Target the navbar items container to reduce spacing */
+.navbar__items {
+  margin-left: 0.5rem !important;
+}
+
+/* Reduce spacing between navbar items */
+.navbar__item {
+  margin-left: 0.25rem !important;
+  margin-right: 0.25rem !important;
 }
 
 /* Footer styles */
