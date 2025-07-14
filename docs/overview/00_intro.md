@@ -25,13 +25,6 @@ Trade with up to 500x leverage on forex and commodity pairs with advanced risk m
 </details>
 
 <details>
-<summary>How does Risk Management work?</summary>
-<div>
-Comprehensive risk controls including position monitoring, liquidation protection, and market safeguards. Our system automatically manages risk exposure, provides real-time alerts, and implements circuit breakers during extreme market conditions.
-</div>
-</details>
-
-<details>
 <summary>What are Currency Engines?</summary>
 <div>
 Mint and burn Torque currencies with cross-chain support and collateral management. Our currency engines enable seamless cross-chain operations, efficient collateral management, and automated market making for protocol tokens.

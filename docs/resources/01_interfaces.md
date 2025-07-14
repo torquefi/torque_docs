@@ -10,7 +10,7 @@ Torque provides multiple interfaces to access the protocol's features.
 
 ## For Traders
 
-- [Torque App](#) (coming soon)
+- [Torque Mobile App](#) (coming soon)
 
 ## Specialized Tools
 

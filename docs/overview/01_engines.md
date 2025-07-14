@@ -1,7 +1,7 @@
 # Torque Engines
 
 <div class="intro-description">
-Torque Engines are smart contracts powering the minting and burning of Torque currencies. Each engine manages a specific currency pair, ensuring stability through collateralization, real-time price feeds, and dynamic risk parameters. The engines incorporate cross-chain capabilities powered by LayerZero.
+Torque Engines are smart contracts powering the minting and burning of Torque currencies. Each engine manages a specific currency pair, ensuring stability through collateralization, real-time price feeds, and dynamic risk parameters. The engines incorporate cross-chain capabilities for maximum accessibility powered by LayerZero.
 </div>
 
 <div class="faq-container">

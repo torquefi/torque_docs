@@ -1,7 +1,7 @@
 # Torque Rewards
 
 <div class="intro-description">
-Torque implements a rewards system that creates natural value loops where TORQ is earned through real economic activity. This makes TORQ a byproduct of useful actions, ensuring sustainable tokenomics and long-term ecosystem growth. Staking rewards are distributed based on protocol activity. 
+Torque implements a comprehensive rewards system that creates a natural value loop where TORQ tokens are earned through real economic activity. Users are rewarded for contributing to protocol growth through FX trading, payment processing, and liquidity provision. The system features dynamic multipliers, activity scoring, and volume-based tiers that incentivizes engagement while ensuring sustainable distribution aligned with protocol usage and value creation.
 </div>
 
 <div class="faq-container">
@@ -9,21 +9,21 @@ Torque implements a rewards system that creates natural value loops where TORQ i
 <details>
 <summary>FX Trading</summary>
 <div>
-Earn 0.25% of trade volume in TORQ tokens for every FX trade you make. Trading is the core use case of Torque, making these rewards feel organic and natural. As you build volume, you'll qualify for tier multipliers that boost all your rewards across the ecosystem.
+Earn 0.25% of volume for every FX trade you make. As you build volume, you'll qualify for multipliers.
 </div>
 </details>
 
 <details>
 <summary>Payment Processing</summary>
 <div>
-Earn 0.1% of payment volume in TORQ for processing payments through TorquePayments. Whether you're making crypto-to-crypto payments, donations, or using BNPL services, you'll earn rewards for every transaction processed through the Torque ecosystem.
+Earn 0.1% of volume for processing payments through Torque Payments. Whether you're making crypto-to-crypto payments, donations, or using BNPL services, you'll earn rewards for every transaction processed through the Torque ecosystem.
 </div>
 </details>
 
 <details>
 <summary>Liquidity Provision</summary>
 <div>
-Earn 0.5% of your provided liquidity in TORQ tokens. Liquidity providers directly enable the ecosystem and receive the highest activity score points (+15), making this one of the most valuable ways to contribute to and earn from the Torque protocol.
+Earn 0.5% of volume for providing liquidity. LPs directly enable the ecosystem and receive the highest activity score points (+15), making this one of the most valuable ways to contribute to and earn from the Torque protocol.
 </div>
 </details>
 
@@ -42,36 +42,29 @@ High-volume users receive a 0.05% bonus on total volume across all activities. T
 </details>
 
 <details>
-<summary>Affiliates</summary>
+<summary>Activity Score</summary>
 <div>
-Earn 2% of referred users' activity when you bring new participants to Torque. This creates organic growth through user networks and rewards community building. Referral rewards apply to all activities including trading, payments, and liquidity provision.
+Activity Score (0-1000) based on engagement: liquidity provision (+15), cross-chain operations (+12), FX trading (+10), staking (+8), payment processing (+5), and referrals (+3). Higher scores provide bonus rewards: 800+ (0.5%), 600+ (0.3%), 400+ (0.15%), 200+ (0.05%). Scores decay over time to encourage engagement.
 </div>
 </details>
 
 <details>
 <summary>Multipliers</summary>
 <div>
-Progress through volume-based tiers that provide multipliers on all rewards: Bronze (1.0x), Silver (1.25x at $10k+), Gold (1.5x at $100k+), Platinum (2.0x at $1M+), and Diamond (3.0x at $10M+). Higher tiers provide significant bonuses on all reward categories.
+Tiers that provide multipliers on all rewards: Bronze (1.0x), Silver (1.25x at $10k+), Gold (1.5x at $100k+), Platinum (2.0x at $1M+), and Diamond (3.0x at $10M+). Higher tiers provide significant bonuses on all reward categories.
 </div>
 </details>
 
 <details>
-<summary>Activity Scoring</summary>
-<div>
-Build an Activity Score (0-1000) based on engagement: liquidity provision (+15), cross-chain operations (+12), FX trading (+10), staking (+8), payment processing (+5), and referrals (+3). Higher scores provide bonus rewards: 800+ (0.5%), 600+ (0.3%), 400+ (0.15%), 200+ (0.05%). Scores decay over time to encourage engagement.
-</div>
-</details>
-
-<details>
-<summary>Getting Started</summary>
+<summary>Affiliates</summary>
 <div class="faq-reward">
-Begin with FX trading to earn your first TORQ tokens and build volume toward Silver tier for 25% bonus rewards. Diversify your activity by trying payments, liquidity provision, and staking to maximize your activity score. Engage consistently to maintain high scores and refer friends to earn 2% of their activity.
+Earn 2% of referred users' activity when you bring new participants to Torque. Rewards apply to all activities including trading, payments, and liquidity provision. Find your affiliate link in the app settings.
 </div>
 </details>
 
 </div>
 
-## Reward Categories Overview
+## Reward Categories
 
 | Activity | Reward Rate | Activity Score | Description |
 |----------|-------------|----------------|-------------|
