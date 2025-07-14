@@ -13,28 +13,28 @@ Torque is a decentralized exchange that democratizes access to the $7.5 trillion
 <details>
 <summary>What is fxAMM DEX?</summary>
 <div>
-Deep liquidity pools for major forex pairs and commodities with efficient price discovery and minimal slippage. Our automated market maker (AMM) ensures continuous liquidity and fair pricing for all traders.
+Deep liquidity pools for major forex pairs and commodities with efficient price discovery and minimal slippage. Torque DEX ensures continuous liquidity and fair pricing for all traders.
 </div>
 </details>
 
 <details>
 <summary>How does Margin Trading work?</summary>
 <div>
-Trade with up to 500x leverage on forex and commodity pairs with advanced risk management tools. Our protocol provides real-time position monitoring, automated liquidation protection, and flexible margin requirements.
+Trade with up to 500x leverage on forex and commodity pairs. Torque FX provides real-time position monitoring, automated liquidation protection, and flexible margin requirements.
 </div>
 </details>
 
 <details>
 <summary>What are Currency Engines?</summary>
 <div>
-Mint and burn Torque currencies with cross-chain support and collateral management. Our currency engines enable seamless cross-chain operations, efficient collateral management, and automated market making for protocol tokens.
+Mint and burn Torque currencies cross-chain. Torque Engines enable seamless collateral management and manages the minting and redemption of Torque Currencies.
 </div>
 </details>
 
 <details>
 <summary>What are the Rewards?</summary>
 <div class="faq-reward">
-Flow-based rewards system where TORQ tokens are earned through real economic activity including FX trading, payment processing, liquidity provision, staking, and referrals. Volume tiers provide multipliers up to 3x.
+TORQ is earned through real economic activity including FX trading, liquidity provision, staking, and referrals. Volume tiers provide multipliers up to 3x.
 </div>
 </details>
 

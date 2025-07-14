@@ -79,6 +79,15 @@ body {
   font-weight: 600;
 }
 
+/* Reduce logo margin to bring navigation items closer */
+.navbar__brand {
+  margin-right: 1rem;
+}
+
+.navbar__logo {
+  margin-right: 0.5rem;
+}
+
 /* Footer styles */
 .footer {
   --ifm-footer-background-color: transparent;

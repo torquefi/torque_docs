@@ -1,7 +1,7 @@
 # Torque Rewards
 
 <div class="intro-description">
-Torque implements a comprehensive rewards system that creates a natural value loop where TORQ tokens are earned through real economic activity. Users are rewarded for contributing to protocol growth through FX trading and liquidity provision. The system features dynamic multipliers, activity scoring, and volume-based tiers that incentivizes engagement while ensuring sustainable distribution aligned with protocol usage and value creation.
+Torque implements a comprehensive rewards system that creates a natural value loop where TORQ tokens are earned through real economic activity. Users are rewarded for contributing to protocol growth through FX trading and liquidity provision. The system features dynamic multipliers, activity scoring, and volume-based tiers that incentivize engagement while ensuring sustainable distribution.
 </div>
 
 <div class="faq-container">
