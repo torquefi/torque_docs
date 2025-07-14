@@ -199,10 +199,6 @@ const config = {
                 href: "/main/overview/dex",
               },
               {
-                label: "Payments",
-                href: "/main/overview/payments",
-              },
-              {
                 label: "Rewards",
                 href: "/main/overview/rewards",
               },

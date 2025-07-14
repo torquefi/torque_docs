@@ -32,13 +32,6 @@ Mint and burn Torque currencies with cross-chain support and collateral manageme
 </details>
 
 <details>
-<summary>What is Torque Payments?</summary>
-<div>
-Multi-currency payment system that allows merchants to accept payments in any Torque currency while receiving settlements in their preferred currency. Features include BNPL, mass payments, donations, and cross-chain capabilities with instant settlement.
-</div>
-</details>
-
-<details>
 <summary>What are the Rewards?</summary>
 <div class="faq-reward">
 Flow-based rewards system where TORQ tokens are earned through real economic activity including FX trading, payment processing, liquidity provision, staking, and referrals. Volume tiers provide multipliers up to 3x.
@@ -46,12 +39,3 @@ Flow-based rewards system where TORQ tokens are earned through real economic act
 </details>
 
 </div>
-
-<!-- <div class="getting-started-wrapper">
-<div class="getting-started-container">
-<div class="getting-started-content">
-<h2>Getting Started</h2>
-<p>Ready to start trading on Torque? Follow our quick start guide to fund your wallet and begin trading. Our protocol is designed to be intuitive and user-friendly, making it easy for both beginners and experienced traders to get started.</p>
-</div>
-</div>
-</div> -->

@@ -23,7 +23,7 @@ Provide liquidity to collect passive yield while supporting the ecosystem. Our l
 <details>
 <summary>Payments (Multi-currency)</summary>
 <div class="faq-reward">
-Send and receive in any Torque currency while settling in your preferred currency. Torque Payments enable instant cross-chain transactions, including BNPL and mass payments.
+Send and receive in any Torque currency while settling in your preferred currency. Torque Payments enable instant cross-chain transactions.
 </div>
 </details>
 
