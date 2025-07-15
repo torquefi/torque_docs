@@ -166,6 +166,42 @@ Torque is to be deployed across multiple blockchain networks to provide maximum 
 |---------|---------|
 | Ethereum | `0x8f1dF6D7F2db73eECE86a18b4381F4707b918FB1` |
 
+### Savings USDS (sUSDS)
+
+**Contract Addresses:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD` |
+| Base | `0x5875eEE11Cf8398102FdAd704C9E96607675467a` |
+| Arbitrum | `0xdDb46999F8891663a8F2828d25298f70416d7610` |
+
+**Price Feeds:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0x...` |
+| Base | `0x...` |
+| Arbitrum | `0x...` |
+
+### Usual USD (USD0)
+
+**Contract Addresses:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0x73A15FeD60Bf67631dC6cd7Bc5B6e8da8190aCF5` |
+| Base | `0x758a3e0b1F842C9306B783f8A4078C6C8C03a270` |
+| Arbitrum | `0x35f1C5cB7Fb977E669fD244C567Da99d8a3a6850` |
+
+**Price Feeds:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0x...` |
+| Base | `0x...` |
+| Arbitrum | `0x...` |
+
 ## ETH Derivatives
 
 ### Wrapped Ether (WETH)
@@ -339,6 +375,22 @@ Torque is to be deployed across multiple blockchain networks to provide maximum 
 | BSC | `0xA8357BF572460fC40f4B0aCacbB2a6A61c89f475` |
 | Arbitrum | `0xaD1d5344AaDE45F43E596773Bcc4c423EabdD034` |
 | Polygon | `0x72484B12719E23115761D5DA1646945632979bB6` |
+
+### Morpho (MORPHO)
+
+**Contract Addresses:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0x58D97B57BB95320F9a05dC918Aef65434969c2B2` |
+| Base | `0xBAa5CC21fd487B8Fcc2F632f3F4E8D37262a0842` |
+
+**Price Feeds:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0x...` |
+| Base | `0x...` |
 
 ### Compound (COMP)
 
