@@ -441,3 +441,21 @@ Torque is to be deployed across multiple blockchain networks to provide maximum 
 | Optimism | `0xCc232dcFAAE6354cE191Bd574108c1aD03f86450` |
 | Polygon | `0xd9FFdb71EbE7496cC440152d43986Aae0AB76665` |
 | Sonic | `0x26e450ca14D7bF598C89f212010c691434486119` |
+
+### Threshold BTC (tBTC)
+
+**Contract Addresses:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0x18084fbA666a33d37592fA2633fD49a74DD93a88` |
+| Arbitrum | `0x6c84a8f1c29108F47a79964b5Fe888D4f4D0dE40` |
+| Base | `0x236aa50979D5f3De3Bd1Eeb40E81137F22ab794b` |
+
+**Price Feeds:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0x8350b7De6a6a2C1368E7D4Bd968190e13E354297` |
+| Arbitrum | `0xE808488e8627F6531bA79a13A9E0271B39abEb1C` |
+| Base | `0x6D75BFB5A5885f841b132198C9f0bE8c872057BF` |
