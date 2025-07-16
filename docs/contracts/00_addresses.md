@@ -252,6 +252,26 @@ Torque is to be deployed across multiple blockchain networks to provide maximum 
 | Arbitrum | `0xa668682974E3f121185a3cD94f00322beC674275` |
 | Base | `0x806b4Ac04501c29769051e42783cF04dCE41440b` |
 
+### Wrapped stETH (wstETH)
+
+**Contract Addresses:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0` |
+| Arbitrum | `0x5979D7b546E38E414F7E9822514be443A4800529` |
+| Base | `0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452` |
+| Optimism | `0x1F32b1c2345538c0c6f582fCB022739c4A194Ebb` |
+
+**Price Feeds:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0x8B6851156023f4f9A8564B8E0C5b8C4C3C3C3C3C` |
+| Arbitrum | `0xb523AE262D20A936BC152e6023996e46FDC2A95D` |
+| Base | `0x43a5C292A453A3bF3606fa856197f09D7B74251a` |
+| Optimism | `0x524299Ab0987a7c4B3c8022a35669DdcdC715a10` |
+
 ### Ether.fi ETH (weETH)
 
 **Contract Addresses:**
@@ -285,26 +305,6 @@ Torque is to be deployed across multiple blockchain networks to provide maximum 
 | Network | Address |
 |---------|---------|
 | Ethereum | `0x5b563107C8666d2142C216114228443B94152362` |
-
-### Lido Wrapped stETH (wstETH)
-
-**Contract Addresses:**
-
-| Network | Address |
-|---------|---------|
-| Ethereum | `0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0` |
-| Arbitrum | `0x5979D7b546E38E414F7E9822514be443A4800529` |
-| Base | `0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452` |
-| Optimism | `0x1F32b1c2345538c0c6f582fCB022739c4A194Ebb` |
-
-**Price Feeds:**
-
-| Network | Address |
-|---------|---------|
-| Ethereum | `0x8B6851156023f4f9A8564B8E0C5b8C4C3C3C3C3C` |
-| Arbitrum | `0xb523AE262D20A936BC152e6023996e46FDC2A95D` |
-| Base | `0x43a5C292A453A3bF3606fa856197f09D7B74251a` |
-| Optimism | `0x524299Ab0987a7c4B3c8022a35669DdcdC715a10` |
 
 ## BTC Derivatives
 
