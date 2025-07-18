@@ -20,11 +20,4 @@ Provide liquidity to collect passive yield while supporting the ecosystem. Our l
 </div>
 </details>
 
-<details>
-<summary>Payments (Multi-currency)</summary>
-<div class="faq-reward">
-Send and receive in any Torque currency while settling in your preferred currency. Torque Payments enable instant cross-chain transactions.
-</div>
-</details>
-
 </div>

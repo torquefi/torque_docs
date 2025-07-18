@@ -34,7 +34,7 @@ Mint and burn Torque currencies cross-chain. Torque Engines enable seamless coll
 <details>
 <summary>What are the Rewards?</summary>
 <div class="faq-reward">
-TORQ is earned through real economic activity including FX trading, liquidity provision, staking, and referrals. Volume tiers provide multipliers up to 3x.
+The rewards are a combination of fees collected and token rewards based on your transactions. Stakers earn trading fees and token rewards while traders earn token rewards.
 </div>
 </details>
 
