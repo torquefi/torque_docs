@@ -159,8 +159,16 @@ Torque is to be deployed across multiple blockchain networks to provide maximum 
 | Network | Address |
 |---------|---------|
 | Ethereum | `0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD` |
-| Base | `0x5875eEE11Cf8398102FdAd704C9E96607675467a` |
 | Arbitrum | `0xdDb46999F8891663a8F2828d25298f70416d7610` |
+| Base | `0x5875eEE11Cf8398102FdAd704C9E96607675467a` |
+
+**Price Feeds:**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | `0x...` |
+| Arbitrum | `0x...` |
+| Base | `0x...` |
 
 ### PayPal USD (PYUSD)
 
@@ -185,16 +193,16 @@ Torque is to be deployed across multiple blockchain networks to provide maximum 
 | Network | Address |
 |---------|---------|
 | Ethereum | `0x73A15FeD60Bf67631dC6cd7Bc5B6e8da8190aCF5` |
-| Base | `0x758a3e0b1F842C9306B783f8A4078C6C8C03a270` |
 | Arbitrum | `0x35f1C5cB7Fb977E669fD244C567Da99d8a3a6850` |
+| Base | `0x758a3e0b1F842C9306B783f8A4078C6C8C03a270` |
 
 **Price Feeds:**
 
 | Network | Address |
 |---------|---------|
 | Ethereum | `0x...` |
-| Base | `0x...` |
 | Arbitrum | `0x...` |
+| Base | `0x...` |
 
 ## ETH Derivatives
 
