@@ -178,14 +178,6 @@ Torque is to be deployed across multiple blockchain networks to provide maximum 
 | Ethereum | `0x8f1dF6D7F2db73eECE86a18b4381F4707b918FB1` |
 | Arbitrum | `0x...` |
 
-**Price Feeds:**
-
-| Network | Address |
-|---------|---------|
-| Ethereum | `0x...` |
-| Base | `0x...` |
-| Arbitrum | `0x...` |
-
 ### Usual USD (USD0)
 
 **Contract Addresses:**
