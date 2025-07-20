@@ -182,7 +182,7 @@ const config = {
                   <a href="/">
                     <img src="/img/logo.png" alt="Torque Logo" width="122" height="36" class="footer__logo" />
                   </a>
-                  <div class="footer__copyright">Copyright © ${new Date().getFullYear()} Torque</div>
+                  <div class="footer__copyright">© ${new Date().getFullYear()} Torque</div>
                 `,
               },
             ],
