@@ -14,7 +14,7 @@ Torque provides multiple interfaces to access the protocol's features.
 
 ## Specialized Tools
 
-- [Portal](https://portal.torque.fi)
+- [Chat](https://chat.torque.fi)
 - [Calculator](https://calculator.torque.fi)
 - [Troopers](https://mint.torque.fi)
 - [Explorer](https://explorer.torque.fi)
