@@ -79,15 +79,15 @@ export const github = [
 
 export const Guides = [
   {
-    title: "Introduction",
-    text: "An overview of Torque",
+    title: "Mint & Redeem",
+    text: "On-demand, onchain",
     to: "./main/overview/intro",
     icon: InformationCircleIcon,
   },
   {
-    title: "fxAMM Overview",
-    text: "An overview of fxAMM",
-    to: "./main/overview/fxamm",
+    title: "Active Collateral",
+    text: "View collateral list",
+    to: "./main/contracts/collateral",
     icon: QuestionMarkCircleIcon,
   },
   {
@@ -493,7 +493,7 @@ export default function Home() {
           </Row>
         </SectionContainer>
 
-        <SectionContainer>
+        <SectionContainer style={{ paddingTop: "2rem" }}>
           <SectionTitle>Developer Links</SectionTitle>
           <DeveloperRow>
             {github.map((action) => (
