@@ -455,7 +455,7 @@ export default function Home() {
           </ThreeRow>
         </DocsHeader>
 
-        <SectionContainer>
+        <SectionContainer style={{ paddingTop: "6rem" }}>
           <SectionTitle>Getting Started</SectionTitle>
           <Row>
             {Guides.map((action) => (
