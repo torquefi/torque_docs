@@ -65,11 +65,16 @@ export const github = [
     href: "https://widget.torque.fi",
     icon: CodeBracketIcon,
   },
-  // {
-  //   title: "protocol-metrics-subgraph",
-  //   href: "https://github.com/TorqueDAO/Torque-protocol-metrics-subgraph",
-  //   icon: CodeBracketIcon,
-  // },
+  {
+    title: "torque_sdk",
+    href: "https://github.com/torquefi/torque_sdk",
+    icon: CodeBracketIcon,
+  },
+  {
+    title: "torque_api",
+    href: "https://api.torque.fi",
+    icon: CodeBracketIcon,
+  },
 ];
 
 export const Guides = [
@@ -77,16 +82,49 @@ export const Guides = [
     title: "Introduction",
     text: "An overview of Torque",
     to: "./main/overview/intro",
+    icon: InformationCircleIcon,
   },
   {
-    title: "What is fxAMM?",
+    title: "fxAMM Overview",
     text: "An overview of fxAMM",
     to: "./main/overview/fxamm",
+    icon: QuestionMarkCircleIcon,
   },
   {
-    title: "How to provide liquidity?",
+    title: "Exchange & Trading",
+    text: "Spot & margin trading",
+    to: "./main/overview/dex",
+    icon: MapIcon,
+  },
+  {
+    title: "Liquidity Provision",
     text: "An overview of engines",
     to: "./main/overview/engines",
+    icon: BuildingLibraryIcon,
+  },
+  {
+    title: "Rewards System",
+    text: "Understanding rewards",
+    to: "./main/overview/rewards",
+    icon: ChatBubbleLeftIcon,
+  },
+  {
+    title: "Staking Guide",
+    text: "Staking & earning",
+    to: "./main/overview/staking",
+    icon: BookOpenIcon,
+  },
+  {
+    title: "Contract Deployments",
+    text: "Addresses & networks",
+    to: "./main/contracts/deployments",
+    icon: CodeBracketIcon,
+  },
+  {
+    title: "Security & Audits",
+    text: "View code audits",
+    to: "./main/resources/security",
+    icon: BuildingLibraryIcon,
   },
 ];
 
@@ -96,6 +134,32 @@ const Container = styled.div`
 `;
 
 const Row = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 1rem 0;
+  max-width: 1200px;
+
+  @media (max-width: 1200px) {
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 960px;
+  }
+  @media (max-width: 960px) {
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+    max-width: 100%;
+    margin: 0 1rem;
+  }
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+    margin: 0 1rem;
+    padding: 1rem;
+  }
+`;
+
+const ThreeRow = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
@@ -127,6 +191,26 @@ const TwoRow = styled(Row)`
   }
 `;
 
+const SectionContainer = styled.div`
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 4rem 0;
+  
+  @media (max-width: 960px) {
+    padding: 2rem 1rem;
+    max-width: 100%;
+  }
+  @media (max-width: 640px) {
+    padding: 1rem;
+    max-width: 100%;
+  }
+`;
+
+const SectionTitle = styled.h2`
+  margin-bottom: 0.5rem;
+  text-align: center;
+`;
+
 const Card = styled.div`
   display: flex;
   min-width: 350px;
@@ -154,8 +238,9 @@ const Card = styled.div`
 
 const CompactCard = styled.div`
   display: flex;
-  min-width: 350px;
-  min-height: auto;
+  min-width: 250px;
+  max-width: none;
+  min-height: 60px;
   padding: 1rem;
   padding-bottom: 0.5rem;
   flex-direction: column;
@@ -163,9 +248,9 @@ const CompactCard = styled.div`
   align-items: flex-start;
   cursor: pointer;
   border: 1px solid transparent;
-  border-radius: 20px;
+  border-radius: 16px;
   border: 1px solid var(--ifm-color-emphasis-200);
-  /* flex: 1 1 0px; */
+  flex: 1 1 0px;
 
   &:hover {
     border: 1px solid var(--ifm-color-emphasis-400);
@@ -174,6 +259,9 @@ const CompactCard = styled.div`
 
   @media (max-width: 960px) {
     width: 100%;
+    max-width: none;
+    min-width: auto;
+    flex: none;
   }
 `;
 
@@ -200,6 +288,7 @@ const ShadowCard = styled(Card)`
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.05);
   background-color: #ffffff10;
   backdrop-filter: blur(10px);
+  min-height: 220px;
   /* background-color: var(--ifm-color-emphasis-0); */
 `;
 
@@ -281,6 +370,32 @@ const HideMedium = styled.div`
   }
 `;
 
+const DeveloperRow = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 1rem 0;
+  max-width: 1200px;
+
+  @media (max-width: 1200px) {
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 960px;
+  }
+  @media (max-width: 960px) {
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+    max-width: 100%;
+    margin: 0 1rem;
+  }
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+    margin: 0 1rem;
+    padding: 1rem;
+  }
+`;
+
 export default function Home() {
   return (
     <Layout
@@ -307,7 +422,7 @@ export default function Home() {
               dark: useBaseUrl("/img/background-dark.png"),
             }}
           />
-          <Row>
+          <ThreeRow>
             {actions.map((action) => (
               <Link style={{ textDecoration: "none" }} to={action.to}>
                 <ShadowCard key={action.title}>
@@ -337,58 +452,55 @@ export default function Home() {
                 </ShadowCard>
               </Link>
             ))}
-          </Row>
+          </ThreeRow>
         </DocsHeader>
 
-        <TwoRow
-          style={{
-            gap: "56px",
-            marginTop: "4rem",
-          }}
-        >
-          <div>
-            <h2>Getting Started</h2>
-            <div>
-              {Guides.map((action) => (
-                <Link
-                  style={{ textDecoration: "none" }}
-                  key={action.title}
-                  to={action.to}
-                >
-                  <CompactCard key={action.title} style={{ marginBottom: "1rem" }}>
-                    <LinkRow>
-                      <div style={{ display: "flex", alignItems: "center" }}>
-                        <h3 style={{ marginBottom: "0rem" }}>{action.title}</h3>
-                      </div>
-                      <svg
-                        style={{ width: "20px", opacity: 0.2 }}
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        viewBox="0 0 24 24"
-                      >
-                        <path d="M7 17L17 7"/>
-                        <path d="M7 7h10v10"/>
-                      </svg>
-                    </LinkRow>
-                    <p style={{ marginBottom: "0rem", color: "#959595" }}>{action.text}</p>
-                  </CompactCard>
-                </Link>
-              ))}
-            </div>
-          </div>
-          <div>
-            <h2>Developer Links</h2>
+        <SectionContainer>
+          <SectionTitle>Getting Started</SectionTitle>
+          <Row>
+            {Guides.map((action) => (
+              <Link
+                style={{ textDecoration: "none" }}
+                key={action.title}
+                to={action.to}
+              >
+                <CompactCard key={action.title}>
+                  <TopSection>
+                    <IconWrapper>
+                      <action.icon style={{ width: "24px" }} />
+                    </IconWrapper>
+                    <svg
+                      style={{ width: "20px", opacity: 0.2 }}
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M7 17L17 7"/>
+                      <path d="M7 7h10v10"/>
+                    </svg>
+                  </TopSection>
+                  <div>
+                    <h3 style={{ marginBottom: ".2rem", marginLeft: "0.4rem" }}>{action.title}</h3>
+                    <p style={{ marginBottom: "0.5rem", marginLeft: "0.4rem", color: "#959595" }}>{action.text}</p>
+                  </div>
+                </CompactCard>
+              </Link>
+            ))}
+          </Row>
+        </SectionContainer>
+
+        <SectionContainer>
+          <SectionTitle>Developer Links</SectionTitle>
+          <DeveloperRow>
             {github.map((action) => (
               <Link style={{ textDecoration: "none" }} href={action.href}>
-                <CompactCard key={action.title} style={{ marginBottom: "1rem", justifyContent: "center", padding: "1rem", borderRadius: "18px" }}>
-                  <LinkRow>
-                    <StyledGithubIcon
-                      style={{ display: "flex", alignItems: "center" }}
-                    >
+                <CompactCard key={action.title} style={{ justifyContent: "center", alignItems: "center", padding: "0.5rem 1rem" }}>
+                  <div style={{ display: "flex", width: "100%", justifyContent: "space-between", alignItems: "center" }}>
+                    <div style={{ display: "flex", alignItems: "center" }}>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 120.78 117.79"
@@ -436,7 +548,7 @@ export default function Home() {
                       <h3 style={{ marginBottom: "0rem", marginLeft: "16px" }}>
                         {action.title}
                       </h3>
-                    </StyledGithubIcon>
+                    </div>
                     <svg
                       style={{ width: "20px", opacity: 0.2 }}
                       xmlns="http://www.w3.org/2000/svg"
@@ -450,12 +562,12 @@ export default function Home() {
                       <path d="M7 17L17 7"/>
                       <path d="M7 7h10v10"/>
                     </svg>
-                  </LinkRow>
+                  </div>
                 </CompactCard>
               </Link>
             ))}
-          </div>
-        </TwoRow>
+          </DeveloperRow>
+        </SectionContainer>
 
         {/* <hr />
 
@@ -480,7 +592,7 @@ export default function Home() {
               <ChatBubbleLeftIcon style={{ width: "48px", height: "48px" }} />
               <div>
                 <h3>Forum</h3>
-                <p>Discuss community governance and more</p>
+                <p>Discuss community governance & more</p>
               </div>
             </CenterCard>
           </Link>
