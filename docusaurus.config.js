@@ -137,28 +137,40 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "overview/intro",
+            docId: "overview/engines",
             position: "left",
-            label: "Site",
-            href: "https://torque.fi",
+            label: "Concepts",
+            href: "/main/overview/engines",
+          },
+          {
+            type: "doc",
+            docId: "contracts/addresses",
+            position: "left",
+            label: "Contracts",
+            to: "/main/contracts/addresses",
           },
           {
             type: "doc",
             docId: "overview/intro",
             position: "left",
-            label: "Blog",
-            href: "https://blog.torque.fi",
+            label: "SDK",
+            to: "/main/overview/sdk",
           },
           {
             type: "doc",
             docId: "overview/intro",
             position: "left",
-            label: "Explorer",
-            href: "https://explorer.torque.fi",
+            label: "API",
+            to: "/main/overview/api",
           },
           {
             href: "https://t.me/torquefi",
             label: "Telegram",
+            position: "right",
+          },
+          {
+            href: "https://bit.ly/torq-disc",
+            label: "Discord",
             position: "right",
           },
           {
@@ -167,8 +179,8 @@ const config = {
             position: "right",
           },
           {
-            href: "https://youtube.com/@torquefi",
-            label: "YouTube",
+            href: "https://github.com/torquefi",
+            label: "GitHub",
             position: "right",
           },
         ],
@@ -188,7 +200,24 @@ const config = {
             ],
           },
           {
-            title: "Features",
+            title: "Solutions",
+            items: [
+              {
+                label: "Exchange",
+                href: "https://torque.fi",
+              },
+              {
+                label: "Explorer",
+                href: "https://explorer.torque.fi",
+              },
+              {
+                label: "Widget",
+                href: "https://widget.torque.fi",
+              },
+            ],
+          },
+          {
+            title: "Concepts",
             items: [
               {
                 label: "Engines",
@@ -201,6 +230,23 @@ const config = {
               {
                 label: "Rewards",
                 href: "/main/overview/rewards",
+              },
+            ],
+          },
+          {
+            title: "Guides",
+            items: [
+              {
+                label: "Getting Started",
+                href: "/main/overview/intro",
+              },
+              {
+                label: "How to Trade",
+                href: "/main/overview/dex",
+              },
+              {
+                label: "How to Provide Liquidity",
+                href: "/main/overview/engines",
               },
             ],
           },

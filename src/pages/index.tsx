@@ -22,7 +22,7 @@ import {
 
 export const actions = [
   {
-    title: "Overview",
+    title: "Introduction",
     icon: InformationCircleIcon,
     to: "./main/overview/intro",
     text: `What is Torque?`,
@@ -129,11 +129,13 @@ const TwoRow = styled(Row)`
 
 const Card = styled.div`
   display: flex;
-  max-height: 250px;
   min-width: 350px;
+  min-height: 180px;
   padding: 1rem;
+  padding-bottom: 0.5rem;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: flex-start;
   cursor: pointer;
   border: 1px solid transparent;
   border-radius: 20px;
@@ -173,7 +175,6 @@ const ShadowCard = styled(Card)`
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.05);
   background-color: #ffffff10;
   backdrop-filter: blur(10px);
-  min-height: 200px;
   /* background-color: var(--ifm-color-emphasis-0); */
 `;
 
@@ -198,7 +199,7 @@ const IconWrapper = styled.div`
 
 const TopSection = styled.div`
   width: 100%;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   display: flex;
   flex-direction: row;
@@ -291,15 +292,23 @@ export default function Home() {
                     </IconWrapper>
 
                     <svg
-                      style={{ width: "24px", opacity: 0.2 }}
+                      style={{ width: "20px", opacity: 0.2 }}
                       xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       viewBox="0 0 24 24"
                     >
-                      <path d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z" />
+                      <path d="M7 17L17 7"/>
+                      <path d="M7 7h10v10"/>
                     </svg>
                   </TopSection>
-                  <h3 style={{ marginBottom: ".75rem" }}>{action.title}</h3>
-                  <p style={{ marginBottom: "0.5rem" }}>{action.text}</p>
+                  <div>
+                    <h3 style={{ marginBottom: ".2rem", marginLeft: "0.4rem" }}>{action.title}</h3>
+                    <p style={{ marginBottom: "0.5rem", marginLeft: "0.4rem", color: "#959595" }}>{action.text}</p>
+                  </div>
                 </ShadowCard>
               </Link>
             ))}
@@ -327,15 +336,20 @@ export default function Home() {
                         <h3 style={{ marginBottom: "0rem" }}>{action.title}</h3>
                       </div>
                       <svg
-                        style={{ width: "24px", opacity: 0.2 }}
+                        style={{ width: "20px", opacity: 0.2 }}
                         xmlns="http://www.w3.org/2000/svg"
-                        fill="currentColor"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         viewBox="0 0 24 24"
                       >
-                        <path d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z" />
+                        <path d="M7 17L17 7"/>
+                        <path d="M7 7h10v10"/>
                       </svg>
                     </LinkRow>
-                    <p style={{ marginBottom: "0rem" }}>{action.text}</p>
+                    <p style={{ marginBottom: "0rem", color: "#959595" }}>{action.text}</p>
                   </Card>
                 </Link>
               ))}
@@ -399,12 +413,17 @@ export default function Home() {
                       </h3>
                     </StyledGithubIcon>
                     <svg
-                      style={{ width: "24px", height: "24px", opacity: 0.2 }}
+                      style={{ width: "20px", opacity: 0.2 }}
                       xmlns="http://www.w3.org/2000/svg"
-                      fill="currentColor"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       viewBox="0 0 24 24"
                     >
-                      <path d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z" />
+                      <path d="M7 17L17 7"/>
+                      <path d="M7 7h10v10"/>
                     </svg>
                   </LinkRow>
                 </Card>

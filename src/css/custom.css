@@ -74,6 +74,94 @@ body {
   font-weight: 500;
 }
 
+/* Navbar link styles - converted from Tailwind */
+.navbar__link {
+  color: #959595;
+  background-color: transparent;
+  border-radius: 9999px;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+  text-align: center;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: color 0.2s ease-linear, background-color 0.2s ease-linear;
+}
+
+.navbar__link:hover {
+  color: #030303;
+  background-color: #EAEDF0;
+}
+
+[data-theme='dark'] .navbar__link {
+  color: #959595;
+}
+
+[data-theme='dark'] .navbar__link:hover {
+  color: white !important;
+  background-color: #44494F !important;
+}
+
+/* Hide external link icons in navbar */
+.navbar__link svg,
+.navbar__link .external-link-icon,
+.navbar__item svg,
+.navbar__item .external-link-icon {
+  display: none !important;
+}
+
+/* Hide external link icons in footer */
+.footer__link-item svg,
+.footer__link-item .external-link-icon,
+.footer__links svg,
+.footer__links .external-link-icon {
+  display: none !important;
+}
+
+/* Reduce theme toggle icon size */
+.navbar__item svg[class*="theme"],
+.navbar__item button svg,
+.theme-toggle svg,
+.navbar__item svg,
+.navbar__items svg,
+[data-theme-toggle] svg,
+.colorModeToggle svg,
+.navbar svg {
+  width: 18px !important;
+  height: 18px !important;
+  max-width: 18px !important;
+  max-height: 18px !important;
+}
+
+/* Theme toggle hover styles to match navbar links */
+.navbar__item button,
+[data-theme-toggle],
+.colorModeToggle,
+.navbar__item button[data-theme-toggle],
+.navbar__item [data-theme-toggle] {
+  background-color: transparent !important;
+  border-radius: 9999px !important;
+  padding: 0.5rem !important;
+  transition: background-color 0.2s ease-linear !important;
+}
+
+.navbar__item button:hover,
+[data-theme-toggle]:hover,
+.colorModeToggle:hover,
+.navbar__item button[data-theme-toggle]:hover,
+.navbar__item [data-theme-toggle]:hover {
+  background-color: #EAEDF0 !important;
+}
+
+[data-theme='dark'] .navbar__item button:hover,
+[data-theme='dark'] [data-theme-toggle]:hover,
+[data-theme='dark'] .colorModeToggle:hover,
+[data-theme='dark'] .navbar__item button[data-theme-toggle]:hover,
+[data-theme='dark'] .navbar__item [data-theme-toggle]:hover {
+  background-color: #44494F !important;
+  color: white !important;
+}
+
 .navbar__title {
   font-size: 24px;
   font-weight: 600;
@@ -95,8 +183,8 @@ body {
 
 /* Reduce spacing between navbar items */
 .navbar__item {
-  margin-left: 0.25rem !important;
-  margin-right: 0.25rem !important;
+  margin-left: 0.0625rem !important;
+  margin-right: 0.0625rem !important;
 }
 
 /* Footer styles */
@@ -148,7 +236,7 @@ body {
 .footer__links {
   display: flex;
   justify-content: center;
-  gap: 3rem;
+  gap: 1.5rem;
 }
 
 .footer__col {
@@ -158,13 +246,36 @@ body {
 
 .footer__title {
   font-family: -apple-system, 'SF Pro Display', 'SF Pro', system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight: 700;
-  font-size: 1.2rem;
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ifm-color-emphasis-900);
+  margin-bottom: 0.75rem;
+}
+
+[data-theme='dark'] .footer__title {
+  color: white;
 }
 
 .footer__link-item {
   font-family: -apple-system, 'SF Pro Text', 'SF Pro', system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight: 400;
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #959595;
+  transition: color 0.2s ease-linear;
+}
+
+.footer__link-item:hover {
+  color: var(--ifm-color-emphasis-900);
+  text-decoration: none;
+}
+
+[data-theme='dark'] .footer__link-item:hover {
+  color: white;
+  text-decoration: none;
 }
 
 /* Feature Grid Styles */
@@ -1083,5 +1194,28 @@ a[class*="nav"]:hover,
 [data-theme='dark'] .nav-link:hover,
 [data-theme='dark'] .navigation-link:hover {
   border-color: var(--ifm-color-emphasis-600);
+}
+
+/* Remove sidebar hover background */
+.theme-doc-sidebar-item-link,
+.theme-doc-sidebar-item-category,
+.theme-doc-sidebar-item-category-level-1,
+.theme-doc-sidebar-item-category-level-2,
+.theme-doc-sidebar-item-category-level-3,
+.theme-doc-sidebar-item-link-level-1,
+.theme-doc-sidebar-item-link-level-2,
+.theme-doc-sidebar-item-link-level-3 {
+  background-color: transparent !important;
+}
+
+.theme-doc-sidebar-item-link:hover,
+.theme-doc-sidebar-item-category:hover,
+.theme-doc-sidebar-item-category-level-1:hover,
+.theme-doc-sidebar-item-category-level-2:hover,
+.theme-doc-sidebar-item-category-level-3:hover,
+.theme-doc-sidebar-item-link-level-1:hover,
+.theme-doc-sidebar-item-link-level-2:hover,
+.theme-doc-sidebar-item-link-level-3:hover {
+  background-color: transparent !important;
 }
 
