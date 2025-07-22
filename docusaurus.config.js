@@ -144,10 +144,10 @@ const config = {
           },
           {
             type: "doc",
-            docId: "contracts/addresses",
+            docId: "contracts/mainnet",
             position: "left",
             label: "Contracts",
-            to: "/main/contracts/addresses",
+            to: "/main/contracts/mainnet",
           },
           {
             type: "doc",
@@ -228,6 +228,10 @@ const config = {
                 href: "/main/overview/dex",
               },
               {
+                label: "Staking",
+                href: "/main/overview/staking",
+              },
+              {
                 label: "Rewards",
                 href: "/main/overview/rewards",
               },
@@ -236,16 +240,20 @@ const config = {
           {
             title: "Guides",
             items: [
+              // {
+              //   label: "Get Started",
+              //   href: "/main/overview/intro",
+              // },
               {
-                label: "Getting Started",
-                href: "/main/overview/intro",
-              },
-              {
-                label: "How to Trade",
+                label: "Spot Trading",
                 href: "/main/overview/dex",
               },
               {
-                label: "How to Provide Liquidity",
+                label: "Margin Trading",
+                href: "/main/overview/dex",
+              },
+              {
+                label: "Add Liquidity",
                 href: "/main/overview/engines",
               },
             ],
@@ -263,7 +271,7 @@ const config = {
               },
               {
                 label: "Addresses",
-                href: "/main/contracts/addresses",
+                href: "/main/contracts/mainnet",
               },
               {
                 label: "Security",

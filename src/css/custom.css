@@ -79,7 +79,7 @@ body {
   color: #959595;
   background-color: transparent;
   border-radius: 9999px;
-  padding: 0.5rem 0.75rem;
+  padding: 0.3rem 0.75rem;
   cursor: pointer;
   text-align: center;
   font-size: 0.75rem;
@@ -142,7 +142,8 @@ body {
   background-color: transparent !important;
   border-radius: 9999px !important;
   padding: 0.5rem !important;
-  transition: background-color 0.2s ease-linear !important;
+  transition: background-color 0.2s ease-linear, color 0.2s ease-linear !important;
+  color: #959595 !important;
 }
 
 .navbar__item button:hover,
@@ -151,6 +152,7 @@ body {
 .navbar__item button[data-theme-toggle]:hover,
 .navbar__item [data-theme-toggle]:hover {
   background-color: #EAEDF0 !important;
+  color: #030303 !important;
 }
 
 [data-theme='dark'] .navbar__item button:hover,
@@ -376,7 +378,7 @@ body {
 
 .feature-description {
   margin: 0;
-  color: var(--ifm-color-emphasis-700);
+  color: #959595;
   font-size: 1.1rem;
   line-height: 1.6;
   font-weight: 400;
@@ -391,7 +393,7 @@ body {
   padding-left: 0 !important;
   padding-right: 0 !important;
   background: transparent;
-  color: var(--ifm-color-emphasis-700) !important;
+  color: #959595 !important;
   font-size: 1.1rem !important;
   line-height: 1.6 !important;
   font-weight: 400 !important;
@@ -538,7 +540,7 @@ details summary:hover {
 
 details > div {
   padding: 0 1.5rem 1.5rem !important;
-  color: var(--ifm-color-emphasis-700) !important;
+  color: #959595 !important;
   font-size: 1.1rem !important;
   line-height: 1.6 !important;
   font-weight: 400 !important;
@@ -652,7 +654,7 @@ details[open] > div {
 
 .getting-started-container p {
   margin: 0;
-  color: var(--ifm-color-emphasis-700);
+  color: #959595;
   font-size: 1.1rem;
   line-height: 1.5;
   font-weight: 400;
@@ -747,7 +749,7 @@ details[open] > div {
 .faq-container details > div {
   padding: 0 1.5rem 1.5rem !important;
   margin: 0 !important;
-  color: var(--ifm-color-emphasis-700) !important;
+  color: #959595 !important;
   font-size: 1.1rem !important;
   line-height: 1.6 !important;
   font-weight: 400 !important;
@@ -936,7 +938,7 @@ details[open] > div {
 
 .benefit-description {
   font-size: 0.95rem;
-  color: var(--ifm-color-emphasis-700);
+  color: #959595;
   line-height: 1.5;
   margin: 0;
   opacity: 0;
@@ -1060,7 +1062,7 @@ details[open] > div {
 
 .usecase-description {
   font-size: 1rem;
-  color: var(--ifm-color-emphasis-700);
+  color: #959595;
   line-height: 1.6;
   margin: 0;
   opacity: 1;
@@ -1196,7 +1198,7 @@ a[class*="nav"]:hover,
   border-color: var(--ifm-color-emphasis-600);
 }
 
-/* Remove sidebar hover background */
+/* Sidebar styling - transparent background with purple text for selected items */
 .theme-doc-sidebar-item-link,
 .theme-doc-sidebar-item-category,
 .theme-doc-sidebar-item-category-level-1,
@@ -1204,8 +1206,33 @@ a[class*="nav"]:hover,
 .theme-doc-sidebar-item-category-level-3,
 .theme-doc-sidebar-item-link-level-1,
 .theme-doc-sidebar-item-link-level-2,
-.theme-doc-sidebar-item-link-level-3 {
+.theme-doc-sidebar-item-link-level-3,
+.theme-doc-sidebar-item,
+.theme-doc-sidebar-item-link a,
+.theme-doc-sidebar-item-category a,
+.theme-doc-sidebar-item-category-level-1 a,
+.theme-doc-sidebar-item-category-level-2 a,
+.theme-doc-sidebar-item-category-level-3 a,
+.theme-doc-sidebar-item-link-level-1 a,
+.theme-doc-sidebar-item-link-level-2 a,
+.theme-doc-sidebar-item-link-level-3 a,
+/* Category header elements */
+.theme-doc-sidebar-item-category > div,
+.theme-doc-sidebar-item-category-level-1 > div,
+.theme-doc-sidebar-item-category-level-2 > div,
+.theme-doc-sidebar-item-category-level-3 > div,
+.theme-doc-sidebar-item-category button,
+.theme-doc-sidebar-item-category-level-1 button,
+.theme-doc-sidebar-item-category-level-2 button,
+.theme-doc-sidebar-item-category-level-3 button,
+.theme-doc-sidebar-item-category .menu__button,
+.theme-doc-sidebar-item-category-level-1 .menu__button,
+.theme-doc-sidebar-item-category-level-2 .menu__button,
+.theme-doc-sidebar-item-category-level-3 .menu__button {
   background-color: transparent !important;
+  border-radius: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
 }
 
 .theme-doc-sidebar-item-link:hover,
@@ -1215,7 +1242,162 @@ a[class*="nav"]:hover,
 .theme-doc-sidebar-item-category-level-3:hover,
 .theme-doc-sidebar-item-link-level-1:hover,
 .theme-doc-sidebar-item-link-level-2:hover,
-.theme-doc-sidebar-item-link-level-3:hover {
+.theme-doc-sidebar-item-link-level-3:hover,
+.theme-doc-sidebar-item:hover,
+.theme-doc-sidebar-item-link a:hover,
+.theme-doc-sidebar-item-category a:hover,
+.theme-doc-sidebar-item-category-level-1 a:hover,
+.theme-doc-sidebar-item-category-level-2 a:hover,
+.theme-doc-sidebar-item-category-level-3 a:hover,
+.theme-doc-sidebar-item-link-level-1 a:hover,
+.theme-doc-sidebar-item-link-level-2 a:hover,
+.theme-doc-sidebar-item-link-level-3 a:hover,
+/* Category header hover elements */
+.theme-doc-sidebar-item-category:hover > div,
+.theme-doc-sidebar-item-category-level-1:hover > div,
+.theme-doc-sidebar-item-category-level-2:hover > div,
+.theme-doc-sidebar-item-category-level-3:hover > div,
+.theme-doc-sidebar-item-category:hover button,
+.theme-doc-sidebar-item-category-level-1:hover button,
+.theme-doc-sidebar-item-category-level-2:hover button,
+.theme-doc-sidebar-item-category-level-3:hover button,
+.theme-doc-sidebar-item-category:hover .menu__button,
+.theme-doc-sidebar-item-category-level-1:hover .menu__button,
+.theme-doc-sidebar-item-category-level-2:hover .menu__button,
+.theme-doc-sidebar-item-category-level-3:hover .menu__button {
   background-color: transparent !important;
+  border-radius: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Sidebar hover text color - black on hover (but not for active items) */
+.theme-doc-sidebar-item-link:hover:not(.theme-doc-sidebar-item-link--active),
+.theme-doc-sidebar-item-category:hover:not(.theme-doc-sidebar-item-category--active),
+.theme-doc-sidebar-item-category-level-1:hover:not(.theme-doc-sidebar-item-category-level-1--active),
+.theme-doc-sidebar-item-category-level-2:hover:not(.theme-doc-sidebar-item-category-level-2--active),
+.theme-doc-sidebar-item-category-level-3:hover:not(.theme-doc-sidebar-item-category-level-3--active),
+.theme-doc-sidebar-item-link-level-1:hover:not(.theme-doc-sidebar-item-link-level-1--active),
+.theme-doc-sidebar-item-link-level-2:hover:not(.theme-doc-sidebar-item-link-level-2--active),
+.theme-doc-sidebar-item-link-level-3:hover:not(.theme-doc-sidebar-item-link-level-3--active),
+.theme-doc-sidebar-item:hover:not(.theme-doc-sidebar-item--active),
+.theme-doc-sidebar-item-link a:hover:not(.theme-doc-sidebar-item-link--active a),
+.theme-doc-sidebar-item-category a:hover:not(.theme-doc-sidebar-item-category--active a),
+.theme-doc-sidebar-item-category-level-1 a:hover:not(.theme-doc-sidebar-item-category-level-1--active a),
+.theme-doc-sidebar-item-category-level-2 a:hover:not(.theme-doc-sidebar-item-category-level-2--active a),
+.theme-doc-sidebar-item-category-level-3 a:hover:not(.theme-doc-sidebar-item-category-level-3--active a),
+.theme-doc-sidebar-item-link-level-1 a:hover:not(.theme-doc-sidebar-item-link-level-1--active a),
+.theme-doc-sidebar-item-link-level-2 a:hover:not(.theme-doc-sidebar-item-link-level-2--active a),
+.theme-doc-sidebar-item-link-level-3 a:hover:not(.theme-doc-sidebar-item-link-level-3--active a),
+.theme-doc-sidebar-item-category:hover > div:not(.theme-doc-sidebar-item-category--active > div),
+.theme-doc-sidebar-item-category-level-1:hover > div:not(.theme-doc-sidebar-item-category-level-1--active > div),
+.theme-doc-sidebar-item-category-level-2:hover > div:not(.theme-doc-sidebar-item-category-level-2--active > div),
+.theme-doc-sidebar-item-category-level-3:hover > div:not(.theme-doc-sidebar-item-category-level-3--active > div),
+.theme-doc-sidebar-item-category:hover button:not(.theme-doc-sidebar-item-category--active button),
+.theme-doc-sidebar-item-category-level-1:hover button:not(.theme-doc-sidebar-item-category-level-1--active button),
+.theme-doc-sidebar-item-category-level-2:hover button:not(.theme-doc-sidebar-item-category-level-2--active button),
+.theme-doc-sidebar-item-category-level-3:hover button:not(.theme-doc-sidebar-item-category-level-3--active button),
+.theme-doc-sidebar-item-category:hover .menu__button:not(.theme-doc-sidebar-item-category--active .menu__button),
+.theme-doc-sidebar-item-category-level-1:hover .menu__button:not(.theme-doc-sidebar-item-category-level-1--active .menu__button),
+.theme-doc-sidebar-item-category-level-2:hover .menu__button:not(.theme-doc-sidebar-item-category-level-2--active .menu__button),
+.theme-doc-sidebar-item-category-level-3:hover .menu__button:not(.theme-doc-sidebar-item-category-level-3--active .menu__button) {
+  color: #030303 !important;
+}
+
+/* Selected/Active sidebar items - purple text */
+.theme-doc-sidebar-item-link--active,
+.theme-doc-sidebar-item-link--active:hover,
+.theme-doc-sidebar-item-category--active,
+.theme-doc-sidebar-item-category--active:hover,
+.theme-doc-sidebar-item-category-level-1--active,
+.theme-doc-sidebar-item-category-level-1--active:hover,
+.theme-doc-sidebar-item-category-level-2--active,
+.theme-doc-sidebar-item-category-level-2--active:hover,
+.theme-doc-sidebar-item-category-level-3--active,
+.theme-doc-sidebar-item-category-level-3--active:hover,
+.theme-doc-sidebar-item-link-level-1--active,
+.theme-doc-sidebar-item-link-level-1--active:hover,
+.theme-doc-sidebar-item-link-level-2--active,
+.theme-doc-sidebar-item-link-level-2--active:hover,
+.theme-doc-sidebar-item-link-level-3--active,
+.theme-doc-sidebar-item-link-level-3--active:hover,
+.theme-doc-sidebar-item--active,
+.theme-doc-sidebar-item--active:hover,
+.theme-doc-sidebar-item-link--active a,
+.theme-doc-sidebar-item-link--active a:hover,
+.theme-doc-sidebar-item-category--active a,
+.theme-doc-sidebar-item-category--active a:hover,
+.theme-doc-sidebar-item-category-level-1--active a,
+.theme-doc-sidebar-item-category-level-1--active a:hover,
+.theme-doc-sidebar-item-category-level-2--active a,
+.theme-doc-sidebar-item-category-level-2--active a:hover,
+.theme-doc-sidebar-item-category-level-3--active a,
+.theme-doc-sidebar-item-category-level-3--active a:hover,
+.theme-doc-sidebar-item-link-level-1--active a,
+.theme-doc-sidebar-item-link-level-1--active a:hover,
+.theme-doc-sidebar-item-link-level-2--active a,
+.theme-doc-sidebar-item-link-level-2--active a:hover,
+.theme-doc-sidebar-item-link-level-3--active a,
+.theme-doc-sidebar-item-link-level-3--active a:hover {
+  background-color: transparent !important;
+  color: #aa5bff !important;
+  font-weight: 600 !important;
+  border-radius: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Breadcrumb styling to match navbar text links - text only, no background hover */
+.theme-doc-breadcrumbs,
+.theme-doc-breadcrumbs-nav,
+.theme-doc-breadcrumbs-nav__link,
+.theme-doc-breadcrumbs-nav__item,
+.breadcrumbs,
+.breadcrumbs-nav,
+.breadcrumbs-nav__link,
+.breadcrumbs-nav__item {
+  color: #959595;
+  background-color: transparent;
+  font-size: 0.75rem;
+  transition: color 0.2s ease-linear;
+  text-decoration: none;
+  text-align: left;
+}
+
+.theme-doc-breadcrumbs:hover,
+.theme-doc-breadcrumbs-nav:hover,
+.theme-doc-breadcrumbs-nav__link:hover,
+.theme-doc-breadcrumbs-nav__item:hover,
+.breadcrumbs:hover,
+.breadcrumbs-nav:hover,
+.breadcrumbs-nav__link:hover,
+.breadcrumbs-nav__item:hover {
+  color: #030303;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+[data-theme='dark'] .theme-doc-breadcrumbs,
+[data-theme='dark'] .theme-doc-breadcrumbs-nav,
+[data-theme='dark'] .theme-doc-breadcrumbs-nav__link,
+[data-theme='dark'] .theme-doc-breadcrumbs-nav__item,
+[data-theme='dark'] .breadcrumbs,
+[data-theme='dark'] .breadcrumbs-nav,
+[data-theme='dark'] .breadcrumbs-nav__link,
+[data-theme='dark'] .breadcrumbs-nav__item {
+  color: #959595;
+}
+
+[data-theme='dark'] .theme-doc-breadcrumbs:hover,
+[data-theme='dark'] .theme-doc-breadcrumbs-nav:hover,
+[data-theme='dark'] .theme-doc-breadcrumbs-nav__link:hover,
+[data-theme='dark'] .theme-doc-breadcrumbs-nav__item:hover,
+[data-theme='dark'] .breadcrumbs:hover,
+[data-theme='dark'] .breadcrumbs-nav:hover,
+[data-theme='dark'] .breadcrumbs-nav__link:hover,
+[data-theme='dark'] .breadcrumbs-nav__item:hover {
+  color: white !important;
+  background-color: transparent !important;
+  text-decoration: none;
 }
 

@@ -30,7 +30,7 @@ export const actions = [
   {
     title: "Addresses",
     icon: BookOpenIcon,
-    to: "./main/contracts/addresses",
+    to: "./main/contracts/mainnet",
     text: `Build on Torque`,
   },
   {
@@ -131,6 +131,31 @@ const Card = styled.div`
   display: flex;
   min-width: 350px;
   min-height: 180px;
+  padding: 1rem;
+  padding-bottom: 0.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  /* flex: 1 1 0px; */
+
+  &:hover {
+    border: 1px solid var(--ifm-color-emphasis-400);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.05);
+  }
+
+  @media (max-width: 960px) {
+    width: 100%;
+  }
+`;
+
+const CompactCard = styled.div`
+  display: flex;
+  min-width: 350px;
+  min-height: auto;
   padding: 1rem;
   padding-bottom: 0.5rem;
   flex-direction: column;
@@ -330,7 +355,7 @@ export default function Home() {
                   key={action.title}
                   to={action.to}
                 >
-                  <Card key={action.title} style={{ marginBottom: "1rem" }}>
+                  <CompactCard key={action.title} style={{ marginBottom: "1rem" }}>
                     <LinkRow>
                       <div style={{ display: "flex", alignItems: "center" }}>
                         <h3 style={{ marginBottom: "0rem" }}>{action.title}</h3>
@@ -350,7 +375,7 @@ export default function Home() {
                       </svg>
                     </LinkRow>
                     <p style={{ marginBottom: "0rem", color: "#959595" }}>{action.text}</p>
-                  </Card>
+                  </CompactCard>
                 </Link>
               ))}
             </div>
@@ -359,7 +384,7 @@ export default function Home() {
             <h2>Developer Links</h2>
             {github.map((action) => (
               <Link style={{ textDecoration: "none" }} href={action.href}>
-                <Card key={action.title} style={{ marginBottom: "1rem" }}>
+                <CompactCard key={action.title} style={{ marginBottom: "1rem", justifyContent: "center", padding: "1rem", borderRadius: "18px" }}>
                   <LinkRow>
                     <StyledGithubIcon
                       style={{ display: "flex", alignItems: "center" }}
@@ -426,7 +451,7 @@ export default function Home() {
                       <path d="M7 7h10v10"/>
                     </svg>
                   </LinkRow>
-                </Card>
+                </CompactCard>
               </Link>
             ))}
           </div>
