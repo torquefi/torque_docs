@@ -28,9 +28,9 @@ export const actions = [
     text: `What is Torque?`,
   },
   {
-    title: "Addresses",
+    title: "Deployments",
     icon: BookOpenIcon,
-    to: "./main/contracts/mainnet",
+    to: "./main/contracts/deployments",
     text: `Build on Torque`,
   },
   {

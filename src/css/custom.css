@@ -336,7 +336,7 @@ body {
 
 .feature-header::after {
   content: '+';
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: var(--ifm-color-primary);
   transition: transform 0.3s ease;
   line-height: 1;
@@ -521,7 +521,7 @@ details summary::before {
 /* Ensure the right-side arrow is visible */
 details summary::after {
   content: '+' !important;
-  font-size: 1.5rem !important;
+  font-size: 1.2rem !important;
   color: var(--ifm-color-emphasis-900) !important;
   transition: transform 0.3s ease !important;
   line-height: 1 !important;
@@ -593,6 +593,7 @@ details[open] > div {
 
 [data-theme='dark'] details summary::after {
   color: var(--ifm-color-emphasis-0) !important;
+  font-size: 1.2rem !important;
 }
 
 [data-theme='dark'] details summary:focus,
@@ -1196,6 +1197,91 @@ a[class*="nav"]:hover,
 [data-theme='dark'] .nav-link:hover,
 [data-theme='dark'] .navigation-link:hover {
   border-color: var(--ifm-color-emphasis-600);
+}
+
+/* Sidebar dropdown arrow styling - reduce size */
+.theme-doc-sidebar-item-category .menu__button svg,
+.theme-doc-sidebar-item-category-level-1 .menu__button svg,
+.theme-doc-sidebar-item-category-level-2 .menu__button svg,
+.theme-doc-sidebar-item-category-level-3 .menu__button svg,
+.menu__button svg,
+.menu__caret,
+.theme-doc-sidebar-item-category button svg,
+.theme-doc-sidebar-item-category-level-1 button svg,
+.theme-doc-sidebar-item-category-level-2 button svg,
+.theme-doc-sidebar-item-category-level-3 button svg,
+.theme-doc-sidebar-item-category .menu__caret,
+.theme-doc-sidebar-item-category-level-1 .menu__caret,
+.theme-doc-sidebar-item-category-level-2 .menu__caret,
+.theme-doc-sidebar-item-category-level-3 .menu__caret,
+/* Broader selectors to catch all possible sidebar arrows */
+.theme-doc-sidebar svg,
+.theme-doc-sidebar button svg,
+.theme-doc-sidebar .menu__button svg,
+.theme-doc-sidebar .menu__caret,
+.theme-doc-sidebar-item svg,
+.theme-doc-sidebar-item button svg,
+.theme-doc-sidebar-item .menu__button svg,
+.theme-doc-sidebar-item .menu__caret,
+/* Target any SVG in sidebar category headers */
+.theme-doc-sidebar-item-category > div svg,
+.theme-doc-sidebar-item-category-level-1 > div svg,
+.theme-doc-sidebar-item-category-level-2 > div svg,
+.theme-doc-sidebar-item-category-level-3 > div svg {
+  width: 12px !important;
+  height: 12px !important;
+  max-width: 12px !important;
+  max-height: 12px !important;
+}
+
+/* Additional targeting for sidebar arrows - try different approaches */
+.theme-doc-sidebar [class*="menu"] svg,
+.theme-doc-sidebar [class*="caret"] svg,
+.theme-doc-sidebar [class*="arrow"] svg,
+.theme-doc-sidebar-item-category [class*="menu"] svg,
+.theme-doc-sidebar-item-category [class*="caret"] svg,
+.theme-doc-sidebar-item-category [class*="arrow"] svg {
+  width: 12px !important;
+  height: 12px !important;
+  max-width: 12px !important;
+  max-height: 12px !important;
+}
+
+/* More aggressive targeting for sidebar dropdown arrows */
+.theme-doc-sidebar svg,
+.theme-doc-sidebar-item svg,
+.theme-doc-sidebar-item-category svg,
+.theme-doc-sidebar-item-category-level-1 svg,
+.theme-doc-sidebar-item-category-level-2 svg,
+.theme-doc-sidebar-item-category-level-3 svg,
+.theme-doc-sidebar-item-category button svg,
+.theme-doc-sidebar-item-category-level-1 button svg,
+.theme-doc-sidebar-item-category-level-2 button svg,
+.theme-doc-sidebar-item-category-level-3 button svg,
+.theme-doc-sidebar-item-category .menu__button svg,
+.theme-doc-sidebar-item-category-level-1 .menu__button svg,
+.theme-doc-sidebar-item-category-level-2 .menu__button svg,
+.theme-doc-sidebar-item-category-level-3 .menu__button svg,
+.theme-doc-sidebar-item-category .menu__caret,
+.theme-doc-sidebar-item-category-level-1 .menu__caret,
+.theme-doc-sidebar-item-category-level-2 .menu__caret,
+.theme-doc-sidebar-item-category-level-3 .menu__caret,
+.menu__button svg,
+.menu__caret,
+/* Target any element that might be the arrow */
+.theme-doc-sidebar-item-category > div > svg,
+.theme-doc-sidebar-item-category-level-1 > div > svg,
+.theme-doc-sidebar-item-category-level-2 > div > svg,
+.theme-doc-sidebar-item-category-level-3 > div > svg,
+.theme-doc-sidebar-item-category > div > button > svg,
+.theme-doc-sidebar-item-category-level-1 > div > button > svg,
+.theme-doc-sidebar-item-category-level-2 > div > button > svg,
+.theme-doc-sidebar-item-category-level-3 > div > button > svg {
+  width: 12px !important;
+  height: 12px !important;
+  max-width: 12px !important;
+  max-height: 12px !important;
+  transform: scale(0.75) !important;
 }
 
 /* Sidebar styling - transparent background with purple text for selected items */

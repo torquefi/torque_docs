@@ -42,8 +42,7 @@ const sidebars = {
       collapsible: true,
       collapsed: true,
       items: [
-        "contracts/mainnet",
-        "contracts/testnet", 
+        "contracts/deployments",
         "contracts/collateral"
       ],
     },

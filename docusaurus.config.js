@@ -144,10 +144,10 @@ const config = {
           },
           {
             type: "doc",
-            docId: "contracts/mainnet",
+            docId: "contracts/deployments",
             position: "left",
             label: "Contracts",
-            to: "/main/contracts/mainnet",
+            to: "/main/contracts/deployments",
           },
           {
             type: "doc",
@@ -271,7 +271,7 @@ const config = {
               },
               {
                 label: "Addresses",
-                href: "/main/contracts/mainnet",
+                href: "/main/contracts/deployments",
               },
               {
                 label: "Security",
