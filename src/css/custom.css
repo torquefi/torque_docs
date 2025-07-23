@@ -445,13 +445,7 @@ details::after {
   left: 0;
   right: 0;
   height: 1px;
-  background: linear-gradient(
-    to right,
-    transparent,
-    var(--ifm-color-emphasis-200) 20%,
-    var(--ifm-color-emphasis-200) 80%,
-    transparent
-  );
+  background: var(--ifm-color-emphasis-200);
 }
 
 details[open] {
@@ -578,13 +572,7 @@ details[open] > div {
 
 /* Dark mode refinements */
 [data-theme='dark'] details::after {
-  background: linear-gradient(
-    to right,
-    transparent,
-    #404040 20%,
-    #404040 80%,
-    transparent
-  );
+  background: #404040;
 }
 
 [data-theme='dark'] details summary {
@@ -783,13 +771,23 @@ details[open] > div {
 }
 
 .collapsibleContent_node_modules-\@docusaurus-theme-common-lib-components-Details-styles-module {
-  border-top: 1px solid transparent !important;
-  border-image: linear-gradient(to right, transparent, var(--ifm-color-emphasis-200) 20%, var(--ifm-color-emphasis-200) 80%, transparent) 1 !important;
+  border-top: 1px solid var(--ifm-color-emphasis-200) !important;
+  border-left: none !important;
+  border-right: none !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .collapsibleContent_i85q { 
-  border-top: 1px solid transparent !important;
-  border-image: linear-gradient(to right, transparent, var(--ifm-color-emphasis-200) 20%, var(--ifm-color-emphasis-200) 80%, transparent) 1 !important;
+  border-top: 1px solid var(--ifm-color-emphasis-200) !important;
+  border-left: none !important;
+  border-right: none !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .faq-container details > div,
@@ -838,7 +836,7 @@ details[open] > div {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 1rem;
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 
 .currency-item {
@@ -932,6 +930,12 @@ details[open] > div {
 .currency-grid h3:first-child {
   margin-top: 0;
 }
+
+.currency-grid {
+  position: relative;
+}
+
+/* Removed dividing line from currency grid */
 
 @media (max-width: 768px) {
   .currency-grid {

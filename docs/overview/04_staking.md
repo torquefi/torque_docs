@@ -35,13 +35,6 @@ Early unstaking incurs penalties that decrease over time: 50% penalty for minimu
 </details>
 
 <details>
-<summary>Cross-Chain Staking</summary>
-<div>
-Stake tokens across multiple supported chains including Ethereum, Arbitrum, Optimism, Polygon, Base, Sonic, BSC, and Avalanche. Cross-chain staking enables maximum accessibility and liquidity across the ecosystem.
-</div>
-</details>
-
-<details>
 <summary>Governance Rights</summary>
 <div>
 Stakers gain voting power proportional to their staked amount and lock duration. Vote power multiplier ranges from 1x to 5x based on lock duration. Participate in protocol upgrades, parameter changes, and strategic decisions.
@@ -94,39 +87,12 @@ Final APR = Base APR × Lock Duration Multiplier × TVL Scaling Factor
 - **Maximum Lock (7 years)**: 5.5x multiplier
 - **Linear interpolation** between minimum and maximum
 
+### Vote Power Multipliers
+- **Vote Power**: Staked Amount × (1x to 5x multiplier based on lock duration)
+- **Maximum Vote Power Multiplier**: 5x for maximum lock duration
+
 ### Early Exit Penalties
 - **Formula**: 50% - (lockDays / 2555) × 25%
 - **Minimum Lock**: 50% penalty
 - **Maximum Lock**: 25% penalty
 - **Linear decrease** over lock duration
-
-### Vote Power Multipliers
-- **Vote Power**: Staked Amount × (1x to 5x multiplier based on lock duration)
-- **Maximum Vote Power Multiplier**: 5x for maximum lock duration
-
-## Cross-Chain Support
-
-### Supported Networks
-- Ethereum (Chain ID: 1)
-- Arbitrum (Chain ID: 42161)
-- Optimism (Chain ID: 10)
-- Polygon (Chain ID: 137)
-- Base (Chain ID: 8453)
-- Sonic (Chain ID: 146)
-- BSC (Chain ID: 56)
-- Avalanche (Chain ID: 43114)
-
-### Cross-Chain Features
-- **Simultaneous Staking**: Stake on multiple chains in one transaction
-- **Cross-Chain Unstaking**: Unstake from multiple chains simultaneously
-- **Unified Rewards**: Rewards are calculated and distributed per chain
-- **Gas Optimization**: Efficient cross-chain message passing via LayerZero
-
-## Getting Started
-
-<div class="currency-grid">
-  <a href="https://www.torque.fi/stake" class="currency-item">Stake TORQ</a>
-  <a href="https://www.torque.fi/stake-lp" class="currency-item">Stake LP</a>
-  <a href="https://www.torque.fi/governance" class="currency-item">Governance</a>
-  <a href="https://www.torque.fi/rewards" class="currency-item">View Rewards</a>
-</div> 
