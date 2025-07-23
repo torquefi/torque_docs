@@ -1437,7 +1437,6 @@ a[class*="nav"]:hover,
   border-radius: 0 !important;
   border: none !important;
   box-shadow: none !important;
-  color: var(--ifm-font-color-base) !important;
 }
 
 .theme-doc-sidebar-item-link:hover,
@@ -1507,39 +1506,6 @@ a[class*="nav"]:hover,
 .theme-doc-sidebar-item-category-level-2:hover .menu__button:not(.theme-doc-sidebar-item-category-level-2--active .menu__button),
 .theme-doc-sidebar-item-category-level-3:hover .menu__button:not(.theme-doc-sidebar-item-category-level-3--active .menu__button) {
   color: #030303 !important;
-}
-
-/* Dark mode hover styles for sidebar */
-[data-theme='dark'] .theme-doc-sidebar-item-link:hover:not(.theme-doc-sidebar-item-link--active),
-[data-theme='dark'] .theme-doc-sidebar-item-category:hover:not(.theme-doc-sidebar-item-category--active),
-[data-theme='dark'] .theme-doc-sidebar-item-category-level-1:hover:not(.theme-doc-sidebar-item-category-level-1--active),
-[data-theme='dark'] .theme-doc-sidebar-item-category-level-2:hover:not(.theme-doc-sidebar-item-category-level-2--active),
-[data-theme='dark'] .theme-doc-sidebar-item-category-level-3:hover:not(.theme-doc-sidebar-item-category-level-3--active),
-[data-theme='dark'] .theme-doc-sidebar-item-link-level-1:hover:not(.theme-doc-sidebar-item-link-level-1--active),
-[data-theme='dark'] .theme-doc-sidebar-item-link-level-2:hover:not(.theme-doc-sidebar-item-link-level-2--active),
-[data-theme='dark'] .theme-doc-sidebar-item-link-level-3:hover:not(.theme-doc-sidebar-item-link-level-3--active),
-[data-theme='dark'] .theme-doc-sidebar-item:hover:not(.theme-doc-sidebar-item--active),
-[data-theme='dark'] .theme-doc-sidebar-item-link a:hover:not(.theme-doc-sidebar-item-link--active a),
-[data-theme='dark'] .theme-doc-sidebar-item-category a:hover:not(.theme-doc-sidebar-item-category--active a),
-[data-theme='dark'] .theme-doc-sidebar-item-category-level-1 a:hover:not(.theme-doc-sidebar-item-category-level-1--active a),
-[data-theme='dark'] .theme-doc-sidebar-item-category-level-2 a:hover:not(.theme-doc-sidebar-item-category-level-2--active a),
-[data-theme='dark'] .theme-doc-sidebar-item-category-level-3 a:hover:not(.theme-doc-sidebar-item-category-level-3--active a),
-[data-theme='dark'] .theme-doc-sidebar-item-link-level-1 a:hover:not(.theme-doc-sidebar-item-link-level-1--active a),
-[data-theme='dark'] .theme-doc-sidebar-item-link-level-2 a:hover:not(.theme-doc-sidebar-item-link-level-2--active a),
-[data-theme='dark'] .theme-doc-sidebar-item-link-level-3 a:hover:not(.theme-doc-sidebar-item-link-level-3--active a),
-[data-theme='dark'] .theme-doc-sidebar-item-category:hover > div:not(.theme-doc-sidebar-item-category--active > div),
-[data-theme='dark'] .theme-doc-sidebar-item-category-level-1:hover > div:not(.theme-doc-sidebar-item-category-level-1--active > div),
-[data-theme='dark'] .theme-doc-sidebar-item-category-level-2:hover > div:not(.theme-doc-sidebar-item-category-level-2--active > div),
-[data-theme='dark'] .theme-doc-sidebar-item-category-level-3:hover > div:not(.theme-doc-sidebar-item-category-level-3--active > div),
-[data-theme='dark'] .theme-doc-sidebar-item-category:hover button:not(.theme-doc-sidebar-item-category--active button),
-[data-theme='dark'] .theme-doc-sidebar-item-category-level-1:hover button:not(.theme-doc-sidebar-item-category-level-1--active button),
-[data-theme='dark'] .theme-doc-sidebar-item-category-level-2:hover button:not(.theme-doc-sidebar-item-category-level-2--active button),
-[data-theme='dark'] .theme-doc-sidebar-item-category-level-3:hover button:not(.theme-doc-sidebar-item-category-level-3--active button),
-[data-theme='dark'] .theme-doc-sidebar-item-category:hover .menu__button:not(.theme-doc-sidebar-item-category--active .menu__button),
-[data-theme='dark'] .theme-doc-sidebar-item-category-level-1:hover .menu__button:not(.theme-doc-sidebar-item-category-level-1--active .menu__button),
-[data-theme='dark'] .theme-doc-sidebar-item-category-level-2:hover .menu__button:not(.theme-doc-sidebar-item-category-level-2--active .menu__button),
-[data-theme='dark'] .theme-doc-sidebar-item-category-level-3:hover .menu__button:not(.theme-doc-sidebar-item-category-level-3--active .menu__button) {
-  color: #FCFAFF !important;
 }
 
 /* Selected/Active sidebar items - purple text */
