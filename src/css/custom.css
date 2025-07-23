@@ -850,7 +850,13 @@ details[open] > div {
   transition: all 0.3s ease;
   text-decoration: none !important;
   color: var(--ifm-color-emphasis-900) !important;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 140px;
+  cursor: pointer;
+  text-align: left;
 }
 
 .currency-item:hover {
@@ -868,6 +874,63 @@ details[open] > div {
 [data-theme='dark'] .currency-item:hover {
   border-color: var(--ifm-color-emphasis-600);
   color: var(--ifm-color-emphasis-0) !important;
+}
+
+.currency-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.currency-icon svg {
+  width: 2rem !important;
+  height: 2rem !important;
+  border-radius: 50% !important;
+  overflow: hidden !important;
+  object-fit: cover !important;
+  display: block !important;
+}
+
+.currency-icon svg * {
+  border-radius: 50% !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+
+.currency-name {
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin: 0;
+  align-self: flex-start;
+  margin-top: auto;
+}
+
+.currency-real-name {
+  font-weight: 400;
+  font-size: 0.8rem;
+  margin: 0;
+  align-self: flex-start;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.currency-grid h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--ifm-color-emphasis-900);
+}
+
+.currency-grid h3:first-child {
+  margin-top: 0;
 }
 
 @media (max-width: 768px) {

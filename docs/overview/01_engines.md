@@ -1,7 +1,7 @@
 # Torque Engines
 
 <div class="intro-description">
-Torque Engines are smart contracts powering the minting and burning of Torque currencies. Each engine manages a specific currency pair, ensuring stability through collateralization, real-time price feeds, and dynamic risk parameters. The engines incorporate cross-chain capabilities for maximum accessibility.
+Torque Engines are smart contracts powering the on-demand issuance of tTokens. Each engine targets a currency, commodity, etc. ensuring stability through collateralization, real-time price feeds, and dynamic risk parameters. The engines incorporate cross-chain capabilities for maximum accessibility.
 </div>
 
 <div class="faq-container">
@@ -36,17 +36,12 @@ Reentrancy protection, oracle validation, health checks, and liquidation incenti
 
 </div>
 
+import CurrencyGrid from '@site/src/components/CurrencyGrid';
+
 ## Supported Currencies
 
-<div class="currency-grid">
-  <a href="https://www.torque.fi/mint?expanded=torque+usd" class="currency-item">Torque USD</a>
-  <a href="https://www.torque.fi/mint?expanded=torque+eur" class="currency-item">Torque EUR</a>
-  <a href="https://www.torque.fi/mint?expanded=torque+gbp" class="currency-item">Torque GBP</a>
-  <a href="https://www.torque.fi/mint?expanded=torque+jpy" class="currency-item">Torque JPY</a>
-  <a href="https://www.torque.fi/mint?expanded=torque+aud" class="currency-item">Torque AUD</a>
-  <a href="https://www.torque.fi/mint?expanded=torque+cad" class="currency-item">Torque CAD</a>
-  <a href="https://www.torque.fi/mint?expanded=torque+chf" class="currency-item">Torque CHF</a>
-  <a href="https://www.torque.fi/mint?expanded=torque+nzd" class="currency-item">Torque NZD</a>
-  <a href="https://www.torque.fi/mint?expanded=torque+xau" class="currency-item">Torque XAU</a>
-  <a href="https://www.torque.fi/mint?expanded=torque+xag" class="currency-item">Torque XAG</a>
-</div> 
+<CurrencyGrid type="currencies" />
+
+## Supported Commodities
+
+<CurrencyGrid type="commodities" /> 

@@ -1,7 +1,7 @@
 # Collateral
 
 <div class="intro-description">
-Torque supports a wide range of productive collateral assets using in minting Torque currencies across multiple EVM-compatiable networks. This page provides comprehensive information about all supported collateral assets, their contract addresses, and price feed addresses for your reference.
+Torque supports a wide range of collateral assets using in minting Torque currencies across multiple EVM-compatiable networks. This page provides comprehensive information about all supported collateral assets, their contract addresses, and price feed addresses for your reference.
 </div>
 
 ## Stablecoins

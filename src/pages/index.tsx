@@ -79,9 +79,9 @@ export const github = [
 
 export const Guides = [
   {
-    title: "Mint & Burn tTokens",
-    text: "On-demand, onchain",
-    to: "./main/overview/intro",
+    title: "Torque Engines",
+    text: "Mint & burn onchain",
+    to: "./main/overview/engines",
     icon: InformationCircleIcon,
   },
   {
