@@ -200,23 +200,6 @@ const config = {
             ],
           },
           {
-            title: "Solutions",
-            items: [
-              {
-                label: "Exchange",
-                href: "https://torque.fi",
-              },
-              {
-                label: "Explorer",
-                href: "https://explorer.torque.fi",
-              },
-              {
-                label: "Widget",
-                href: "https://widget.torque.fi",
-              },
-            ],
-          },
-          {
             title: "Concepts",
             items: [
               {
@@ -238,12 +221,29 @@ const config = {
             ],
           },
           {
+            title: "Solutions",
+            items: [
+              {
+                label: "Trading",
+                href: "#",
+              },
+              {
+                label: "Lending",
+                href: "https://torque.fi",
+              },
+              {
+                label: "Explorer",
+                href: "https://explorer.torque.fi",
+              },
+              {
+                label: "Widget",
+                href: "https://widget.torque.fi",
+              },
+            ],
+          },
+          {
             title: "Guides",
             items: [
-              // {
-              //   label: "Get Started",
-              //   href: "/main/overview/intro",
-              // },
               {
                 label: "Spot Trading",
                 href: "/main/overview/dex",
@@ -253,8 +253,12 @@ const config = {
                 href: "/main/overview/dex",
               },
               {
-                label: "Add Liquidity",
+                label: "Adding Liquidity",
                 href: "/main/overview/engines",
+              },
+              {
+                label: "Earn Rewards",
+                href: "/main/overview/staking",
               },
             ],
           },
@@ -263,7 +267,7 @@ const config = {
             items: [
               {
                 label: "Ecosystem",
-                href: "/main/overview/intro",
+                href: "https://torque.fi/ecosystem",
               },
               {
                 label: "Interfaces",
