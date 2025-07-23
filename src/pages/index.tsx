@@ -79,13 +79,13 @@ export const github = [
 
 export const Guides = [
   {
-    title: "Mint & Redeem",
+    title: "Mint & Burn tTokens",
     text: "On-demand, onchain",
     to: "./main/overview/intro",
     icon: InformationCircleIcon,
   },
   {
-    title: "Active Collateral",
+    title: "Supported Collateral",
     text: "View collateral list",
     to: "./main/contracts/collateral",
     icon: QuestionMarkCircleIcon,
