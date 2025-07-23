@@ -230,19 +230,19 @@ const config = {
             items: [
               {
                 label: "Trading",
-                href: "#",
+                href: "https://torque.fi/protocol#trading",
               },
               {
                 label: "Lending",
-                href: "https://torque.fi",
+                href: "https://torque.fi/protocol#lending",
               },
               {
                 label: "Explorer",
-                href: "https://explorer.torque.fi",
+                href: "https://torque.fi/protocol#explorer",
               },
               {
                 label: "Widget",
-                href: "https://widget.torque.fi",
+                href: "https://torque.fi/protocol#widget",
               },
             ],
           },
