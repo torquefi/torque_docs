@@ -5,9 +5,10 @@ interface CurrencyFlagProps {
   currency: string;
   size?: string;
   className?: string;
+  style?: React.CSSProperties;
 }
 
-const CurrencyFlag: React.FC<CurrencyFlagProps> = ({ currency, size = "2rem", className = "" }) => {
+const CurrencyFlag: React.FC<CurrencyFlagProps> = ({ currency, size = "2rem", className = "", style = {} }) => {
   // Map currency codes to country codes
   const currencyToCountry: { [key: string]: string } = {
     'USD': 'US',
@@ -27,7 +28,7 @@ const CurrencyFlag: React.FC<CurrencyFlagProps> = ({ currency, size = "2rem", cl
   const countryCode = currencyToCountry[currency];
   
   if (!countryCode) {
-    return <div className={`currency-fallback ${className}`} style={{ fontSize: size }}>💱</div>;
+    return <div className={`currency-fallback ${className}`} style={{ fontSize: size, ...style }}>💱</div>;
   }
 
   // For commodities (XAU/XAG), we'll use custom colored circles
@@ -37,7 +38,8 @@ const CurrencyFlag: React.FC<CurrencyFlagProps> = ({ currency, size = "2rem", cl
         width: size, 
         height: size, 
         borderRadius: '50%',
-        background: 'linear-gradient(135deg, #FFD700, #FFA500)'
+        background: 'linear-gradient(135deg, #FFD700, #FFA500)',
+        ...style
       }}>
       </div>
     );
@@ -49,7 +51,8 @@ const CurrencyFlag: React.FC<CurrencyFlagProps> = ({ currency, size = "2rem", cl
         width: size, 
         height: size, 
         borderRadius: '50%',
-        background: 'linear-gradient(135deg, #C0C0C0, #A9A9A9)'
+        background: 'linear-gradient(135deg, #C0C0C0, #A9A9A9)',
+        ...style
       }}>
       </div>
     );

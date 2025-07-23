@@ -282,108 +282,121 @@ body {
 
 /* Feature Grid Styles */
 .features-grid {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 16px;
   margin: 2rem 0;
-  background: transparent;
-  border-radius: 12px;
-  overflow: hidden;
-  max-width: 800px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .feature-item {
-  background: transparent;
-  text-decoration: none;
-  color: var(--ifm-color-primary);
-  position: relative;
+  background: var(--ifm-background-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+  padding: 2rem;
   transition: all 0.3s ease;
-  border: none;
-  border-bottom: 1px solid var(--ifm-color-emphasis-200);
-  cursor: pointer;
-}
-
-.feature-item:last-child {
-  border-bottom: none;
+  position: relative;
+  overflow: hidden;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: default;
 }
 
 .feature-item:hover {
-  text-decoration: none;
-  background: linear-gradient(
-    135deg,
-    rgba(var(--ifm-color-primary-rgb), 0.05) 0%,
-    rgba(var(--ifm-color-primary-rgb), 0.1) 100%
-  );
+  border: 1px solid var(--ifm-color-emphasis-400);
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.05);
 }
+
+/* Removed gradient border on hover */
 
 .feature-header {
-  padding: 1.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  cursor: pointer;
-  background: transparent;
-  transition: all 0.3s ease;
-  user-select: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  position: relative;
-  z-index: 1;
+  cursor: default;
+  text-align: left;
 }
 
-.feature-header::after {
-  content: '+';
-  font-size: 1.2rem;
-  color: var(--ifm-color-primary);
-  transition: transform 0.3s ease;
-  line-height: 1;
-  font-weight: 300;
-  pointer-events: none;
-}
-
-.feature-item.active .feature-header::after {
-  transform: rotate(45deg);
-}
-
-.feature-title {
-  margin: 0;
-  font-size: 1.25rem;
+.feature-header h3 {
+  font-size: 1.4rem;
   font-weight: 600;
   color: var(--ifm-color-primary);
+  margin: 0 0 0.5rem 0;
   letter-spacing: -0.02em;
-  line-height: 1.2;
+  line-height: 1.3;
+}
+
+.feature-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ifm-color-primary);
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
 }
 
 .feature-content {
-  padding: 0 1.5rem;
-  max-height: 0;
-  overflow: hidden;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  background: transparent;
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-}
-
-.feature-item.active .feature-content {
-  padding: 0 1.5rem 1.5rem;
+  flex: 1;
   opacity: 1;
   visibility: visible;
-  max-height: 1000px;
+  max-height: none;
   pointer-events: auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: auto;
 }
 
 .feature-description {
-  margin: 0;
+  font-size: 1rem;
   color: #959595;
-  font-size: 1.1rem;
   line-height: 1.6;
-  font-weight: 400;
-  opacity: 0.9;
-  display: block;
+  margin: 0;
+  opacity: 1;
+  max-height: none;
+  overflow: visible;
+  transition: all 0.3s ease;
+}
+
+/* Dark mode for features grid */
+[data-theme='dark'] .feature-item {
+  background: var(--ifm-background-color);
+  border-color: var(--ifm-color-emphasis-300);
+}
+
+[data-theme='dark'] .feature-item:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme='dark'] .feature-description {
+  color: #959595;
+}
+
+/* Responsive design for features grid */
+@media (max-width: 768px) {
+  .features-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin: 1.5rem 0;
+  }
+  
+  .feature-item {
+    padding: 1.5rem;
+    min-height: 160px;
+  }
+  
+  .feature-header h3 {
+    font-size: 1.2rem;
+  }
+  
+  .feature-description {
+    font-size: 0.95rem;
+  }
 }
 
 /* FAQ Container */
@@ -901,6 +914,44 @@ details[open] > div {
   width: 100% !important;
   height: 100% !important;
   object-fit: cover !important;
+}
+
+/* Pool grid specific styles for side-by-side icons */
+.currency-icon[style*="display: flex"] {
+  width: auto !important;
+  height: 2rem !important;
+  justify-content: flex-start !important;
+  border-radius: 0 !important;
+}
+
+/* Ensure pool grid icons maintain circular shape */
+.currency-icon[style*="display: flex"] > div {
+  flex-shrink: 0 !important;
+  width: 2rem !important;
+  height: 2rem !important;
+  border-radius: 50% !important;
+  overflow: hidden !important;
+}
+
+/* Ensure the CurrencyFlag components inside pool grid are circular */
+.currency-icon[style*="display: flex"] svg,
+.currency-icon[style*="display: flex"] .currency-commodity,
+.currency-icon[style*="display: flex"] .currency-stock {
+  width: 2rem !important;
+  height: 2rem !important;
+  border-radius: 50% !important;
+  overflow: hidden !important;
+}
+
+/* Ensure quote asset icons are also circular */
+.currency-icon[style*="display: flex"] > div[style*="marginLeft"] svg,
+.currency-icon[style*="display: flex"] > div[style*="marginLeft"] .currency-commodity,
+.currency-icon[style*="display: flex"] > div[style*="marginLeft"] .currency-stock,
+.currency-icon[style*="display: flex"] > div[style*="marginLeft"] > div {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .currency-name {
