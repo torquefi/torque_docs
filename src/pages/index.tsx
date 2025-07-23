@@ -465,7 +465,7 @@ export default function Home() {
                 to={action.to}
               >
                 <CompactCard key={action.title}>
-                  <TopSection>
+                  <TopSection style={{ marginBottom: "8rem" }}>
                     <IconWrapper>
                       <action.icon style={{ width: "24px" }} />
                     </IconWrapper>
