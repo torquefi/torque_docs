@@ -17,7 +17,7 @@ Torque implements a comprehensive rewards system that creates a natural value lo
   <div class="feature-content">
     <h3>FX Trading</h3>
     <div class="feature-description">
-      Earn 0.25% of volume for every FX trade with volume-based multipliers.
+      Earn 0.25% of volume for every spot or margin trade with volume-based multipliers.
     </div>
   </div>
 </div>

@@ -1,20 +1,20 @@
 # Interfaces
 
 <div class="intro-description">
-Torque provides multiple interfaces to access the protocol's features.
+There are numerous interfaces to Torque, each designed for specific use cases and user types including: the main web application for comprehensive trading and liquidity provision to specialized tools for developers and advanced users. Explore the list below and check back later for more.
 </div>
 
 ## For LPs/Stakers
 
-- [Torque Web App](https://torque.fi)
+- [Torque Web](https://torque.fi)
 
 ## For Traders
 
-- [Torque Mobile App](#) (coming soon)
+- [Torque Mobile](#)
 
 ## Specialized Tools
 
-- [Chat](https://chat.torque.fi)
+<!-- - [Chat](https://chat.torque.fi) -->
 - [Calculator](https://calculator.torque.fi)
 - [Troopers](https://mint.torque.fi)
 - [Explorer](https://explorer.torque.fi)
@@ -22,7 +22,8 @@ Torque provides multiple interfaces to access the protocol's features.
 ## Developer Tools
 
 - [Widget](https://widget.torque.fi)
-- [SDK](https://github.com/torquefi/sdk)
+- [SDK](https://github.com/torquefi/torque_sdk)
+- [API](https://api.torque.fi)
 
 ## Additional
 

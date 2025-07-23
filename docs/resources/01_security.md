@@ -3,7 +3,7 @@
 ## Audits
 
 :::tip
-Security audits for Torque V2 are currently being conducted and will be shared once completed.
+Audits for Torque V2 will be shared once complete.
 :::
 
 <!-- | Auditor       | Scope         | Report            | Description       | Date
