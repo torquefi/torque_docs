@@ -1551,6 +1551,30 @@ a[class*="nav"]:hover,
   box-shadow: none !important;
 }
 
+/* Text link styling - purple color like interfaces page - targeted to markdown content only */
+.theme-doc-markdown a:not(.navbar__link):not(.footer__link-item):not([class*="pagination"]):not([class*="nav"]):not(.nav-link):not(.navigation-link):not(.currency-item),
+.markdown a:not(.navbar__link):not(.footer__link-item):not([class*="pagination"]):not([class*="nav"]):not(.nav-link):not(.navigation-link):not(.currency-item) {
+  color: #aa5bff !important;
+  text-decoration: none !important;
+  transition: color 0.2s ease-linear !important;
+}
+
+.theme-doc-markdown a:not(.navbar__link):not(.footer__link-item):not([class*="pagination"]):not([class*="nav"]):not(.nav-link):not(.navigation-link):not(.currency-item):hover,
+.markdown a:not(.navbar__link):not(.footer__link-item):not([class*="pagination"]):not([class*="nav"]):not(.nav-link):not(.navigation-link):not(.currency-item):hover {
+  color: #8a3bdf !important;
+  text-decoration: underline !important;
+}
+
+[data-theme='dark'] .theme-doc-markdown a:not(.navbar__link):not(.footer__link-item):not([class*="pagination"]):not([class*="nav"]):not(.nav-link):not(.navigation-link):not(.currency-item),
+[data-theme='dark'] .markdown a:not(.navbar__link):not(.footer__link-item):not([class*="pagination"]):not([class*="nav"]):not(.nav-link):not(.navigation-link):not(.currency-item) {
+  color: #aa5bff !important;
+}
+
+[data-theme='dark'] .theme-doc-markdown a:not(.navbar__link):not(.footer__link-item):not([class*="pagination"]):not([class*="nav"]):not(.nav-link):not(.navigation-link):not(.currency-item):hover,
+[data-theme='dark'] .markdown a:not(.navbar__link):not(.footer__link-item):not([class*="pagination"]):not([class*="nav"]):not(.nav-link):not(.navigation-link):not(.currency-item):hover {
+  color: #c17bff !important;
+}
+
 /* Breadcrumb styling to match navbar text links - text only, no background hover */
 .theme-doc-breadcrumbs,
 .theme-doc-breadcrumbs-nav,

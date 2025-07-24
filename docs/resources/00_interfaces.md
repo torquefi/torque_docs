@@ -30,5 +30,5 @@ There are numerous interfaces to Torque, each designed for specific use cases an
 
 ## Additional
 
-- [Troopers](https://mint.torque.fi)
 - [Legacy (V1)](https://legacy.torque.fi)
+- [Troopers](https://mint.torque.fi)
