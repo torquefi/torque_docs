@@ -78,10 +78,6 @@ import CurrencyGrid from '@site/src/components/CurrencyGrid';
 
 <CurrencyGrid type="currencies" />
 
-:::note Network Availability
-**CNY and KRW** will be available on **Ethereum**, **Arbitrum**, and **Polygon** networks.
-:::
-
 ## Supported Commodities
 
 <CurrencyGrid type="commodities" /> 
