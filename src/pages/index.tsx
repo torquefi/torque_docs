@@ -17,25 +17,30 @@ import {
   ChatBubbleLeftIcon,
   CodeBracketIcon,
   BuildingLibraryIcon,
-  MapIcon
+  MapIcon,
+  ShieldCheckIcon
+  , AcademicCapIcon
+  , RocketLaunchIcon
+  , PaintBrushIcon
+  , SparklesIcon
 } from "@heroicons/react/24/outline";
 
 export const actions = [
   {
     title: "Introduction",
-    icon: InformationCircleIcon,
+    icon: AcademicCapIcon,
     to: "./main/overview/intro",
     text: `What is Torque?`,
   },
   {
     title: "Deployments",
-    icon: BookOpenIcon,
+    icon: RocketLaunchIcon,
     to: "./main/contracts/deployments",
     text: `Build on Torque`,
   },
   {
     title: "Brand Kit",
-    icon: BuildingLibraryIcon,
+    icon: SparklesIcon,
     to: "./main/resources/assets",
     text: `Media assets`,
   }
@@ -124,7 +129,7 @@ export const Guides = [
     title: "Security & Audits",
     text: "View code audits",
     to: "./main/resources/security",
-    icon: BuildingLibraryIcon,
+    icon: ShieldCheckIcon,
   },
 ];
 
